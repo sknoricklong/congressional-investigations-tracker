@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Prevent accidental local commits of pipeline output files.
+# These files are managed by the GitHub Actions daily workflow.
+# Install: cp .githooks/pre-commit .git/hooks/pre-commit
+
+# site/index.html and site/feed.json are pipeline-rendered; other site/ files
+# (stats.html, email.html, recipients.html) are hand-managed static pages.
+PROTECTED_PATHS="data/ logs/ site/index.html site/feed.json"
+staged_protected=""
+
+for path in $PROTECTED_PATHS; do
+    matches=$(git diff --cached --name-only -- "$path" 2>/dev/null)
+    if [ -n "$matches" ]; then
+        staged_protected="$staged_protected$matches"$'\n'
+    fi
+done
+
+if [ -n "$staged_protected" ]; then
+    echo ""
+    echo "BLOCKED: You're about to commit pipeline output files:"
+    echo "$staged_protected" | sed '/^$/d' | sed 's/^/  /'
+    echo ""
+    echo "These files are managed by the daily GitHub Actions workflow."
+    echo "Committing them locally will overwrite the pipeline's state."
+    echo ""
+    echo "To commit only non-output files, unstage them first:"
+    echo "  git reset HEAD data/ site/ logs/"
+    echo ""
+    echo "To force this commit anyway (you probably shouldn't):"
+    echo "  git commit --no-verify"
+    echo ""
+    exit 1
+fi

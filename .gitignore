@@ -1,0 +1,23 @@
+# Local AI overrides (personal prefs, not shared with team)
+CLAUDE.local.md
+.claude/CLAUDE.local.md
+AGENTS.override.md
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+
+# Runtime data (committed by GitHub Actions daily)
+
+# Generated site (committed by GitHub Actions, not gitignored)
+
+# OS
+.DS_Store
+
+# Local env values (never committed)
+.env.local
+.vercel

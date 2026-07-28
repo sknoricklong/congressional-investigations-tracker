@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Analytics</title>
+<style>
+:root {
+  --off-white: #F9F8ED;
+  --text: #000;
+  --muted: #9D9785;
+  --subtle-border: #EFEFEC;
+  --strong-border: #CCCBBE;
+  --accent-light: #D2E9FF;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--off-white);
+  color: var(--text);
+  line-height: 1.5;
+  padding: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+h1 { font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+h2 { font-size: 16px; font-weight: 600; margin: 24px 0 8px; }
+.meta { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+table { width: 100%; border-collapse: collapse; margin-bottom: 24px; }
+th {
+  text-align: left; font-size: 11px; text-transform: uppercase;
+  letter-spacing: 0.02em; color: var(--text); font-weight: 700;
+  padding: 8px 12px; border-bottom: 1px solid var(--strong-border);
+}
+td {
+  padding: 8px 12px; border-bottom: 1px solid var(--subtle-border);
+  font-size: 13px;
+}
+tr:hover td { background: var(--accent-light); }
+.count { font-weight: 600; }
+.loading { color: var(--muted); font-size: 14px; padding: 24px 0; }
+.error { color: #C62828; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<h1>Click analytics</h1>
+<p class="meta" id="summary">Loading...</p>
+
+<h2>Most clicked items</h2>
+<table id="items-table">
+  <thead><tr><th>Clicks</th><th>Title</th><th>Source</th></tr></thead>
+  <tbody id="items-body"></tbody>
+</table>
+
+<h2>Clicks by committee</h2>
+<table id="committee-table">
+  <thead><tr><th>Committee</th><th>Clicks</th></tr></thead>
+  <tbody id="committee-body"></tbody>
+</table>
+
+<h2>Clicks by source</h2>
+<table id="source-table">
+  <thead><tr><th>Source</th><th>Clicks</th></tr></thead>
+  <tbody id="source-body"></tbody>
+</table>
+
+<h2>Recent clicks</h2>
+<table id="recent-table">
+  <thead><tr><th>Time</th><th>Title</th><th>Source</th></tr></thead>
+  <tbody id="recent-body"></tbody>
+</table>
+
+<script>
+(function() {
+  function esc(s) {
+    var d = document.createElement('div');
+    d.textContent = s || '';
+    return d.innerHTML;
+  }
+  fetch('/api/stats')
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      var clicks = data.clicks || [];
+      document.getElementById('summary').textContent = clicks.length + ' total clicks tracked';
+
+      if (clicks.length === 0) {
+        document.getElementById('items-body').innerHTML = '<tr><td colspan="3">No clicks yet.</td></tr>';
+        return;
+      }
+
+      /* Most clicked items */
+      var itemCounts = {};
+      clicks.forEach(function(c) {
+        var key = c.url || c.title;
+        if (!itemCounts[key]) itemCounts[key] = { title: c.title, source: c.source, count: 0 };
+        itemCounts[key].count++;
+      });
+      var sorted = Object.values(itemCounts).sort(function(a, b) { return b.count - a.count; });
+      var html = '';
+      sorted.slice(0, 50).forEach(function(item) {
+        html += '<tr><td class="count">' + item.count + '</td><td>' + esc(item.title) + '</td><td>' + esc(item.source) + '</td></tr>';
+      });
+      document.getElementById('items-body').innerHTML = html;
+
+      /* By committee */
+      var committees = {};
+      clicks.forEach(function(c) {
+        var k = c.committee || 'Unknown';
+        committees[k] = (committees[k] || 0) + 1;
+      });
+      html = '';
+      Object.entries(committees).sort(function(a, b) { return b[1] - a[1]; }).forEach(function(e) {
+        html += '<tr><td>' + esc(e[0]) + '</td><td class="count">' + e[1] + '</td></tr>';
+      });
+      document.getElementById('committee-body').innerHTML = html;
+
+      /* By source */
+      var sources = {};
+      clicks.forEach(function(c) {
+        var k = c.source || 'Unknown';
+        sources[k] = (sources[k] || 0) + 1;
+      });
+      html = '';
+      Object.entries(sources).sort(function(a, b) { return b[1] - a[1]; }).forEach(function(e) {
+        html += '<tr><td>' + esc(e[0]) + '</td><td class="count">' + e[1] + '</td></tr>';
+      });
+      document.getElementById('source-body').innerHTML = html;
+
+      /* Recent clicks */
+      html = '';
+      clicks.slice(0, 50).forEach(function(c) {
+        var t = c.timestamp ? new Date(c.timestamp).toLocaleString() : '';
+        html += '<tr><td>' + esc(t) + '</td><td>' + esc(c.title) + '</td><td>' + esc(c.source) + '</td></tr>';
+      });
+      document.getElementById('recent-body').innerHTML = html;
+    })
+    .catch(function(err) {
+      document.getElementById('summary').textContent = 'Could not load analytics: ' + err.message;
+    });
+})();
+</script>
+
+</body>
+</html>

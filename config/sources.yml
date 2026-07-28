@@ -1,0 +1,472 @@
+# Congressional Committee Update Monitor - Source Configuration
+#
+# Each source points to one list/archive page on a committee website.
+# parser: must match a registered parser function in src/app/parsers/
+# enabled: set to false to skip during daily runs
+# tier: tier1 = launch day, tier2 = enable after baseline stable, tier3 = optional expansion
+
+sources:
+  # ============================================================
+  # TIER 1 - Enabled at launch
+  # ============================================================
+
+  # --- House Oversight (Majority) ---
+  - id: house_oversight_press
+    name: "House Oversight - Press Releases"
+    committee: "House Oversight and Government Reform"
+    chamber: House
+    party_lane: majority
+    url: "https://oversight.house.gov/release/"
+    collection: press
+    kind: press_release
+    tier: tier1
+    parser: oversight_house_press
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    why_relevant: "Broad oversight and investigation announcements."
+
+  - id: house_oversight_letters
+    name: "House Oversight - Letters"
+    committee: "House Oversight and Government Reform"
+    chamber: House
+    party_lane: majority
+    url: "https://oversight.house.gov/letter/"
+    collection: letters
+    kind: letter
+    tier: tier1
+    parser: oversight_house_letters
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    why_relevant: "Letters and subpoenas often signal a new investigation."
+
+  # --- House Judiciary (Majority) ---
+  - id: house_judiciary_press
+    name: "House Judiciary - Press Releases"
+    committee: "House Judiciary"
+    chamber: House
+    party_lane: majority
+    url: "https://judiciary.house.gov/media/press-releases"
+    collection: press
+    kind: press_release
+    tier: tier1
+    parser: judiciary_house_press
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    notes: "May return 403; uses browser-like headers."
+    why_relevant: "Press page regularly posts subpoenas, reports, and probes."
+
+  - id: house_judiciary_letters
+    name: "House Judiciary - Letters"
+    committee: "House Judiciary"
+    chamber: House
+    party_lane: majority
+    url: "https://judiciary.house.gov/documents/letters"
+    collection: letters
+    kind: letter
+    tier: tier1
+    parser: judiciary_house_letters
+    enabled: true
+    detail_fetch: pdf
+    recent_item_limit: 20
+    notes: "Direct PDF links. May return 403; uses browser-like headers."
+    why_relevant: "Direct PDF letters; very high signal."
+
+  # --- House Homeland Security (Majority) ---
+  - id: house_homeland_press
+    name: "House Homeland Security - Press"
+    committee: "House Homeland Security"
+    chamber: House
+    party_lane: majority
+    url: "https://homeland.house.gov/press/"
+    collection: press
+    kind: press_release
+    tier: tier1
+    parser: homeland_house_press
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    why_relevant: "Press page includes investigation, GAO-request, and oversight announcements."
+
+  # --- House Energy & Commerce (Majority) ---
+  - id: house_energy_commerce_press
+    name: "House Energy & Commerce - Press Releases"
+    committee: "House Energy and Commerce"
+    chamber: House
+    party_lane: majority
+    url: "https://energycommerce.house.gov/news/press-release"
+    collection: press
+    kind: press_release
+    tier: tier1
+    parser: energy_commerce_press
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    notes: "May redirect to /news. Parse initial page load."
+    why_relevant: "Includes subpoenas and committee investigation updates."
+
+  - id: house_energy_commerce_letters
+    name: "House Energy & Commerce - Letters"
+    committee: "House Energy and Commerce"
+    chamber: House
+    party_lane: majority
+    url: "https://energycommerce.house.gov/news/letter"
+    collection: letters
+    kind: letter
+    tier: tier1
+    parser: energy_commerce_letters
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    why_relevant: "Oversight letters from committee and subcommittee chairs."
+
+  # --- Senate Judiciary ---
+  - id: senate_judiciary_majority
+    name: "Senate Judiciary - Majority Press"
+    committee: "Senate Judiciary"
+    chamber: Senate
+    party_lane: majority
+    url: "https://www.judiciary.senate.gov/press/majority"
+    collection: press
+    kind: press_release
+    tier: tier1
+    parser: senate_judiciary_press
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    why_relevant: "Senate Judiciary oversight, subpoenas, and investigative releases."
+
+  - id: senate_judiciary_minority
+    name: "Senate Judiciary - Minority Press"
+    committee: "Senate Judiciary"
+    chamber: Senate
+    party_lane: minority
+    url: "https://www.judiciary.senate.gov/press/minority"
+    collection: press
+    kind: press_release
+    tier: tier1
+    parser: senate_judiciary_press
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    why_relevant: "Ranking-member investigations and document demands."
+
+  # --- Senate HSGAC ---
+  - id: senate_hsgac_majority
+    name: "Senate HSGAC - Majority News"
+    committee: "Senate HSGAC"
+    chamber: Senate
+    party_lane: majority
+    url: "https://www.hsgac.senate.gov/media/majority-news/"
+    collection: news
+    kind: press_release
+    tier: tier1
+    parser: hsgac_news
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    notes: "Elementor/JET Engine. Parse initial page load only."
+    why_relevant: "Broad Senate oversight for records releases, reports, accountability."
+
+  - id: senate_hsgac_minority
+    name: "Senate HSGAC - Minority News"
+    committee: "Senate HSGAC"
+    chamber: Senate
+    party_lane: minority
+    url: "https://www.hsgac.senate.gov/media/minority-news/"
+    collection: news
+    kind: press_release
+    tier: tier1
+    parser: hsgac_news
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    notes: "Elementor/JET Engine. Parse initial page load only."
+    why_relevant: "Minority-side oversight and records demands."
+
+  - id: senate_psi_library
+    name: "Senate PSI - Library"
+    committee: "Senate HSGAC / PSI"
+    chamber: Senate
+    party_lane: committee
+    url: "https://www.hsgac.senate.gov/subcommittees/investigations/library/"
+    collection: library
+    kind: document
+    tier: tier1
+    parser: psi_library
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 50
+    notes: "JET Engine with Load More pagination. Parse initial page load only."
+    why_relevant: "Letters, reports, memos, and investigation documents."
+
+  # --- House Oversight Democrats (Minority) ---
+  - id: house_oversight_dems_press
+    name: "House Oversight Democrats - Press"
+    committee: "House Oversight and Government Reform"
+    chamber: House
+    party_lane: minority
+    url: "https://oversightdemocrats.house.gov/news/press-releases"
+    collection: press
+    kind: press_release
+    tier: tier1
+    parser: oversight_dems_press
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    why_relevant: "Minority-side investigations and document demands."
+
+  - id: house_oversight_dems_letters
+    name: "House Oversight Democrats - Letters"
+    committee: "House Oversight and Government Reform"
+    chamber: House
+    party_lane: minority
+    url: "https://oversightdemocrats.house.gov/letters"
+    collection: letters
+    kind: letter
+    tier: tier1
+    parser: oversight_dems_letters
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    why_relevant: "Direct correspondence archive."
+
+  # --- House Judiciary Democrats (Minority) ---
+  - id: house_judiciary_dems_press
+    name: "House Judiciary Democrats - Press"
+    committee: "House Judiciary"
+    chamber: House
+    party_lane: minority
+    url: "https://democrats-judiciary.house.gov/media-center/press-releases"
+    collection: press
+    kind: press_release
+    tier: tier1
+    parser: judiciary_dems_press
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    why_relevant: "Minority-side probes, document requests, investigative announcements."
+
+  - id: house_judiciary_dems_letters
+    name: "House Judiciary Democrats - Letters"
+    committee: "House Judiciary"
+    chamber: House
+    party_lane: minority
+    url: "https://democrats-judiciary.house.gov/letters"
+    collection: letters
+    kind: letter
+    tier: tier1
+    parser: judiciary_dems_letters
+    enabled: false
+    detail_fetch: html
+    recent_item_limit: 20
+    notes: "The committee has not posted letters to this page yet."
+    why_relevant: "Direct correspondence archive."
+
+  # --- House Homeland Security Democrats (Minority) ---
+  - id: house_homeland_dems_correspondence
+    name: "House Homeland Security Democrats - Correspondence"
+    committee: "House Homeland Security"
+    chamber: House
+    party_lane: minority
+    url: "https://democrats-homeland.house.gov/news/correspondence"
+    collection: letters
+    kind: letter
+    tier: tier1
+    parser: homeland_dems_correspondence
+    enabled: true
+    detail_fetch: html
+    recent_item_limit: 20
+    why_relevant: "Minority-side DHS oversight letters and document requests."
+
+  # ============================================================
+  # TIER 2 - Scaffold now, enable after baseline stable
+  # ============================================================
+
+  - id: house_oversight_hearings
+    name: "House Oversight - Hearings"
+    committee: "House Oversight and Government Reform"
+    chamber: House
+    party_lane: majority
+    url: "https://oversight.house.gov/hearing/"
+    collection: hearings
+    kind: hearing_notice
+    tier: tier2
+    parser: oversight_house_hearings
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Hearing notices can surface investigations before press releases."
+
+  - id: house_judiciary_hearings
+    name: "House Judiciary - Hearings"
+    committee: "House Judiciary"
+    chamber: House
+    party_lane: majority
+    url: "https://judiciary.house.gov/committee-activity/hearings"
+    collection: hearings
+    kind: hearing_notice
+    tier: tier2
+    parser: judiciary_house_hearings
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Early signal on oversight and investigatory hearings."
+
+  - id: house_homeland_hearings
+    name: "House Homeland Security - Hearings"
+    committee: "House Homeland Security"
+    chamber: House
+    party_lane: majority
+    url: "https://homeland.house.gov/hearings/"
+    collection: hearings
+    kind: hearing_notice
+    tier: tier2
+    parser: homeland_house_hearings
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Early signal on DHS oversight themes."
+
+  - id: house_energy_commerce_hearings
+    name: "House Energy & Commerce - Hearings"
+    committee: "House Energy and Commerce"
+    chamber: House
+    party_lane: majority
+    url: "https://energycommerce.house.gov/news/hearings"
+    collection: hearings
+    kind: hearing_notice
+    tier: tier2
+    parser: energy_commerce_hearings
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Oversight hearings and hearing-driven investigations."
+
+  - id: house_oversight_dems_hearings
+    name: "House Oversight Democrats - Hearings"
+    committee: "House Oversight and Government Reform"
+    chamber: House
+    party_lane: minority
+    url: "https://oversightdemocrats.house.gov/legislation/hearings"
+    collection: hearings
+    kind: hearing_notice
+    tier: tier2
+    parser: oversight_dems_hearings
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Minority hearing activity can indicate active investigative themes."
+
+  - id: house_homeland_dems_hearings
+    name: "House Homeland Security Democrats - Hearings"
+    committee: "House Homeland Security"
+    chamber: House
+    party_lane: minority
+    url: "https://democrats-homeland.house.gov/activities/hearings"
+    collection: hearings
+    kind: hearing_notice
+    tier: tier2
+    parser: homeland_dems_hearings
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Minority hearing activity relevant to DHS oversight."
+
+  - id: senate_psi_hearings
+    name: "Senate PSI - Hearings"
+    committee: "Senate HSGAC / PSI"
+    chamber: Senate
+    party_lane: committee
+    url: "https://www.hsgac.senate.gov/subcommittees/investigations/hearings/"
+    collection: hearings
+    kind: hearing_notice
+    tier: tier2
+    parser: psi_hearings
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Investigatory hearings and related materials from PSI."
+
+  # ============================================================
+  # TIER 3 - Optional topic-specific expansion
+  # ============================================================
+
+  - id: house_ways_means_news
+    name: "Ways and Means - News"
+    committee: "House Ways and Means"
+    chamber: House
+    party_lane: majority
+    url: "https://waysandmeans.house.gov/news/"
+    collection: news
+    kind: press_release
+    tier: tier3
+    parser: ways_means_news
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Tax, IRS, nonprofit, and benefits oversight."
+
+  - id: house_ways_means_correspondence
+    name: "Ways and Means - Correspondence"
+    committee: "House Ways and Means"
+    chamber: House
+    party_lane: majority
+    url: "https://waysandmeans.house.gov/category/correspondence/"
+    collection: letters
+    kind: letter
+    tier: tier3
+    parser: ways_means_correspondence
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Direct letters and investigative correspondence."
+
+  - id: house_foreign_affairs_press
+    name: "House Foreign Affairs - Press"
+    committee: "House Foreign Affairs"
+    chamber: House
+    party_lane: majority
+    url: "https://foreignaffairs.house.gov/news/press-releases"
+    collection: press
+    kind: press_release
+    tier: tier3
+    parser: foreign_affairs_press
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Sanctions, State Department, foreign assistance oversight."
+
+  - id: house_financial_services_press
+    name: "House Financial Services - Press"
+    committee: "House Financial Services"
+    chamber: House
+    party_lane: majority
+    url: "https://financialservices.house.gov/news/documentquery.aspx?DocumentTypeID=2092"
+    collection: press
+    kind: press_release
+    tier: tier3
+    parser: financial_services_press
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Banking, SEC, crypto, and financial-regulator oversight."
+
+  - id: senate_psi_majority_news
+    name: "Senate PSI - Majority News"
+    committee: "Senate HSGAC / PSI"
+    chamber: Senate
+    party_lane: majority
+    url: "https://www.hsgac.senate.gov/subcommittees/investigations/majority-news/"
+    collection: news
+    kind: press_release
+    tier: tier3
+    parser: psi_news
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Majority press releases from the Permanent Subcommittee on Investigations."
+
+  - id: senate_psi_minority_news
+    name: "Senate PSI - Minority News"
+    committee: "Senate HSGAC / PSI"
+    chamber: Senate
+    party_lane: minority
+    url: "https://www.hsgac.senate.gov/subcommittees/investigations/minority-news/"
+    collection: news
+    kind: press_release
+    tier: tier3
+    parser: psi_news
+    enabled: false
+    recent_item_limit: 20
+    why_relevant: "Minority press releases from the Permanent Subcommittee on Investigations."

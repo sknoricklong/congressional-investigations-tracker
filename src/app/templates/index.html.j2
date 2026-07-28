@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Congressional Investigations Monitor</title>
+<style>
+:root {
+  --off-white: #F9F8ED;
+  --panel: #FFFEFA;
+  --text: #000;
+  --muted: #9D9785;
+  --subtle-border: #EFEFEC;
+  --strong-border: #CCCBBE;
+  --link: #174d78;
+  --hover: #F4F3EA;
+  --green: #2d6f45;
+  --red: #8a342c;
+  --content-width: 1200px;
+  --sidebar-width: 220px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--off-white);
+  color: var(--text);
+  line-height: 1.5;
+  padding: 24px;
+}
+
+/* Header */
+.site-header {
+  max-width: var(--content-width);
+  margin: 0 auto 24px;
+}
+.eyebrow {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.site-header h1 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+.header-meta {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* Tab bar */
+.tab-bar {
+  max-width: var(--content-width);
+  margin: 0 auto 20px;
+  display: flex;
+  gap: 4px;
+  border-bottom: 1px solid var(--strong-border);
+  padding-bottom: 0;
+}
+.tab-button {
+  appearance: none;
+  background: none;
+  border: none;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  padding: 8px 14px;
+  cursor: pointer;
+  color: var(--muted);
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+.tab-button:hover { color: var(--text); }
+.tab-button[aria-selected="true"] {
+  color: var(--text);
+  font-weight: 600;
+  border-bottom-color: var(--text);
+}
+
+/* Dashboard frame */
+.dashboard-frame {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  border: 1px solid var(--strong-border);
+  background: var(--panel);
+  padding: 24px;
+}
+
+/* Grid layout: sidebar + feed */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: var(--sidebar-width) 1fr;
+  gap: 32px;
+}
+
+/* Sidebar filters */
+.filters {
+  position: sticky;
+  top: 24px;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+}
+.filter-block { margin-bottom: 28px; }
+.filter-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.filter-search {
+  width: 100%;
+  padding: 6px 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  border: 1px solid var(--strong-border);
+  background: #fff;
+  outline: none;
+}
+.filter-search:focus { border-color: var(--link); }
+.date-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.date-btn {
+  appearance: none;
+  background: none;
+  border: 1px solid var(--strong-border);
+  padding: 4px 10px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--muted);
+}
+.date-btn:hover { border-color: var(--text); color: var(--text); }
+.date-btn.active {
+  background: var(--text);
+  color: var(--off-white);
+  border-color: var(--text);
+}
+.filter-tools {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+.filter-tools .filter-label { margin-bottom: 0; flex: 1; }
+.filter-tool {
+  appearance: none;
+  background: none;
+  border: none;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 11px;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+.filter-tool:hover { color: var(--text); }
+.filter-tools .sep { font-size: 11px; color: var(--muted); }
+.filter-group { margin-bottom: 12px; }
+.filter-group-heading {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.filter-group-heading .arrow { font-size: 10px; color: var(--muted); transition: transform 0.15s; }
+.filter-group-heading.collapsed .arrow { transform: rotate(-90deg); }
+.filter-group-body { padding-left: 2px; }
+.filter-group-body.collapsed { display: none; }
+.filter-check {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+.filter-check input { margin: 0; cursor: pointer; }
+.meta-text {
+  font-size: 12px;
+  color: var(--text);
+  white-space: nowrap;
+}
+.clear-filters {
+  appearance: none;
+  background: none;
+  border: none;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12px;
+  color: var(--muted);
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  margin-top: 8px;
+}
+.clear-filters:hover { color: var(--text); }
+
+/* Feed area */
+.feed-area { min-width: 0; }
+.feed-meta {
+  font-size: 13px;
+  color: var(--text);
+  margin-bottom: 12px;
+}
+.feed-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.feed-table thead { position: sticky; top: 0; z-index: 1; }
+.feed-table th {
+  text-align: left;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  padding: 8px 12px;
+  background: var(--off-white);
+  border-bottom: 1px solid var(--strong-border);
+}
+.feed-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--subtle-border);
+  vertical-align: top;
+  font-size: 14px;
+}
+.feed-table th { white-space: nowrap; }
+.feed-table th:hover { color: var(--text); }
+.feed-table th .sort-arrow { font-size: 9px; margin-left: 3px; }
+.feed-table tr:hover td { background: var(--hover); }
+.feed-table tr.is-hidden { display: none; }
+.feed-table tr.row-flash td { background: #FBF3D5; }
+.date-cell {
+  white-space: nowrap;
+  font-size: 13px;
+  color: var(--text);
+  min-width: 90px;
+}
+.chamber-cell {
+  white-space: nowrap;
+  font-size: 13px;
+  min-width: 60px;
+}
+.release-cell a {
+  color: var(--link);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+.release-cell a:hover { text-decoration: underline; }
+.release-summary {
+  font-size: 13px;
+  color: var(--text);
+  margin-top: 3px;
+  line-height: 1.4;
+}
+.release-meta {
+  margin-top: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+}
+.source-label {
+  font-size: 12px;
+  color: var(--text);
+}
+
+/* Panel visibility */
+.panel { display: none; }
+.panel.active { display: block; }
+
+/* Section headers inside panels */
+.section-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.section-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* Status panel */
+.status-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.status-table th {
+  text-align: left;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  font-weight: 600;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--strong-border);
+  cursor: pointer;
+  user-select: none;
+}
+.status-table th:hover { color: var(--text); }
+.status-table th .sort-arrow { font-size: 9px; margin-left: 3px; }
+.status-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--subtle-border);
+  font-size: 13px;
+}
+.status-table tr[data-url] { cursor: pointer; }
+.status-table tr[data-url]:hover td { background: var(--hover); }
+.status-ok { color: var(--green); }
+.status-fail { color: var(--red); }
+
+/* Planned sources */
+.planned-sources { margin-top: 28px; }
+.planned-sources h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.planned-sources > p { font-size: 13px; margin-bottom: 10px; }
+.planned-list { list-style: none; }
+.planned-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--subtle-border);
+  font-size: 13px;
+}
+.planned-list .planned-name { font-weight: 600; }
+
+/* Errors */
+.errors { margin-top: 16px; }
+.errors summary { font-size: 13px; color: var(--red); cursor: pointer; }
+.errors ul { font-size: 12px; color: var(--red); padding-left: 20px; margin-top: 6px; }
+
+/* Zero-result state */
+.zero-state {
+  display: none;
+  padding: 24px 12px;
+  font-size: 14px;
+  border-bottom: 1px solid var(--subtle-border);
+}
+.zero-state button {
+  appearance: none;
+  background: none;
+  border: none;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  color: var(--link);
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+
+/* Right-click feedback */
+.context-menu {
+  position: fixed;
+  z-index: 60;
+  background: var(--panel);
+  border: 1px solid var(--strong-border);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+  padding: 4px;
+}
+.context-menu button {
+  display: block;
+  width: 100%;
+  border: 0;
+  background: none;
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13.5px;
+  text-align: left;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+.context-menu button:hover,
+.context-menu button:focus-visible { background: var(--hover); }
+.feedback-popover[hidden] { display: none; }
+.feedback-popover {
+  position: fixed;
+  z-index: 61;
+  width: min(340px, calc(100vw - 24px));
+  background: var(--panel);
+  border: 1px solid var(--strong-border);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+  padding: 12px;
+  display: grid;
+  gap: 8px;
+}
+.feedback-popover textarea {
+  width: 100%;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13.5px;
+  border: 1px solid var(--strong-border);
+  padding: 6px 8px;
+  resize: vertical;
+}
+.feedback-popover textarea:focus { outline: none; border-color: var(--link); }
+.popover-target {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12.5px;
+}
+.popover-actions { display: flex; gap: 6px; justify-content: flex-end; }
+.popover-actions button {
+  appearance: none;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+  border: 1px solid var(--strong-border);
+  background: var(--panel);
+  padding: 5px 12px;
+  cursor: pointer;
+}
+.popover-actions button.primary {
+  background: var(--text);
+  color: var(--off-white);
+  border-color: var(--text);
+}
+.feedback-status {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+.feedback-status.is-success { color: var(--green); font-weight: 700; }
+.feedback-status.is-error { color: var(--red); font-weight: 700; }
+.feedback-mailto { color: var(--link); }
+
+/* Footer */
+.footer {
+  max-width: var(--content-width);
+  margin: 32px auto 0;
+  padding: 20px 0;
+  border-top: 1px solid var(--strong-border);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* Responsive */
+@media (max-width: 980px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+  .filters {
+    position: static;
+    max-height: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .filter-block { margin-bottom: 0; }
+}
+@media (max-width: 720px) {
+  body { padding: 12px; }
+  .dashboard-frame { padding: 16px; }
+  .feed-table td, .feed-table th { padding: 8px 6px; }
+  .chamber-cell { display: none; }
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <p class="eyebrow">Daily tracker</p>
+  <h1>Congressional Investigations Monitor</h1>
+  <p class="header-meta">
+    Updated {{ last_updated.strftime('%B %d, %Y at %I:%M %p ET') }}
+    {% if summary %}
+    &middot; {{ summary.sources_succeeded }} of {{ summary.sources_attempted + (planned_sources | length) }} committee pages live
+    &middot; {{ total_recent_24h }} new in last 24h
+    {% endif %}
+    &middot; <a href="/email.html" style="color: var(--link); text-decoration: none;">Weekly email</a>
+    &middot; <a href="/recipients.html" style="color: var(--link); text-decoration: none;">Recipients</a>
+  </p>
+</header>
+
+<nav class="tab-bar">
+  <button class="tab-button" aria-selected="true" data-tab="feed">All releases</button>
+  <button class="tab-button" aria-selected="false" data-tab="status">Sources</button>
+</nav>
+
+<div class="dashboard-frame">
+
+  <!-- Feed panel -->
+  <div id="panel-feed" class="panel active">
+    <div class="dashboard-grid">
+      <aside class="filters">
+
+        <div class="filter-block">
+          <div class="filter-label">Search</div>
+          <input type="text" class="filter-search" id="filter-search" placeholder="Search titles...">
+        </div>
+
+        <div class="filter-block">
+          <div class="filter-label">Date range</div>
+          <div class="date-buttons">
+            <button class="date-btn active" data-days="all">All</button>
+            <button class="date-btn" data-days="1">Yesterday</button>
+            <button class="date-btn" data-days="7">7 days</button>
+            <button class="date-btn" data-days="30">30 days</button>
+          </div>
+        </div>
+
+        <div class="filter-block">
+          <div class="filter-tools">
+            <div class="filter-label">Chamber</div>
+            <button class="filter-tool" data-group="chamber" data-action="all">All</button>
+            <span class="sep">/</span>
+            <button class="filter-tool" data-group="chamber" data-action="none">None</button>
+          </div>
+          {% for c in chambers %}
+          <label class="filter-check">
+            <input type="checkbox" class="chamber-filter" value="{{ c }}" checked> {{ c }}
+          </label>
+          {% endfor %}
+        </div>
+
+        <div class="filter-block">
+          <div class="filter-tools">
+            <div class="filter-label">Posted by</div>
+            <button class="filter-tool" data-group="party" data-action="all">All</button>
+            <span class="sep">/</span>
+            <button class="filter-tool" data-group="party" data-action="none">None</button>
+          </div>
+          {% for p in party_lanes %}
+          <label class="filter-check">
+            <input type="checkbox" class="party-filter" value="{{ p }}" checked> {{ p }}
+          </label>
+          {% endfor %}
+        </div>
+
+        <div class="filter-block">
+          <div class="filter-tools">
+            <div class="filter-label">Type</div>
+            <button class="filter-tool" data-group="type" data-action="all">All</button>
+            <span class="sep">/</span>
+            <button class="filter-tool" data-group="type" data-action="none">None</button>
+          </div>
+          {% for t in item_types %}
+          <label class="filter-check">
+            <input type="checkbox" class="type-filter" value="{{ t }}" checked> {{ t | replace('_', ' ') }}
+          </label>
+          {% endfor %}
+        </div>
+
+        <div class="filter-block">
+          <div class="filter-tools">
+            <div class="filter-label">Committee</div>
+            <button class="filter-tool" data-group="committee" data-action="all">All</button>
+            <span class="sep">/</span>
+            <button class="filter-tool" data-group="committee" data-action="none">None</button>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-body" id="committee-filters">
+              {% for c in committees %}
+              <label class="filter-check">
+                <input type="checkbox" class="committee-filter" value="{{ c }}" checked> {{ c }}
+              </label>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <button class="clear-filters" id="clear-filters">Reset all filters</button>
+
+      </aside>
+
+      <div class="feed-area">
+        <div class="feed-meta">
+          <span id="feed-count">Showing {{ all_items | length }} items</span>
+          <span style="color: var(--muted);"> &middot; Right-click anything to flag it</span>
+        </div>
+
+        <table class="feed-table" id="feed-table">
+          <thead>
+            <tr>
+              <th data-col="date" data-sort="date">Date <span class="sort-arrow">&blacktriangledown;</span></th>
+              <th data-col="chamber" data-sort="string">Chamber <span class="sort-arrow"></span></th>
+              <th data-col="release" data-sort="string">Release <span class="sort-arrow"></span></th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in all_items %}
+            <tr class="release-row status-{{ item.status.value }}"
+                id="item-{{ item.item_id }}"
+                data-item-id="{{ item.item_id }}"
+                data-url="{{ item.url }}"
+                data-committee="{{ item.committee }}"
+                data-chamber="{{ item.chamber.value }}"
+                data-party="{{ item.party_lane.value }}"
+                data-type="{{ item.item_type.value }}"
+                data-source="{{ item.source_name }}"
+                data-status="{{ item.status.value }}"
+                data-search="{{ item.title | lower }}"
+                data-date="{{ item.published_at.strftime('%Y-%m-%d') if item.published_at else '' }}">
+              <td class="date-cell">
+                {% if item.published_at %}
+                {% if item.published_at.year != current_year %}
+                <time datetime="{{ item.published_at.isoformat() }}">{{ item.published_at.strftime('%b %d, %Y') }}</time>
+                {% else %}
+                <time datetime="{{ item.published_at.isoformat() }}">{{ item.published_at.strftime('%b %d') }}</time>
+                {% endif %}
+                {% else %}
+                &mdash;
+                {% endif %}
+              </td>
+              <td class="chamber-cell">{{ item.chamber.value }}</td>
+              <td class="release-cell">
+                <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+                {% if item.summary %}
+                <p class="release-summary">{{ item.summary[:200] }}{% if item.summary | length > 200 %}...{% endif %}</p>
+                {% endif %}
+                <div class="release-meta">
+                  <span class="meta-text">{{ item.party_lane.value }} &middot; {{ item.item_type.value | replace('_', ' ') }}{% if item.is_pdf %} &middot; pdf{% endif %} &middot;</span>
+                  <span class="source-label">{{ item.source_name }}</span>
+                </div>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <div class="zero-state" id="zero-state">
+          No items match the current filters.
+          <button type="button" id="zero-state-reset">Reset all filters</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Status panel -->
+  <div id="panel-status" class="panel">
+    <p class="section-label">Checked daily</p>
+    <h2 class="section-title">Sources</h2>
+
+    {% if summary %}
+    <p class="feed-meta">{{ summary.sources_succeeded }} committee pages checked daily, {{ all_items | length }} releases tracked</p>
+
+    <table class="status-table" id="status-table">
+      <thead>
+        <tr>
+          <th data-sort="string">Source <span class="sort-arrow"></span></th>
+          <th data-sort="string">URL <span class="sort-arrow"></span></th>
+          <th data-sort="number">Items <span class="sort-arrow"></span></th>
+          <th data-sort="number">New (24h) <span class="sort-arrow"></span></th>
+          <th data-sort="string">Status <span class="sort-arrow"></span></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in summary.results %}
+        <tr{% if source_urls.get(r.source_name) %} data-url="{{ source_urls[r.source_name] }}"{% endif %}>
+          <td style="font-weight: 600;">{{ r.source_name }}{% if source_covers.get(r.source_name) %}<div style="font-weight: 400; font-size: 12px;">{{ source_covers[r.source_name] }}</div>{% endif %}</td>
+          <td style="font-size: 12px;">
+            {% if source_urls.get(r.source_name) %}
+            <a href="{{ source_urls[r.source_name] }}" target="_blank" rel="noopener" style="color: var(--text); text-decoration: none;">{{ source_urls[r.source_name] | replace('https://', '') | replace('http://', '') | truncate(40, True) }}</a>
+            {% endif %}
+          </td>
+          <td>{{ r.items_found }}</td>
+          {% set recent_count = recent_by_source.get(r.source_name, 0) %}
+          <td>{% if recent_count > 0 %}<span style="color: var(--green); font-weight: 600;">{{ recent_count }}</span>{% else %}0{% endif %}</td>
+          <td>
+            {% if r.success %}
+            <span class="status-ok">OK</span>
+            {% else %}
+            <span class="status-fail">FAIL</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p style="color: var(--muted); font-size: 14px;">No run data available. Run the pipeline first.</p>
+    {% endif %}
+
+    {% if summary and summary.sources_failed > 0 %}
+    <details class="errors">
+      <summary>{{ summary.sources_failed }} source(s) had errors</summary>
+      <ul>
+        {% for r in summary.results if not r.success %}
+        <li>{{ r.source_name }}: {{ r.errors | join('; ') }}</li>
+        {% endfor %}
+      </ul>
+    </details>
+    {% endif %}
+
+    {% if planned_sources %}
+    <div class="planned-sources">
+      <h3>Not yet captured</h3>
+      <p>These pages are on the list but have no rows yet. Before rows appear, each page needs its layout confirmed, capture set up, and dates and links verified. To add a page not listed here, reply to the weekly email with the address.</p>
+      <ul class="planned-list">
+        {% for s in planned_sources %}
+        <li>
+          <span class="planned-name">{{ s.name }}</span>
+          &mdash; <a href="{{ s.url }}" target="_blank" rel="noopener" style="color: var(--link); text-decoration: none;">{{ s.url | replace('https://', '') | replace('http://', '') | truncate(50, True) }}</a>
+          {% if s.why_relevant %}<br>{{ s.why_relevant }}{% endif %}
+          {% if s.notes %}<br><span style="color: var(--muted);">{{ s.notes }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+
+</div>
+
+<footer class="footer">
+  Congressional Investigations Monitor &middot; Committee pages checked every morning &middot; Weekly email on Monday mornings &middot; Right-click anything on the page to flag it
+</footer>
+
+<div class="context-menu" id="context-menu" role="menu" hidden>
+  <button type="button" id="context-feedback" role="menuitem">Give feedback on this</button>
+</div>
+
+<div class="feedback-popover" id="feedback-popover" role="dialog" aria-label="Feedback on this spot" hidden>
+  <p class="popover-target" id="popover-target"></p>
+  <textarea id="popover-note" rows="4" placeholder="What should change here?"></textarea>
+  <p class="feedback-status" id="popover-status" aria-live="polite"></p>
+  <div class="popover-actions">
+    <button type="button" id="popover-cancel">Cancel</button>
+    <button type="button" class="primary" id="popover-submit">Submit feedback</button>
+  </div>
+</div>
+
+<script>
+(function() {
+  /* Tab switching */
+  var tabs = document.querySelectorAll('.tab-button');
+  tabs.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      tabs.forEach(function(t) { t.setAttribute('aria-selected', 'false'); });
+      btn.setAttribute('aria-selected', 'true');
+      document.querySelectorAll('.panel').forEach(function(p) { p.classList.remove('active'); });
+      document.getElementById('panel-' + btn.dataset.tab).classList.add('active');
+    });
+  });
+
+  /* Filter state */
+  var searchInput = document.getElementById('filter-search');
+  var activeDateDays = 'all';
+
+  function getChecked(className) {
+    var checked = new Set();
+    document.querySelectorAll('.' + className + ':checked').forEach(function(cb) {
+      checked.add(cb.value);
+    });
+    return checked;
+  }
+
+  function applyFilters() {
+    var rows = document.querySelectorAll('.release-row');
+    var query = searchInput.value.toLowerCase();
+    var chambers = getChecked('chamber-filter');
+    var parties = getChecked('party-filter');
+    var types = getChecked('type-filter');
+    var committees = getChecked('committee-filter');
+
+    var now = new Date();
+    var cutoff = null;
+    if (activeDateDays !== 'all') {
+      var days = parseInt(activeDateDays);
+      cutoff = new Date(now.getFullYear(), now.getMonth(), now.getDate() - days);
+    }
+
+    var visible = 0;
+    rows.forEach(function(row) {
+      var show = true;
+      if (query && row.dataset.search.indexOf(query) === -1) show = false;
+      if (!chambers.has(row.dataset.chamber)) show = false;
+      if (!parties.has(row.dataset.party)) show = false;
+      if (!types.has(row.dataset.type)) show = false;
+      if (!committees.has(row.dataset.committee)) show = false;
+      if (cutoff && row.dataset.date) {
+        var d = new Date(row.dataset.date + 'T00:00:00');
+        if (d < cutoff) show = false;
+      }
+      if (show) visible++;
+      row.classList.toggle('is-hidden', !show);
+    });
+
+    var total = rows.length;
+    document.getElementById('feed-count').textContent = visible === total
+      ? 'Showing ' + total + ' items'
+      : 'Showing ' + visible + ' of ' + total + ' items';
+    document.getElementById('zero-state').style.display = visible === 0 ? 'block' : 'none';
+  }
+
+  /* Bind events */
+  searchInput.addEventListener('input', applyFilters);
+
+  document.querySelectorAll('.chamber-filter, .party-filter, .type-filter, .committee-filter').forEach(function(cb) {
+    cb.addEventListener('change', applyFilters);
+  });
+
+  document.querySelectorAll('.date-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.date-btn').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      activeDateDays = btn.dataset.days;
+      applyFilters();
+    });
+  });
+
+  /* All / None toggle buttons */
+  document.querySelectorAll('.filter-tool').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      var group = btn.dataset.group;
+      var action = btn.dataset.action;
+      var checked = action === 'all';
+      document.querySelectorAll('.' + group + '-filter').forEach(function(cb) {
+        cb.checked = checked;
+      });
+      applyFilters();
+    });
+  });
+
+  function resetAllFilters() {
+    searchInput.value = '';
+    activeDateDays = 'all';
+    document.querySelectorAll('.date-btn').forEach(function(b) { b.classList.remove('active'); });
+    document.querySelector('.date-btn[data-days="all"]').classList.add('active');
+    document.querySelectorAll('.chamber-filter, .party-filter, .type-filter, .committee-filter').forEach(function(cb) {
+      cb.checked = true;
+    });
+    applyFilters();
+  }
+  document.getElementById('clear-filters').addEventListener('click', resetAllFilters);
+  document.getElementById('zero-state-reset').addEventListener('click', resetAllFilters);
+
+  /* Deep link: ?q=<item id> lands with the row highlighted */
+  (function() {
+    var params = new URLSearchParams(window.location.search);
+    var q = params.get('q');
+    if (!q) return;
+    var row = document.querySelector('.release-row[data-item-id="' + CSS.escape(q) + '"]');
+    if (!row) return;
+    row.classList.add('row-flash');
+    row.scrollIntoView({ block: 'center' });
+    window.setTimeout(function() { row.classList.remove('row-flash'); }, 6000);
+  })();
+
+  /* Click tracking (invisible) */
+  document.querySelectorAll('.release-cell a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      var row = link.closest('tr');
+      var data = {
+        url: link.href,
+        title: link.textContent.trim(),
+        source: row ? row.dataset.source : '',
+        committee: row ? row.dataset.committee : '',
+        timestamp: new Date().toISOString()
+      };
+      if (navigator.sendBeacon) {
+        navigator.sendBeacon('/api/click', JSON.stringify(data));
+      } else {
+        fetch('/api/click', { method: 'POST', body: JSON.stringify(data), keepalive: true });
+      }
+    });
+  });
+
+  /* Keyboard shortcut: / to focus search */
+  document.addEventListener('keydown', function(e) {
+    if (e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+      e.preventDefault();
+      searchInput.focus();
+    }
+  });
+
+  /* Feed table: sortable columns */
+  var feedTable = document.getElementById('feed-table');
+  if (feedTable) {
+    var feedHeaders = feedTable.querySelectorAll('th[data-sort]');
+    var feedSort = { col: 0, asc: false }; /* default: date descending */
+
+    feedHeaders.forEach(function(th, colIndex) {
+      th.addEventListener('click', function() {
+        var asc = (feedSort.col === colIndex) ? !feedSort.asc : (th.dataset.sort === 'date' ? false : true);
+        feedSort = { col: colIndex, asc: asc };
+
+        var tbody = feedTable.querySelector('tbody');
+        var rows = Array.from(tbody.querySelectorAll('tr'));
+
+        rows.sort(function(a, b) {
+          var aVal, bVal;
+          var col = th.dataset.col;
+
+          if (col === 'date') {
+            aVal = a.dataset.date || '';
+            bVal = b.dataset.date || '';
+          } else if (col === 'chamber') {
+            aVal = a.dataset.chamber.toLowerCase();
+            bVal = b.dataset.chamber.toLowerCase();
+          } else {
+            aVal = a.dataset.search || '';
+            bVal = b.dataset.search || '';
+          }
+
+          if (aVal < bVal) return asc ? -1 : 1;
+          if (aVal > bVal) return asc ? 1 : -1;
+          return 0;
+        });
+
+        rows.forEach(function(row) { tbody.appendChild(row); });
+
+        feedHeaders.forEach(function(h) { h.querySelector('.sort-arrow').textContent = ''; });
+        th.querySelector('.sort-arrow').textContent = asc ? ' \u25B2' : ' \u25BC';
+      });
+    });
+  }
+
+  /* Status table: click row to open source URL */
+  document.querySelectorAll('.status-table tr[data-url]').forEach(function(row) {
+    row.addEventListener('click', function() {
+      window.open(row.dataset.url, '_blank');
+    });
+  });
+
+  /* Right-click feedback: flag any spot on the page. Shift+right-click
+     keeps the browser's native menu. */
+  var FEEDBACK_REVIEW_EMAIL = 'owner@example.com';
+  var contextMenuEl = document.getElementById('context-menu');
+  var contextFeedbackBtn = document.getElementById('context-feedback');
+  var popoverEl = document.getElementById('feedback-popover');
+  var popoverTargetEl = document.getElementById('popover-target');
+  var popoverNoteEl = document.getElementById('popover-note');
+  var popoverStatusEl = document.getElementById('popover-status');
+  var popoverSubmitBtn = document.getElementById('popover-submit');
+  var popoverCancelBtn = document.getElementById('popover-cancel');
+  var contextTarget = null;
+
+  var REGION_SELECTORS = [
+    ['.filters', 'filters'],
+    ['#panel-status', 'sources'],
+    ['.feed-table', 'feed table'],
+    ['.site-header', 'header'],
+    ['.footer', 'footer']
+  ];
+
+  function currentFilterContext() {
+    function checkedValues(className) {
+      return Array.from(document.querySelectorAll('.' + className + ':checked'))
+        .map(function(cb) { return cb.value; }).join(', ');
+    }
+    return {
+      search: searchInput.value,
+      date_range: activeDateDays,
+      recent_only: '',
+      chambers: checkedValues('chamber-filter'),
+      party_lanes: checkedValues('party-filter'),
+      item_types: checkedValues('type-filter'),
+      committees: checkedValues('committee-filter')
+    };
+  }
+
+  function itemContextFromRow(row) {
+    var link = row.querySelector('.release-cell a');
+    return {
+      id: row.dataset.itemId || '',
+      title: link ? link.textContent.trim() : '',
+      url: row.dataset.url || '',
+      committee: row.dataset.committee || '',
+      chamber: row.dataset.chamber || '',
+      party_lane: row.dataset.party || '',
+      item_type: row.dataset.type || '',
+      source: row.dataset.source || '',
+      published_at: row.dataset.date || ''
+    };
+  }
+
+  function describeContextTarget(el) {
+    var node = el instanceof Element ? el : el.parentElement;
+    if (!node) return { region: 'page', column: '', text: '', item: null };
+    var row = node.closest('tr.release-row');
+    var item = row ? itemContextFromRow(row) : null;
+    var column = '';
+    if (row) {
+      var cell = node.closest('td');
+      if (cell) {
+        var index = Array.prototype.indexOf.call(cell.parentElement.children, cell);
+        var head = document.querySelectorAll('#feed-table thead th')[index];
+        if (head) column = head.textContent.replace(/\s+/g, ' ').trim();
+      }
+    }
+    var region = item ? 'feed row' : 'page';
+    if (!item) {
+      for (var i = 0; i < REGION_SELECTORS.length; i++) {
+        if (node.closest(REGION_SELECTORS[i][0])) { region = REGION_SELECTORS[i][1]; break; }
+      }
+    }
+    var text = (node.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 140);
+    return { region: region, column: column, text: text, item: item };
+  }
+
+  function contextTargetLabel(target) {
+    if (target.item) {
+      return 'On: ' + target.item.title.slice(0, 80) + (target.item.title.length > 80 ? '…' : '') + (target.column ? ' — ' + target.column : '');
+    }
+    return 'On: ' + target.region + (target.text ? ' — “' + target.text.slice(0, 80) + (target.text.length > 80 ? '…' : '') + '”' : '');
+  }
+
+  function placeFixed(elToPlace, x, y) {
+    elToPlace.hidden = false;
+    var rect = elToPlace.getBoundingClientRect();
+    var left = Math.min(x, window.innerWidth - rect.width - 10);
+    var top = Math.min(y, window.innerHeight - rect.height - 10);
+    elToPlace.style.left = Math.max(10, left) + 'px';
+    elToPlace.style.top = Math.max(10, top) + 'px';
+  }
+
+  function closeContextUi() {
+    contextMenuEl.hidden = true;
+    popoverEl.hidden = true;
+    popoverStatusEl.textContent = '';
+    popoverStatusEl.classList.remove('is-success', 'is-error');
+  }
+
+  function buildFeedbackPayload(note, target) {
+    var payload = {
+      note: note,
+      context: {
+        page_url: window.location.href,
+        page_time: new Date().toISOString(),
+        filters: currentFilterContext(),
+        target: { region: target.region, column: target.column, text: target.text },
+        user_agent: navigator.userAgent
+      }
+    };
+    if (target.item) payload.context.item = target.item;
+    return payload;
+  }
+
+  function feedbackMailtoHref(payload) {
+    var subject = 'Congressional investigations feedback' +
+      (payload.context.item ? ' - ' + payload.context.item.title.slice(0, 60) : '');
+    var body = [
+      'Congressional investigations feedback',
+      payload.context.item ? 'Item: ' + payload.context.item.title : '',
+      payload.context.item ? 'Item URL: ' + payload.context.item.url : '',
+      'Target: ' + payload.context.target.region + (payload.context.target.column ? ' / ' + payload.context.target.column : ''),
+      'Text at target: ' + payload.context.target.text,
+      'Page: ' + payload.context.page_url,
+      '',
+      payload.note
+    ].filter(Boolean).join('\n');
+    return 'mailto:' + FEEDBACK_REVIEW_EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  }
+
+  /* Failure path helper: email stays an explicit link the reviewer clicks.
+     Auto-navigating to mailto: silently does nothing on machines without a
+     mail handler, which loses the note while claiming it was sent. */
+  function offerFeedbackMailto(statusEl, href) {
+    var link = statusEl.nextElementSibling;
+    if (!link || !link.classList || !link.classList.contains('feedback-mailto')) {
+      link = document.createElement('a');
+      link.className = 'feedback-mailto';
+      link.style.cssText = 'display:block; font-size:12.5px;';
+      link.textContent = 'Email this note instead';
+      statusEl.insertAdjacentElement('afterend', link);
+    }
+    link.href = href;
+  }
+
+  document.addEventListener('contextmenu', function(event) {
+    if (event.shiftKey) return;
+    if (event.target instanceof Element && (event.target.closest('#feedback-popover') || event.target.closest('#context-menu'))) return;
+    event.preventDefault();
+    popoverEl.hidden = true;
+    contextTarget = describeContextTarget(event.target);
+    contextTarget.x = event.clientX;
+    contextTarget.y = event.clientY;
+    placeFixed(contextMenuEl, event.clientX, event.clientY);
+    contextFeedbackBtn.focus();
+  });
+
+  contextFeedbackBtn.addEventListener('click', function() {
+    contextMenuEl.hidden = true;
+    if (!contextTarget) return;
+    popoverTargetEl.textContent = contextTargetLabel(contextTarget);
+    popoverNoteEl.value = '';
+    placeFixed(popoverEl, contextTarget.x, contextTarget.y);
+    popoverNoteEl.focus();
+  });
+
+  popoverCancelBtn.addEventListener('click', closeContextUi);
+
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') closeContextUi();
+  });
+
+  document.addEventListener('click', function(event) {
+    if (!(event.target instanceof Element)) return;
+    if (event.target.closest('#feedback-popover') || event.target.closest('#context-menu')) return;
+    contextMenuEl.hidden = true;
+    if (popoverEl.hidden === false && popoverNoteEl.value.trim() === '') popoverEl.hidden = true;
+  });
+
+  popoverSubmitBtn.addEventListener('click', function() {
+    if (!contextTarget) return;
+    var note = popoverNoteEl.value.trim();
+    if (!note) {
+      popoverStatusEl.textContent = 'Add a note before submitting.';
+      popoverStatusEl.classList.add('is-error');
+      return;
+    }
+    var payload = buildFeedbackPayload(note, contextTarget);
+    popoverSubmitBtn.disabled = true;
+    popoverStatusEl.textContent = 'Submitting feedback...';
+    popoverStatusEl.classList.remove('is-success', 'is-error');
+    fetch('/api/feedback', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    }).then(function(response) {
+      return response.json().catch(function() { return {}; }).then(function(result) {
+        if (!response.ok) throw new Error(result.message || result.error || 'Feedback could not be submitted.');
+        popoverNoteEl.value = '';
+        popoverStatusEl.textContent = result.message || 'Feedback submitted for review.';
+        popoverStatusEl.classList.add('is-success');
+        window.setTimeout(closeContextUi, 4000);
+      });
+    }).catch(function() {
+      popoverStatusEl.textContent = 'Not sent. Your note is still here. Try again or use the email link below.';
+      popoverStatusEl.classList.add('is-error');
+      offerFeedbackMailto(popoverStatusEl, feedbackMailtoHref(payload));
+    }).then(function() {
+      popoverSubmitBtn.disabled = false;
+    });
+  });
+
+  /* Status table: sortable columns */
+  var statusTable = document.getElementById('status-table');
+  if (statusTable) {
+    var headers = statusTable.querySelectorAll('th[data-sort]');
+    var currentSort = { col: -1, asc: true };
+
+    headers.forEach(function(th, colIndex) {
+      th.addEventListener('click', function() {
+        var sortType = th.dataset.sort;
+        var asc = (currentSort.col === colIndex) ? !currentSort.asc : true;
+        currentSort = { col: colIndex, asc: asc };
+
+        var tbody = statusTable.querySelector('tbody');
+        var rows = Array.from(tbody.querySelectorAll('tr'));
+
+        rows.sort(function(a, b) {
+          var aCell = a.cells[colIndex];
+          var bCell = b.cells[colIndex];
+          var aVal, bVal;
+
+          if (sortType === 'number') {
+            aVal = parseFloat(aCell.dataset.value || aCell.textContent.replace(/[^0-9.-]/g, '')) || 0;
+            bVal = parseFloat(bCell.dataset.value || bCell.textContent.replace(/[^0-9.-]/g, '')) || 0;
+          } else {
+            aVal = aCell.textContent.trim().toLowerCase();
+            bVal = bCell.textContent.trim().toLowerCase();
+          }
+
+          if (aVal < bVal) return asc ? -1 : 1;
+          if (aVal > bVal) return asc ? 1 : -1;
+          return 0;
+        });
+
+        rows.forEach(function(row) { tbody.appendChild(row); });
+
+        headers.forEach(function(h) { h.querySelector('.sort-arrow').textContent = ''; });
+        th.querySelector('.sort-arrow').textContent = asc ? ' \u25B2' : ' \u25BC';
+      });
+    });
+  }
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Weekly email - Congressional Investigations Monitor</title>
+<style>
+:root {
+  --off-white: #F9F8ED;
+  --panel: #FFFEFA;
+  --text: #000;
+  --muted: #9D9785;
+  --subtle-border: #EFEFEC;
+  --strong-border: #CCCBBE;
+  --link: #174d78;
+  --green: #2d6f45;
+  --red: #8a342c;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--off-white);
+  color: var(--text);
+  line-height: 1.5;
+  padding: 24px;
+}
+.shell { max-width: 860px; margin: 0 auto; }
+.eyebrow {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+h1 { font-size: 26px; font-weight: 700; line-height: 1.2; margin-bottom: 6px; }
+.header-meta { font-size: 13px; color: var(--muted); margin-bottom: 20px; }
+.header-meta a { color: var(--link); text-decoration: none; }
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--strong-border);
+  padding: 20px;
+}
+.panel-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--subtle-border);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+.subject { font-size: 15px; font-weight: 700; }
+.window-note { font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.copy-email-btn {
+  appearance: none;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13.5px;
+  background: var(--text);
+  color: var(--off-white);
+  border: 1px solid var(--text);
+  padding: 7px 16px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.copy-email-btn.copied { background: var(--green); border-color: var(--green); }
+.email-preview { font-size: 14px; }
+.status-note { font-size: 13.5px; }
+.status-note.is-error { color: var(--red); }
+</style>
+</head>
+<body>
+<div class="shell">
+  <p class="eyebrow">Weekly email</p>
+  <h1>Congressional Investigations Monitor</h1>
+  <p class="header-meta">
+    Sent every Monday morning, covering everything captured since the previous email
+    &middot; <a href="/">Back to the tracker</a>
+    &middot; <a href="/recipients.html">Recipients</a>
+  </p>
+
+  <div class="panel">
+    <div class="panel-head">
+      <div>
+        <p class="subject" id="email-subject">Loading the current draft&hellip;</p>
+        <p class="window-note" id="email-window"></p>
+      </div>
+      <button type="button" class="copy-email-btn" id="copy-email-btn">Copy email</button>
+    </div>
+    <p class="status-note" id="email-status" hidden></p>
+    <div class="email-preview" id="email-preview"></div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var subjectEl = document.getElementById('email-subject');
+  var windowEl = document.getElementById('email-window');
+  var statusEl = document.getElementById('email-status');
+  var previewEl = document.getElementById('email-preview');
+  var copyBtn = document.getElementById('copy-email-btn');
+
+  fetch('/api/email?dryRun=1&includeHtml=1', { cache: 'no-store' })
+    .then(function(response) { return response.json(); })
+    .then(function(data) {
+      if (!data || !data.ok) throw new Error((data && data.detail) || 'preview unavailable');
+      var preview = data.emailPreview || {};
+      subjectEl.textContent = preview.subject || 'Weekly email';
+      windowEl.textContent = preview.itemCount + ' item' + (preview.itemCount === 1 ? '' : 's') +
+        ' in the current ' + preview.windowHours + '-hour window';
+      previewEl.innerHTML = data.emailHtml || '';
+    })
+    .catch(function() {
+      subjectEl.textContent = 'Weekly email';
+      statusEl.textContent = 'The email preview is not available right now. The tracker page itself is unaffected.';
+      statusEl.classList.add('is-error');
+      statusEl.hidden = false;
+    });
+
+  copyBtn.addEventListener('click', function() {
+    var html = previewEl.innerHTML;
+    if (!html) return;
+    var tmp = document.createElement('div');
+    tmp.innerHTML = html;
+    var text = tmp.innerText;
+    function done() {
+      copyBtn.textContent = 'Copied!';
+      copyBtn.classList.add('copied');
+      setTimeout(function() {
+        copyBtn.textContent = 'Copy email';
+        copyBtn.classList.remove('copied');
+      }, 2000);
+    }
+    if (navigator.clipboard && window.ClipboardItem) {
+      navigator.clipboard.write([
+        new ClipboardItem({
+          'text/html': new Blob([html], { type: 'text/html' }),
+          'text/plain': new Blob([text], { type: 'text/plain' })
+        })
+      ]).then(done).catch(fallback);
+    } else {
+      fallback();
+    }
+    function fallback() {
+      var sel = window.getSelection();
+      var range = document.createRange();
+      range.selectNodeContents(previewEl);
+      sel.removeAllRanges();
+      sel.addRange(range);
+      document.execCommand('copy');
+      sel.removeAllRanges();
+      done();
+    }
+  });
+})();
+</script>
+</body>
+</html>

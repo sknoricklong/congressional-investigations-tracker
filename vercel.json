@@ -1,0 +1,11 @@
+{
+  "buildCommand": "",
+  "outputDirectory": "site",
+  "framework": null,
+  "crons": [
+    {
+      "path": "/api/email",
+      "schedule": "0 13 * * 1"
+    }
+  ]
+}

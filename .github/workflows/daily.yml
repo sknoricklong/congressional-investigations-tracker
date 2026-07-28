@@ -1,0 +1,74 @@
+name: Daily Committee Monitor
+
+on:
+  schedule:
+    # 5 AM EDT / 4 AM EST (09:00 UTC) daily — scheduled early so data is ready before morning checkups; absorbs GitHub Actions queue delays (typically 50-75 min)
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -e .
+
+      - name: Run monitor
+        shell: bash
+        run: |
+          if python -m app.cli run; then
+            exit 0
+          fi
+
+          if [ -f logs/last_run.json ] && grep -q '"REGRESSION' logs/last_run.json; then
+            echo "::notice::Regression on first run; upstream feeds sometimes lag transiently. Sleeping 15 min before single retry."
+            sleep 900
+            python -m app.cli run
+          else
+            echo "::error::Non-regression failure; not retrying."
+            exit 1
+          fi
+
+      - name: Smoke test email contract
+        if: success()
+        run: node scripts/smoke-email.js
+
+      - name: Snapshot feedback queue
+        if: success()
+        env:
+          FEEDBACK_ADMIN_SECRET: ${{ secrets.FEEDBACK_ADMIN_SECRET }}
+        run: |
+          if [ -z "$FEEDBACK_ADMIN_SECRET" ]; then
+            echo "FEEDBACK_ADMIN_SECRET not set; skipping feedback snapshot"
+            exit 0
+          fi
+          tmp=$(mktemp)
+          if curl -sf "https://your-deployment.vercel.app/api/feedback-export?key=$FEEDBACK_ADMIN_SECRET&status=new" -o "$tmp"; then
+            mv "$tmp" data/feedback-queue.json
+            echo "Feedback queue snapshot written"
+          else
+            echo "Feedback export unavailable; skipping snapshot"
+          fi
+
+      - name: Commit changes
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ site/ logs/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily update: $(date -u +%Y-%m-%d)"
+            git push
+          fi

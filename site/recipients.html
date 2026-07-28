@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Recipients - Congressional Investigations Monitor</title>
+<style>
+:root {
+  --off-white: #F9F8ED;
+  --panel: #FFFEFA;
+  --text: #000;
+  --muted: #9D9785;
+  --subtle-border: #EFEFEC;
+  --strong-border: #CCCBBE;
+  --link: #174d78;
+  --green: #2d6f45;
+  --red: #8a342c;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--off-white);
+  color: var(--text);
+  line-height: 1.5;
+  padding: 24px;
+}
+.shell { max-width: 640px; margin: 0 auto; }
+.eyebrow {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+h1 { font-size: 26px; font-weight: 700; line-height: 1.2; margin-bottom: 6px; }
+.header-meta { font-size: 13px; color: var(--muted); margin-bottom: 20px; }
+.header-meta a { color: var(--link); text-decoration: none; }
+.card {
+  background: var(--panel);
+  border: 1px solid var(--strong-border);
+  padding: 20px;
+  margin-bottom: 16px;
+}
+.card h2 { font-size: 17px; margin-bottom: 6px; }
+.quiet { font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+.inline-form { display: flex; gap: 8px; margin-top: 8px; }
+.inline-form input {
+  flex: 1;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  border: 1px solid var(--strong-border);
+  padding: 7px 10px;
+  background: #fff;
+  outline: none;
+}
+.inline-form input:focus { border-color: var(--link); }
+.inline-form button {
+  appearance: none;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13.5px;
+  background: var(--text);
+  color: var(--off-white);
+  border: 1px solid var(--text);
+  padding: 7px 16px;
+  cursor: pointer;
+}
+.recipient-list { list-style: none; margin: 8px 0; }
+.recipient-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--subtle-border);
+  font-size: 14px;
+}
+.remove-button {
+  appearance: none;
+  background: none;
+  border: none;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 12.5px;
+  color: var(--red);
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
+.form-error, .form-status { font-size: 13px; margin-top: 8px; }
+.form-error { color: var(--red); }
+a { color: var(--link); }
+</style>
+</head>
+<body>
+<div class="shell">
+  <p class="eyebrow">Weekly email</p>
+  <h1>Recipients</h1>
+  <p class="header-meta">
+    Who receives the Monday morning email
+    &middot; <a href="/">Back to the tracker</a>
+  </p>
+
+  <section id="auth-panel" class="card" hidden>
+    <h2>Access</h2>
+    <p class="quiet">Enter the password to view and change who receives the weekly email.</p>
+    <form id="auth-form" class="inline-form">
+      <input id="password-input" type="password" autocomplete="current-password" placeholder="Password" required>
+      <button type="submit">Enter</button>
+    </form>
+    <p id="auth-error" class="form-error" hidden></p>
+    <p class="quiet">If you need the password or want to be added to the email, reply to the weekly email.</p>
+  </section>
+
+  <section id="manage-panel" class="card" hidden>
+    <h2>Weekly email recipients</h2>
+    <ul id="recipient-list" class="recipient-list">
+      <li class="quiet">Loading&hellip;</li>
+    </ul>
+    <form id="add-form" class="inline-form">
+      <input id="email-input" type="email" autocomplete="off" placeholder="first.last@example.com" required>
+      <button type="submit">Add</button>
+    </form>
+    <p id="manage-status" class="form-status" hidden></p>
+    <p class="quiet">Changes apply from the next weekly email.</p>
+    <p class="quiet"><a id="logout-link" href="#">Sign out</a></p>
+  </section>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var STORAGE_KEY = "congressListPassword";
+
+  var authPanel = document.getElementById("auth-panel");
+  var authForm = document.getElementById("auth-form");
+  var authError = document.getElementById("auth-error");
+  var passwordInput = document.getElementById("password-input");
+  var managePanel = document.getElementById("manage-panel");
+  var recipientList = document.getElementById("recipient-list");
+  var addForm = document.getElementById("add-form");
+  var emailInput = document.getElementById("email-input");
+  var manageStatus = document.getElementById("manage-status");
+  var logoutLink = document.getElementById("logout-link");
+
+  var password = null;
+
+  function readStoredPassword() {
+    try { return window.localStorage.getItem(STORAGE_KEY); } catch (_error) { return null; }
+  }
+
+  function storePassword(value) {
+    try {
+      if (value) window.localStorage.setItem(STORAGE_KEY, value);
+      else window.localStorage.removeItem(STORAGE_KEY);
+    } catch (_error) { /* localStorage blocked: re-enter next visit */ }
+  }
+
+  function showAuth(message) {
+    password = null;
+    storePassword(null);
+    managePanel.hidden = true;
+    authPanel.hidden = false;
+    if (message) {
+      authError.textContent = message;
+      authError.hidden = false;
+    } else {
+      authError.hidden = true;
+    }
+    passwordInput.focus();
+  }
+
+  function setStatus(message, isError) {
+    if (!message) { manageStatus.hidden = true; return; }
+    manageStatus.textContent = message;
+    manageStatus.classList.toggle("form-error", Boolean(isError));
+    manageStatus.hidden = false;
+  }
+
+  function api(payload) {
+    return fetch("/api/recipients", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify(payload),
+    }).then(function (response) {
+      return response.json().then(function (body) {
+        return { status: response.status, body: body };
+      });
+    });
+  }
+
+  function renderRecipients(emails) {
+    recipientList.textContent = "";
+    if (!emails.length) {
+      var empty = document.createElement("li");
+      empty.className = "quiet";
+      empty.textContent = "No recipients yet. Add the first address below.";
+      recipientList.appendChild(empty);
+      return;
+    }
+    emails.forEach(function (email) {
+      var item = document.createElement("li");
+      var label = document.createElement("span");
+      label.textContent = email;
+      var removeButton = document.createElement("button");
+      removeButton.type = "button";
+      removeButton.className = "remove-button";
+      removeButton.textContent = "Remove";
+      removeButton.addEventListener("click", function () {
+        if (!window.confirm("Remove " + email + " from the list?")) return;
+        removeButton.disabled = true;
+        api({ password: password, action: "remove", email: email }).then(function (result) {
+          handleListResult(result, "Removed " + email + ".");
+        });
+      });
+      item.appendChild(label);
+      item.appendChild(removeButton);
+      recipientList.appendChild(item);
+    });
+  }
+
+  function handleListResult(result, successMessage) {
+    if (result.status === 401) { showAuth("Incorrect password."); return; }
+    if (!result.body || result.body.ok !== true) {
+      setStatus((result.body && result.body.error) || "The operation could not be completed.", true);
+      return;
+    }
+    renderRecipients(result.body.recipients);
+    authPanel.hidden = true;
+    managePanel.hidden = false;
+    setStatus(successMessage || "");
+  }
+
+  authForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    var candidate = passwordInput.value;
+    if (!candidate) return;
+    authError.hidden = true;
+    api({ password: candidate, action: "list" }).then(function (result) {
+      if (result.status === 401) {
+        authError.textContent = "Incorrect password.";
+        authError.hidden = false;
+        return;
+      }
+      if (!result.body || result.body.ok !== true) {
+        authError.textContent = (result.body && result.body.error) || "Access is not available right now.";
+        authError.hidden = false;
+        return;
+      }
+      password = candidate;
+      storePassword(candidate);
+      passwordInput.value = "";
+      handleListResult(result);
+    });
+  });
+
+  addForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    var email = emailInput.value.trim();
+    if (!email) return;
+    setStatus("Adding " + email + "…");
+    api({ password: password, action: "add", email: email }).then(function (result) {
+      if (result.body && result.body.ok === true) emailInput.value = "";
+      handleListResult(result, "Added " + email + ".");
+    });
+  });
+
+  logoutLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    showAuth();
+  });
+
+  var stored = readStoredPassword();
+  if (stored) {
+    api({ password: stored, action: "list" }).then(function (result) {
+      if (result.status === 401) { showAuth(); return; }
+      if (!result.body || result.body.ok !== true) { showAuth(); return; }
+      password = stored;
+      handleListResult(result);
+    });
+  } else {
+    showAuth();
+  }
+})();
+</script>
+</body>
+</html>
