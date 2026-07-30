@@ -5,6 +5,50 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "9a90324a9d2d7821d0c3d242e82d118a369e5f71",
+      "title": "Oversight Committee Releases Kathryn Ruemmler Transcript",
+      "url": "https://oversight.house.gov/release/oversight-committee-releases-kathryn-ruemmler-transcript",
+      "date_published": "2026-07-29T05:00:00+00:00",
+      "summary": "WASHINGTON\u2014Today, the House Committee on Oversight and Government Reform released the transcript from Kathryn Ruemmler\u2019s transcribed interview as part of the Committee\u2019s review of the federal investigations into Jeffrey Epstein and Ghislaine Maxwell. Ruemmler\u2019s interview occurred on July 15, 2026.",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_press",
+        "source_name": "House Oversight - Press Releases",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-07-30T10:58:50.350854+00:00",
+        "cluster_id": "49598aa81944f161ba6f8ac8bb30f5a01414c54e",
+        "summary_generated": false
+      }
+    },
+    {
+      "id": "7c72edcecd85b62a7c71cbc680c525ebb662586a",
+      "title": "Chairman Comer Statement on Dr. Fauci Pleading the Fifth",
+      "url": "https://oversight.house.gov/release/chairman-comer-statement-on-dr-fauci-pleading-the-fifth",
+      "date_published": "2026-07-29T05:00:00+00:00",
+      "summary": "WASHINGTON\u2014House Committee on Oversight and Government Reform Chairman James Comer (R-Ky.) issued the following statement on Dr. Anthony Fauci pleading the Fifth at today\u2019s Senate hearing: \u201cDr. Fauci is trapped by the many lies he repeatedly told the American public. If former President Biden\u2019s blanket autopen pardon is valid, then Dr. Fauci has no right to refuse to answer questions. The Oversight Committee exposed how the Biden White House abused the autopen and any ...",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_press",
+        "source_name": "House Oversight - Press Releases",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-07-30T10:58:50.351129+00:00",
+        "cluster_id": "feceeb05e0e65ae41332591a85ba9bf3761458e9",
+        "summary_generated": false
+      }
+    },
+    {
       "id": "2ff9b5a440331e7fce521449df2f4c189f05c800",
       "title": "2026.07.27 - Minority Staff Memo - Bound to Fail: Stories from Inside the Price Collapse of $TRUMP Coin",
       "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-07-27-minority-staff-memo-bound-to-fail-stories-from-inside-the-price-collapse-of-trump-coin",
@@ -885,50 +929,6 @@
       }
     },
     {
-      "id": "e1f6d0080dcfc77e40927d210b20915cfa0b46ed",
-      "title": "Hearing Wrap Up: Smithsonian National Museum of American History\u2019s Radical Agenda to Reshape the Past",
-      "url": "https://oversight.house.gov/release/hearing-wrap-up-smithsonian-national-museum-of-american-historys-radical-agenda-to-reshape-the-past",
-      "date_published": "2026-07-21T05:00:00+00:00",
-      "summary": "WASHINGTON\u2014Today, the Subcommittee on Delivering on Government Efficiency held a hearing titled \u201cRewriting American History: Examining the Smithsonian\u2019s Efforts to Reshape the Past.\u201d During the hearing, members examined efforts of the National Museum of American History (NMAH) and the broader Smithsonian Institution to promote divisive, inappropriate, ...",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_press",
-        "source_name": "House Oversight - Press Releases",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:02.633237+00:00",
-        "cluster_id": "9c0a6a6d4ce5abb1cd2be75f1c2c1290bc021df9",
-        "summary_generated": false
-      }
-    },
-    {
-      "id": "55256177d5417d954fd9b902ba239fdc74c8dc30",
-      "title": "Ratepayer Protection Act Advances from House Committee on Energy and Commerce",
-      "url": "https://energycommerce.house.gov/posts/ratepayer-protection-act-advances-from-house-committee-on-energy-and-commerce",
-      "date_published": "2026-07-21T00:00:00+00:00",
-      "summary": "WASHINGTON, D.C. - Today, Congressman Brett Guthrie (KY-02), Chairman of the House Committee on Energy and Commerce, Congressman Bob Latta (OH-05), Chairman of the Energy and Commerce Subcommittee on Energy, and Congressman Gabe Evans (CO-08), applauded the Committee's passage of H.R. 9340, the Rate",
-      "tags": [
-        "House Energy and Commerce",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_energy_commerce_press",
-        "source_name": "House Energy & Commerce - Press Releases",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:04.931862+00:00",
-        "cluster_id": "a5134f520a29fa5bd0d6c7959cdc3a70ad41c08a",
-        "summary_generated": false
-      }
-    },
-    {
       "id": "828ec55f1b418f162ec423a063d33e80e65d3841",
       "title": "ICYMI: Angel Mother Jennifer Bos Calls on Senate to Confirm Todd Blanche, Joins Coalition of 300 Angel Families",
       "url": "https://www.judiciary.senate.gov/press/rep/releases/icymi-angel-mother-jennifer-bos-calls-on-senate-to-confirm-todd-blanche-joins-coalition-of-300-angel-families",
@@ -1057,28 +1057,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:43.669612+00:00",
         "cluster_id": "5ef1442d24f551664cc518d551a0d6e87bf5b315",
-        "summary_generated": false
-      }
-    },
-    {
-      "id": "d54d1dd53387c7909c9037e72a3a7a117bffb3bd",
-      "title": "Comer Announces Full Committee Markup to Lower Prescription Drug Prices, Strengthen Congressional D.C. Oversight, and Improve Government Operations",
-      "url": "https://oversight.house.gov/release/comer-announces-full-committee-markup-to-lower-prescription-drug-prices-strengthen-congressional-d-c-oversight-and-improve-government-operations",
-      "date_published": "2026-07-20T05:00:00+00:00",
-      "summary": "WASHINGTON\u2014Today, House Committee on Oversight and Government Reform Chairman James Comer (R-Ky.) announced a markup will take place on Wednesday, July 22, 2026, at 10:00 a.m. ET to consider legislation aimed at lowering prescription drug prices, strengthening congressional oversight over the District of Columbia, and improving the efficiency of the federal government.\u201cThe House Oversight Committee will advance commonsense legislation to hold pharmacy benefit managers ...",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_press",
-        "source_name": "House Oversight - Press Releases",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:02.633319+00:00",
-        "cluster_id": "3d7ffc2cb464eafc6e1b78771dfe642f2f452837",
         "summary_generated": false
       }
     },
@@ -4468,6 +4446,28 @@
         "first_seen_at": "2026-07-28T17:24:42.712755+00:00",
         "cluster_id": "46715b36f87eed9a8f1c7622c720537730f22903",
         "summary_generated": true
+      }
+    },
+    {
+      "id": "10a1f015f370b26018f6740febf56afc45626b47",
+      "title": "Congressional Leaders Get Answers from CBO on Unbudgeted IRA Costs and Multibillion-Dollar Spending Revisions",
+      "url": "https://energycommerce.house.gov/posts/congressional-leaders-get-answers-from-cbo-on-unbudgeted-ira-costs-and-multibillion-dollar-spending-revisions",
+      "date_published": "2026-05-20T00:00:00+00:00",
+      "summary": "WASHINGTON, D.C. - Today, the Congressional Budget Office (CBO) responded to a May 20, 2026 letter, authored by Congressman Brett Guthrie (KY-02), Chairman of the House Committee on Energy and Commerce, Congressman Jason Smith (MO-08), Chairman of the House Committee on Ways and Means, and Congressm",
+      "tags": [
+        "House Energy and Commerce",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_energy_commerce_press",
+        "source_name": "House Energy & Commerce - Press Releases",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-07-30T10:58:52.816781+00:00",
+        "cluster_id": "b82cec1ed550ba17e7b8343c293dc5e0254e8ff6",
+        "summary_generated": false
       }
     },
     {
