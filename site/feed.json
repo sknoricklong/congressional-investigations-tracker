@@ -5,6 +5,138 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "8628fc8630692a71ba3987d60a4ad3805dfd2dec",
+      "title": "Senate Unanimously Passes Grassley-Coons Anti-Counterfeiting Month Resolution",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/senate-unanimously-passes-grassley-coons-anti-counterfeiting-month-resolution",
+      "date_published": "2026-07-30T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-07-31T11:20:38.153977+00:00",
+        "cluster_id": "71d106f45d537caab91ab3f0f5c51c43c145cee9",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "57ede7860cb0ee89469fef1dcd1de80e52abd5d2",
+      "title": "Peters Report Finds Trump Administration Has Dismantled Critical Counterterrorism Infrastructure and Weaponized What Remains Against Political Opponents, Leaving Americans Vulnerable to Terror Threats",
+      "url": "https://www.hsgac.senate.gov/media/dems/peters-report-finds-trump-administration-has-dismantled-critical-counterterrorism-infrastructure-and-weaponized-what-remains-against-political-opponents-leaving-americans-vulnerable-to-terror-threats",
+      "date_published": "2026-07-30T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_hsgac_minority",
+        "source_name": "Senate HSGAC - Minority News",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-07-31T11:20:46.920755+00:00",
+        "cluster_id": "330b287970f08800eb21f1f036d1ca5e13f9c3f0",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "68ad9dae5b2b732e1928c16588b4ea47f5dddcd8",
+      "title": "2026.07.30 - Letter from Ranking Member Blumenthal to Taylor Farms",
+      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-07-30-letter-from-ranking-member-blumenthal-to-taylor-farms",
+      "date_published": "2026-07-30T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC / PSI",
+        "Senate",
+        "document"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_psi_library",
+        "source_name": "Senate PSI - Library",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-07-31T11:20:54.883341+00:00",
+        "cluster_id": "a0827dd507d3170f6754887b571ed38f323b90a4",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "0bf409f8284f31a6a078eed69fba94a4ea84f5ac",
+      "title": "2026.07.30 - Letter from Ranking Member Blumenthal to Acting Commissioner Diamantas",
+      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-07-30-letter-from-ranking-member-blumenthal-to-acting-commissioner-diamantis",
+      "date_published": "2026-07-30T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC / PSI",
+        "Senate",
+        "document"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_psi_library",
+        "source_name": "Senate PSI - Library",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-07-31T11:20:54.883579+00:00",
+        "cluster_id": "d801e2bda91ce5db3315c6acc65d4f97740a41bc",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "89abc00bcf6bc8d36fd35a841d14b40bc40b7e09",
+      "title": "Ranking Members Raskin, Jayapal Demand ICE Agents Wear Functional Body Cameras",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-members-raskin-jayapal-demand-ice-agents-wear-functional-body-cameras",
+      "date_published": "2026-07-30T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_dems_press",
+        "source_name": "House Judiciary Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-07-31T11:20:56.524118+00:00",
+        "cluster_id": "2ecd3129feb254415b3f493aec55d2079b440a26",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "67b471c39ae8e0cfefd6d75899df88a5e5c56094",
+      "title": "Ranking Members Raskin, McBath Lead Judiciary Democrats in Strongly Objecting to ATF\u2019s Efforts to Get Rid of Gun Safety Regulations",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-members-raskin-mcbath-lead-judiciary-democrats-in-strongly-objecting-to-atf-s-efforts-to-get-rid-of-gun-safety-regulations",
+      "date_published": "2026-07-30T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_dems_press",
+        "source_name": "House Judiciary Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-07-31T11:20:56.524326+00:00",
+        "cluster_id": "9100ed13891365c58eec941311f74232831d8186",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "9a90324a9d2d7821d0c3d242e82d118a369e5f71",
       "title": "Oversight Committee Releases Kathryn Ruemmler Transcript",
       "url": "https://oversight.house.gov/release/oversight-committee-releases-kathryn-ruemmler-transcript",
@@ -19,7 +151,7 @@
         "source_id": "house_oversight_press",
         "source_name": "House Oversight - Press Releases",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-07-30T10:58:50.350854+00:00",
         "cluster_id": "49598aa81944f161ba6f8ac8bb30f5a01414c54e",
@@ -41,11 +173,33 @@
         "source_id": "house_oversight_press",
         "source_name": "House Oversight - Press Releases",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-07-30T10:58:50.351129+00:00",
         "cluster_id": "feceeb05e0e65ae41332591a85ba9bf3761458e9",
         "summary_generated": false
+      }
+    },
+    {
+      "id": "488382e85fb1fdf95dfea65d5afc74dc92c8b209",
+      "title": "Ranking Member Robert Garcia Statement After Senate Republicans Forced to Postpone Todd Blanche\u2019s Confirmation Vote for Attorney General",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-statement-after-senate-republicans-forced-to-postpone-todd-blanches-confirmation-vote-for-attorney-general",
+      "date_published": "2026-07-29T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-07-31T11:20:56.070286+00:00",
+        "cluster_id": "0d783f9ab5458e4c89f23a79e1d32f09657064eb",
+        "summary_generated": true
       }
     },
     {
@@ -1853,50 +2007,6 @@
       }
     },
     {
-      "id": "5504f7ec1a46fb4f39bea5bc8c735b3c2fdabe70",
-      "title": "Ranking Member Raskin Expands Investigation into Political Interference in CBS News After Scott Pelley Blows Whistle on Newsroom Interference",
-      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-expands-investigation-into-political-interference-in-cbs-news-after-scott-pelley-blows-whistle-on-newsroom-interference",
-      "date_published": "2026-07-14T00:00:00+00:00",
-      "summary": "Washington, D.C. (July 14, 2026)\u2014Today, Rep.",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_dems_press",
-        "source_name": "House Judiciary Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:43.669991+00:00",
-        "cluster_id": "b98b4b4fdb8de8f1d0ec1ab38424ba76060fad8b",
-        "summary_generated": false
-      }
-    },
-    {
-      "id": "6e67050aa14c10602c38d0c602e0458a1eb44c96",
-      "title": "Ranking Member Raskin, Rep. Ocasio-Cortez, Senator Luj\u00e1n Introduce Bill to Impose $50 Gift Ban on Supreme Court Justices",
-      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-rep-ocasio-cortez-senator-lujan-introduce-bill-to-impose-50-gift-ban-on-supreme-court-justices",
-      "date_published": "2026-07-14T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_dems_press",
-        "source_name": "House Judiciary Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:43.670102+00:00",
-        "cluster_id": "78fb456c189307c5b89c6f6f8583263f980a84de",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "0041df0481f6a0a05272318e175af6989250b34a",
       "title": "House Passes 10 Homeland Security Bills to Modernize TSA, Reform I&A, Combat Terror Threats",
       "url": "https://homeland.house.gov/2026/07/13/house-passes-10-homeland-security-bills-to-modernize-tsa-reform-ia-combat-terror-threats",
@@ -2443,28 +2553,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:04.729724+00:00",
         "cluster_id": "aaaab8c094e16b66b80a278f74d78ce41eaf892c",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "dcc2d288c8eec837b88bee2ce4f1acf15514d148",
-      "title": "ICYMI: Des Moines Register: \u201cGrassley is Right. Federal Courts Should Allow Cameras.\u201d",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/icymi-des-moines-register-grassley-is-right-federal-courts-should-allow-cameras",
-      "date_published": "2026-06-29T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.949334+00:00",
-        "cluster_id": "5356ab526c9d15ae1199d0e93579c3f27f6ea602",
         "summary_generated": true
       }
     },
@@ -3811,28 +3899,6 @@
       }
     },
     {
-      "id": "c1d8b2c1f8fb1c43c49792eb776cebef9d42f603",
-      "title": "2026.06.04 - Ranking Member Blumenthal & Senator Warren Letter to SSA Commissioner Frank Bisignano",
-      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-06-04-ranking-member-blumenthal-senator-warren-letter-to-ssa-commissioner-frank-bisignano",
-      "date_published": "2026-06-05T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC / PSI",
-        "Senate",
-        "document"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_psi_library",
-        "source_name": "Senate PSI - Library",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.513947+00:00",
-        "cluster_id": "2ee35d51f0471152949db4f4901a01ea1b93fbaf",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "2001fdcb946e96c028b293e2089b43f6e5215451",
       "title": "Chairmen Jordan and McClintock, Rep. Cline, and Rep. Gill to Fairfax County Prosecutor Steve Descano on Testimony Before the Committee",
       "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2026-06-04-jdj-tm-bc-bg-to-commonwealth-s-attorney-descano-re-hearing-follow-up_0.pdf",
@@ -3896,28 +3962,6 @@
         "first_seen_at": "2026-07-28T17:24:14.808137+00:00",
         "cluster_id": "8997669ae569cbd80ba8e6451360f6281f247df4",
         "summary_generated": false
-      }
-    },
-    {
-      "id": "de0c9bbcaa2503e781808c4192fe54f144dd46b8",
-      "title": "2026.06.04 - Letter from Ranking Member Richard Blumenthal to Tether CEO Ardoino",
-      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-06-04-letter-from-ranking-member-richard-blumenthal-to-tether-ceo-ardoino",
-      "date_published": "2026-06-04T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC / PSI",
-        "Senate",
-        "document"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_psi_library",
-        "source_name": "Senate PSI - Library",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.514138+00:00",
-        "cluster_id": "38a955a9d4d47e87ff1fcbb4b281a30d55608b0c",
-        "summary_generated": true
       }
     },
     {
@@ -4207,28 +4251,6 @@
       }
     },
     {
-      "id": "0c30e1d0d13404f8bd85a1fa4284c2b5d6f0c49c",
-      "title": "Peters Statement on Postal Service Proposed Rule to Carry Out President Trump\u2019s Unconstitutional Executive Order to Restrict Vote by Mail",
-      "url": "https://www.hsgac.senate.gov/media/dems/peters-statement-on-postal-service-proposed-rule-to-carry-out-president-trumps-unconstitutional-executive-order-to-restrict-vote-by-mail",
-      "date_published": "2026-06-01T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_hsgac_minority",
-        "source_name": "Senate HSGAC - Minority News",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:33.711827+00:00",
-        "cluster_id": "40b8e9f29ea1ad4d727fea0dc4691576bd229868",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "ad1652081c95947e6eaf57f46d12963baa9fed12",
       "title": "Letter to The Honorable James Comer (Blanche)",
       "url": "https://oversightdemocrats.house.gov/download/letter-to-the-honorable-james-comer-blanche",
@@ -4427,28 +4449,6 @@
       }
     },
     {
-      "id": "cec1ae0d7de8265cd30b34462a1fffbf1ad48efd",
-      "title": "Ranking Member Robert Garcia Demands Answers on DHS $70+ Million Luxury Jet as First Lady and Admin Officials Use for Personal Transportation",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-answers-on-dhs-70-million-luxury-jet-as-first-lady-and-admin-officials-use-for-personal-transportation",
-      "date_published": "2026-05-21T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.712755+00:00",
-        "cluster_id": "46715b36f87eed9a8f1c7622c720537730f22903",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "10a1f015f370b26018f6740febf56afc45626b47",
       "title": "Congressional Leaders Get Answers from CBO on Unbudgeted IRA Costs and Multibillion-Dollar Spending Revisions",
       "url": "https://energycommerce.house.gov/posts/congressional-leaders-get-answers-from-cbo-on-unbudgeted-ira-costs-and-multibillion-dollar-spending-revisions",
@@ -4463,7 +4463,7 @@
         "source_id": "house_energy_commerce_press",
         "source_name": "House Energy & Commerce - Press Releases",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-07-30T10:58:52.816781+00:00",
         "cluster_id": "b82cec1ed550ba17e7b8343c293dc5e0254e8ff6",
