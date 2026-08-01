@@ -5,6 +5,94 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "c9aeb727819d7fdcda7144a1bdec8ed1110bb912",
+      "title": "Chairmen Garbarino, Moolenaar Continue Joint Investigation Into Security Risks Posed by PRC Open-Weight AI Models",
+      "url": "https://homeland.house.gov/2026/07/31/chairmen-garbarino-moolenaar-continue-joint-investigation-into-security-risks-posed-by-prc-open-weight-ai-models",
+      "date_published": "2026-07-31T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Homeland Security",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_homeland_press",
+        "source_name": "House Homeland Security - Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-01T10:26:31.337045+00:00",
+        "cluster_id": "b3473e6358c73146c216ded6eaba0d8ecd01dc92",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "bd2ba4153b5c241a6ef00c2e7aaa530860a1536c",
+      "title": "Grassley, Colleagues Grill Verizon for Failing to Disclose Arctic Frost Subpoenas to Congress",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-colleagues-grill-verizon-for-failing-to-disclose-arctic-frost-subpoenas-to-congress",
+      "date_published": "2026-07-31T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-01T10:26:49.803258+00:00",
+        "cluster_id": "579c4c80dcc92381ae07b7ae7f322a0d9532bf15",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "1a1f0c63288555eab9d4ad66b204209b24ed813a",
+      "title": "Ranking Members Robert Garcia and Richard Blumenthal Demand Answers About ICE Training After Killing by ICE Officer in Maine",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-richard-blumenthal-demand-answers-about-ice-training-after-killing-by-ice-officer-in-maine",
+      "date_published": "2026-07-31T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-01T10:27:10.385823+00:00",
+        "cluster_id": "bf50c29ee22734cb00c6a177181f67cca1eef029",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "caed86113531c06c409b0740a60f3507da0ee426",
+      "title": "Ranking Member Raskin Launches Investigation into Trump Scheme to Sell Insider Access to His Own Truth Social Posts",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-launches-investigation-into-trump-scheme-to-sell-insider-access-to-his-own-truth-social-posts",
+      "date_published": "2026-07-31T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_dems_press",
+        "source_name": "House Judiciary Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-01T10:27:11.045066+00:00",
+        "cluster_id": "6423511bae15bdf942ff37f59f24ef901f76aa15",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "8628fc8630692a71ba3987d60a4ad3805dfd2dec",
       "title": "Senate Unanimously Passes Grassley-Coons Anti-Counterfeiting Month Resolution",
       "url": "https://www.judiciary.senate.gov/press/rep/releases/senate-unanimously-passes-grassley-coons-anti-counterfeiting-month-resolution",
@@ -19,7 +107,7 @@
         "source_id": "senate_judiciary_majority",
         "source_name": "Senate Judiciary - Majority Press",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-07-31T11:20:38.153977+00:00",
         "cluster_id": "71d106f45d537caab91ab3f0f5c51c43c145cee9",
@@ -41,7 +129,7 @@
         "source_id": "senate_hsgac_minority",
         "source_name": "Senate HSGAC - Minority News",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-07-31T11:20:46.920755+00:00",
         "cluster_id": "330b287970f08800eb21f1f036d1ca5e13f9c3f0",
@@ -63,7 +151,7 @@
         "source_id": "senate_psi_library",
         "source_name": "Senate PSI - Library",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-07-31T11:20:54.883341+00:00",
         "cluster_id": "a0827dd507d3170f6754887b571ed38f323b90a4",
@@ -85,7 +173,7 @@
         "source_id": "senate_psi_library",
         "source_name": "Senate PSI - Library",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-07-31T11:20:54.883579+00:00",
         "cluster_id": "d801e2bda91ce5db3315c6acc65d4f97740a41bc",
@@ -107,7 +195,7 @@
         "source_id": "house_judiciary_dems_press",
         "source_name": "House Judiciary Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-07-31T11:20:56.524118+00:00",
         "cluster_id": "2ecd3129feb254415b3f493aec55d2079b440a26",
@@ -129,7 +217,7 @@
         "source_id": "house_judiciary_dems_press",
         "source_name": "House Judiciary Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-07-31T11:20:56.524326+00:00",
         "cluster_id": "9100ed13891365c58eec941311f74232831d8186",
@@ -195,7 +283,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-07-31T11:20:56.070286+00:00",
         "cluster_id": "0d783f9ab5458e4c89f23a79e1d32f09657064eb",
@@ -1787,28 +1875,6 @@
       }
     },
     {
-      "id": "793ebdf79f13265ce5aa2afec19a95f111d94200",
-      "title": "Ranking Member Raskin Demands Answers from Acting Attorney General Blanche Over DOJ\u2019s Alarming Pattern of Lying to Judges and Violating Court Orders",
-      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-demands-answers-from-acting-attorney-general-blanche-over-doj-s-alarming-pattern-of-lying-to-judges-and-violating-court-orders",
-      "date_published": "2026-07-15T00:00:00+00:00",
-      "summary": "Washington, D.C. (July 15, 2026)\u2014Rep. Jamie Raskin, Ranking Member of the House Judiciary Committee, is demanding answers from Acting Attorney General Todd Blanche regarding an alarming and widespread pattern of Department of Justice (DOJ) attorneys misleading federal courts and defying lawful court",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_dems_press",
-        "source_name": "House Judiciary Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:43.669872+00:00",
-        "cluster_id": "bfa7769b69056df1db9097e3d1183f49067a05fe",
-        "summary_generated": false
-      }
-    },
-    {
       "id": "e397324a5bdde609fc657d99fdeddc6de641337c",
       "title": "Jayapal, Garcia, Pingree, Raskin, Thompson Demand Independent Investigations into Killings of Lorenzo Salgado Araujo, Johan Sebastian Guerrero",
       "url": "https://democrats-homeland.house.gov/news/correspondence/jayapal-garcia-pingree-raskin-thompson-demand-independent-investigations-into-killings-of-lorenzo-salgado-araujo-johan-sebastian-guerrero",
@@ -2465,28 +2531,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:04.729665+00:00",
         "cluster_id": "4f3596b917512ff7c0731b3767cd4988d97881a5",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "3334070b6694920a9f14d05c82c9f2d5a2910abd",
-      "title": "Bereaved Families, Law Enforcement and Veterinary Organizations Cheer Combating Illicit Xylazine Act\u2019s Advancement in the Must-Pass NDAA",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/bereaved-families-law-enforcement-and-veterinary-organizations-cheer-combating-illicit-xylazine-acts-advancement-in-the-must-pass-ndaa",
-      "date_published": "2026-06-30T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.949274+00:00",
-        "cluster_id": "d502e117e050429cf4eb5f2f0a6b8a382917b587",
         "summary_generated": true
       }
     },
@@ -3987,28 +4031,6 @@
       }
     },
     {
-      "id": "b5b3f3e86ee3cd406ed9e8fdacf2daae993cd6db",
-      "title": "Chairman Garbarino Opens Hearing on FY2027 DHS Budget",
-      "url": "https://homeland.house.gov/2026/06/03/chairman-garbarino-opens-hearing-on-fy2027-dhs-budget",
-      "date_published": "2026-06-03T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Homeland Security",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_homeland_press",
-        "source_name": "House Homeland Security - Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:04.730400+00:00",
-        "cluster_id": "632e2996a59721ddd06a54c3d10c395475465e44",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "fb8c173fd90e8682a548a11d08fafcfc5ed5c131",
       "title": "Peters Statement on President Trump\u2019s Artificial Intelligence Executive Order",
       "url": "https://www.hsgac.senate.gov/media/dems/peters-statement-on-president-trumps-artificial-intelligence-executive-order",
@@ -4402,28 +4424,6 @@
         "first_seen_at": "2026-07-28T17:24:44.181261+00:00",
         "cluster_id": "a7f32ad09d1b777cc63b6a4ad99ef3a6a51f4578",
         "summary_generated": false
-      }
-    },
-    {
-      "id": "d35dbaeaa67e3dc4ff40d07d6ee4693661b85ff2",
-      "title": "Ranking Member Robert Garcia Appoints Congresswoman Lateefah Simon as Lead Democrat on Task Force to Defend Constitutional Rights and Expose Institutional Abuses",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-appoints-congresswoman-lateefah-simon-as-lead-democrat-on-task-force-to-defend-constitutional-rights-and-expose-institutional-abuses",
-      "date_published": "2026-05-22T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.712672+00:00",
-        "cluster_id": "0decdf2a4c2f68c8e3d36c45a0a394252c645da7",
-        "summary_generated": true
       }
     },
     {
