@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-08-02T10:25:34.294978Z",
-  "finished_at": "2026-08-02T10:26:18.296672Z",
+  "started_at": "2026-08-03T12:12:28.090268Z",
+  "finished_at": "2026-08-03T12:13:15.608954Z",
   "sources_attempted": 16,
   "sources_succeeded": 16,
   "sources_failed": 0,
@@ -15,7 +15,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 138.36897999999564,
+      "fetch_duration_ms": 187.80299800000222,
       "success": true
     },
     {
@@ -26,7 +26,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 902.9711579999997,
+      "fetch_duration_ms": 3320.496818999999,
       "success": true
     },
     {
@@ -37,7 +37,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 86.67271499999885,
+      "fetch_duration_ms": 271.1622880000064,
       "success": true
     },
     {
@@ -48,7 +48,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 1048.4130569999977,
+      "fetch_duration_ms": 1163.5066469999983,
       "success": true
     },
     {
@@ -59,7 +59,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 127.82244599999615,
+      "fetch_duration_ms": 351.0692509999984,
       "success": true
     },
     {
@@ -70,7 +70,7 @@
       "updated_count": 0,
       "unchanged_count": 9,
       "errors": [],
-      "fetch_duration_ms": 8788.174497,
+      "fetch_duration_ms": 8299.829272000004,
       "success": true
     },
     {
@@ -81,7 +81,7 @@
       "updated_count": 0,
       "unchanged_count": 9,
       "errors": [],
-      "fetch_duration_ms": 9320.225151000002,
+      "fetch_duration_ms": 9965.972064,
       "success": true
     },
     {
@@ -92,7 +92,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 75.81361300000111,
+      "fetch_duration_ms": 209.7634109999973,
       "success": true
     },
     {
@@ -103,7 +103,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 984.2267250000064,
+      "fetch_duration_ms": 899.0773069999989,
       "success": true
     },
     {
@@ -114,7 +114,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 11447.191003999997,
+      "fetch_duration_ms": 10055.546307,
       "success": true
     },
     {
@@ -125,7 +125,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 8191.496399999991,
+      "fetch_duration_ms": 9352.319144000006,
       "success": true
     },
     {
@@ -136,7 +136,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 1070.333568999999,
+      "fetch_duration_ms": 1302.4100199999964,
       "success": true
     },
     {
@@ -147,7 +147,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 77.06539100000498,
+      "fetch_duration_ms": 154.14148600000033,
       "success": true
     },
     {
@@ -158,7 +158,7 @@
       "updated_count": 0,
       "unchanged_count": 15,
       "errors": [],
-      "fetch_duration_ms": 988.8463889999883,
+      "fetch_duration_ms": 897.9480519999896,
       "success": true
     },
     {
@@ -169,7 +169,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 101.95180699999185,
+      "fetch_duration_ms": 323.006675000002,
       "success": true
     },
     {
@@ -180,19 +180,20 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 559.3210400000004,
+      "fetch_duration_ms": 676.0266860000002,
       "success": true
     }
   ],
   "health_warnings": [
-    "STALE house_oversight_letters: newest item is 11d old (2026-07-21)",
-    "STALE house_judiciary_press: newest item is 11d old (2026-07-22)",
-    "STALE house_judiciary_letters: newest item is 11d old (2026-07-22)",
-    "STALE house_energy_commerce_press: newest item is 10d old (2026-07-23)",
-    "STALE house_energy_commerce_letters: newest item is 38d old (2026-06-25)",
-    "STALE senate_judiciary_minority: newest item is 10d old (2026-07-23)",
-    "STALE senate_hsgac_majority: newest item is 11d old (2026-07-22)",
-    "STALE house_oversight_dems_letters: newest item is 10d old (2026-07-23)",
-    "STALE house_homeland_dems_correspondence: newest item is 16d old (2026-07-17)"
+    "STALE house_oversight_press: newest item is 5d old (2026-07-29)",
+    "STALE house_oversight_letters: newest item is 12d old (2026-07-21)",
+    "STALE house_judiciary_press: newest item is 12d old (2026-07-22)",
+    "STALE house_judiciary_letters: newest item is 12d old (2026-07-22)",
+    "STALE house_energy_commerce_press: newest item is 11d old (2026-07-23)",
+    "STALE house_energy_commerce_letters: newest item is 39d old (2026-06-25)",
+    "STALE senate_judiciary_minority: newest item is 11d old (2026-07-23)",
+    "STALE senate_hsgac_majority: newest item is 12d old (2026-07-22)",
+    "STALE house_oversight_dems_letters: newest item is 11d old (2026-07-23)",
+    "STALE house_homeland_dems_correspondence: newest item is 17d old (2026-07-17)"
   ]
 }
