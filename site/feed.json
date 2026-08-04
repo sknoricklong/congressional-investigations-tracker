@@ -5,6 +5,116 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "f160c77b25966666b67c744d4a18e9d11bfcadc3",
+      "title": "Chairman Jordan and Steil, Rep. Van Drew, and Rep. Lee letter to New Jersey Lieutenant Governor and Secretary of State Dale Caldwell on Noncitizens registered to vote",
+      "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2026-08-03-jdj-bs-ll-jvd-to-caldwell-nj-dept-of-state-re-noncitizen-voting.pdf",
+      "date_published": "2026-08-03T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "letter"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_letters",
+        "source_name": "House Judiciary - Letters",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": true,
+        "first_seen_at": "2026-08-04T11:15:39.851261+00:00",
+        "cluster_id": "afa0b4baf7901f5e705477b5c59cae6d132d630d",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "1011020ae3fd49ce1cf4e2a386a8aae1f450d382",
+      "title": "ICYMI: Grassley Invites Jack Smith to Testify Before Senate Judiciary Committee",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/icymi-grassley-invites-jack-smith-to-testify-before-senate-judiciary-committee",
+      "date_published": "2026-08-03T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-04T11:15:58.376359+00:00",
+        "cluster_id": "d955c0d2c3fb6ff0ca30f80e98ac836a3b727473",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "aae72f1db0418738bdf13027a53b97207f46945a",
+      "title": "Durbin Statement On Latest Developments In Todd Blanche\u2019s Embattled Attorney General Nomination",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-statement-on-latest-developments-in-todd-blanches-embattled-attorney-general-nomination",
+      "date_published": "2026-08-03T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-04T11:15:59.369732+00:00",
+        "cluster_id": "8d2096215e402048ef3659e6d47a1cf66227a4e3",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "8201b8fb3c163d4a12ec4847e59a24d8688c254a",
+      "title": "Ranking Member Raskin\u2019s Statement: Blanche\u2019s Empty Promises Do Nothing to Kill Slush Fund, Stop the Flow of Money to Convicted J6 Felons and MAGA Allies, or End Trump Family Super Pardon",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-s-statement-blanche-s-empty-promises-do-nothing-to-kill-slush-fund-stop-the-flow-of-money-to-convicted-j6-felons-and-maga-allies-or-end-trump-family-super-pardon",
+      "date_published": "2026-08-03T00:00:00+00:00",
+      "summary": "Washington, D.C. (August 3, 2026)\u2014Today, Rep. Jamie Raskin, Ranking Member of the House Committee on the Judiciary, issued the following statement after Senators John Cornyn and Thom Tillis received a statement from Acting Attorney General Blanche regarding the Trump Administration\u2019s so-called \u201canti",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_dems_press",
+        "source_name": "House Judiciary Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-04T11:16:19.484494+00:00",
+        "cluster_id": "0f7db2bd73625b63b8d49376acb445246e752599",
+        "summary_generated": false
+      }
+    },
+    {
+      "id": "1d483dfb3a4e0ca90e62ef6f9597f340ff59b280",
+      "title": "Ranking Member Raskin Slams FCC\u2019s Unprecedented Move to Threaten ABC Licenses Over Protected Speech",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-slams-fcc-s-unprecedented-move-to-threaten-abc-licenses-over-protected-speech",
+      "date_published": "2026-08-03T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_dems_press",
+        "source_name": "House Judiciary Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-04T11:16:19.484867+00:00",
+        "cluster_id": "2d9af88d29cd5b8b73ba68e2c28bf0f60aebd15b",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "c9aeb727819d7fdcda7144a1bdec8ed1110bb912",
       "title": "Chairmen Garbarino, Moolenaar Continue Joint Investigation Into Security Risks Posed by PRC Open-Weight AI Models",
       "url": "https://homeland.house.gov/2026/07/31/chairmen-garbarino-moolenaar-continue-joint-investigation-into-security-risks-posed-by-prc-open-weight-ai-models",
@@ -45,6 +155,28 @@
         "is_pdf": false,
         "first_seen_at": "2026-08-01T10:26:49.803258+00:00",
         "cluster_id": "579c4c80dcc92381ae07b7ae7f322a0d9532bf15",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "e64b134300e25c7f920d8c1dafb22b158514cd2b",
+      "title": "Durbin Reveals Devastating Insights Into Dilley Detention Facility, Calls On Judiciary Republicans To Hold Committee Oversight Hearing On The Treatment Of Children And Families In ICE Detention",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-reveals-devastating-insights-into-dilley-detention-facility-calls-on-judiciary-republicans-to-hold-committee-oversight-hearing-on-the-treatment-of-children-and-families-in-ice-detention",
+      "date_published": "2026-07-31T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-04T11:15:59.369975+00:00",
+        "cluster_id": "e69bd6ed93df544e7cf28f9328cba6c4982cb4c6",
         "summary_generated": true
       }
     },
@@ -266,6 +398,28 @@
         "first_seen_at": "2026-07-30T10:58:50.351129+00:00",
         "cluster_id": "feceeb05e0e65ae41332591a85ba9bf3761458e9",
         "summary_generated": false
+      }
+    },
+    {
+      "id": "901164dbd531cadabb10ca772d6fdf17421753b9",
+      "title": "As Trump Admin Prepares To Deport Haitian TPS Holders, Durbin Calls For Passage Of The SECURE Act",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/as-trump-admin-prepares-to-deport-haitian-tps-holders-durbin-calls-for-passage-of-the-secure-act",
+      "date_published": "2026-07-29T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-04T11:15:59.370171+00:00",
+        "cluster_id": "a82bd30925764ee9aeb1802a794ad5efd656c5e2",
+        "summary_generated": true
       }
     },
     {
@@ -1281,28 +1435,6 @@
       }
     },
     {
-      "id": "7ee7c62aa31332117ae5fdc354f6ba4594116666",
-      "title": "Ranking Member Raskin Launches Investigation Into Evidence Epstein Acted as Unregistered Agent for Foreign Powers, Leveraging Ties to Trump",
-      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-launches-investigation-into-evidence-epstein-acted-as-unregistered-agent-for-foreign-powers-leveraging-ties-to-trump",
-      "date_published": "2026-07-21T00:00:00+00:00",
-      "summary": "Washington, D.C. (July 21, 2026)\u2014Rep. Jamie Raskin, Ranking Member of the House Judiciary Committee, wrote to Acting Attorney General Todd Blanche, Secretary of State Marco Rubio, and Director of National Intelligence-nominee and U.S.",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_dems_press",
-        "source_name": "House Judiciary Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:43.669612+00:00",
-        "cluster_id": "5ef1442d24f551664cc518d551a0d6e87bf5b315",
-        "summary_generated": false
-      }
-    },
-    {
       "id": "e34d060dbd6afaac03de3cfc83fbdf4477510061",
       "title": "The Road to Victory: How Congress Helped Secure the World Cup",
       "url": "https://homeland.house.gov/2026/07/20/the-road-to-victory-how-congress-helped-secure-the-world-cup",
@@ -1853,28 +1985,6 @@
       }
     },
     {
-      "id": "8c538c02a4ca188e16bd5769b40720d6ca1f4862",
-      "title": "Judiciary Democrats Demand DOJ Halt Unlawful Plan to Further Undermine Critical Public Safety Grant Programs",
-      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/judiciary-democrats-demand-doj-halt-unlawful-plan-to-further-undermine-critical-public-safety-grant-programs",
-      "date_published": "2026-07-15T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_dems_press",
-        "source_name": "House Judiciary Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:43.669724+00:00",
-        "cluster_id": "38412d0161bba7e238804de7b2e0feaf98ee771b",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "e397324a5bdde609fc657d99fdeddc6de641337c",
       "title": "Jayapal, Garcia, Pingree, Raskin, Thompson Demand Independent Investigations into Killings of Lorenzo Salgado Araujo, Johan Sebastian Guerrero",
       "url": "https://democrats-homeland.house.gov/news/correspondence/jayapal-garcia-pingree-raskin-thompson-demand-independent-investigations-into-killings-of-lorenzo-salgado-araujo-johan-sebastian-guerrero",
@@ -2315,28 +2425,6 @@
       }
     },
     {
-      "id": "28c34fe473ae1c2f9ecc41e4420843c25769c831",
-      "title": "The Combating Organized Retail Crime Act Protects Consumers and Businesses from Coast to Coast",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/the-combating-organized-retail-crime-act-protects-consumers-and-businesses-from-coast-to-coast",
-      "date_published": "2026-07-02T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.949209+00:00",
-        "cluster_id": "9321ccc61739e030f5d0ad379f13f1b786d1eadf",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "79b1df63ed13bd1c839e5f6edf8bd4beae6e2d2e",
       "title": "Durbin Welcomes 60 New Citizens At Naturalization Ceremony",
       "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-welcomes-60-new-citizens-at-naturalization-ceremony",
@@ -2535,50 +2623,6 @@
       }
     },
     {
-      "id": "83d8757ae9ad0b4ed064dd424dbb843897295775",
-      "title": "Congressional Democrats Press Trump Administration On Concerning Green Card Application Changes",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/congressional-democrats-press-trump-administration-on-concerning-green-card-application-changes",
-      "date_published": "2026-06-30T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.860480+00:00",
-        "cluster_id": "cf87af5913bcd4741df0647e6b8589787d48cf4b",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "563bd32f5565337a892588aa99305896371d3659",
-      "title": "Durbin Statement On Supreme Court Decision Upholding Birthright Citizenship",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-statement-on-supreme-court-decision-upholding-birthright-citizenship",
-      "date_published": "2026-06-30T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.860579+00:00",
-        "cluster_id": "12c1413a8aefaf7a7b6a0a1caf2d67b01974571c",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "f0cb7789cfc19d0207c6770d5e74c982f8c5fd69",
       "title": "MEDIA ADVISORY: Subcommittee Chairmen Guest, Pfluger Announce Joint Hearing on Northern Border Security",
       "url": "https://homeland.house.gov/2026/06/29/media-advisory-subcommittee-chairmen-guest-pfluger-announce-joint-hearing-on-northern-border-security",
@@ -2597,28 +2641,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:04.729724+00:00",
         "cluster_id": "aaaab8c094e16b66b80a278f74d78ce41eaf892c",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "79c36694d320a51bb7ab88d95bbbf7e9a5bc812e",
-      "title": "Durbin Statement On Supreme Court Ruling In Watson V. Republican National Committee",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-statement-on-supreme-court-ruling-in-watson-v-republican-national-committee",
-      "date_published": "2026-06-29T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.860884+00:00",
-        "cluster_id": "a420aa02479150c040ac265e566ecefc18f42f62",
         "summary_generated": true
       }
     },
@@ -4181,28 +4203,6 @@
         "is_pdf": true,
         "first_seen_at": "2026-07-28T17:24:04.552758+00:00",
         "cluster_id": "03beac184d1d72f832c43d39ac6321cab460b708",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "3638f7e13ba36aa1772c07120d7329e8140d4f2e",
-      "title": "Chairmen Jordan, Steil, and Comer to ActBlue Chairwoman of the Board of Directors Kimberly Peeler-Allen on Transcribed Interview Request",
-      "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2026-06-02-jdj-bs-jc-to-actblue-peeler-allen-re-doc-request.pdf",
-      "date_published": "2026-06-02T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "letter"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_letters",
-        "source_name": "House Judiciary - Letters",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": true,
-        "first_seen_at": "2026-07-28T17:24:04.552787+00:00",
-        "cluster_id": "85231f7caabcb59aa71bc862eaf8d91d23472b59",
         "summary_generated": true
       }
     },
