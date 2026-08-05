@@ -5,6 +5,138 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "65531d338b8f5a11be2ac3c3ab02949d863eac3e",
+      "title": "Grassley Opens Judiciary Committee Executive Business Meeting on Todd Blanche\u2019s Nomination to be Attorney General",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-opens-judiciary-committee-executive-business-meeting-on-todd-blanches-nomination-to-be-attorney-general",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-05T11:12:18.359555+00:00",
+        "cluster_id": "969dbec8dcc14b800c63a62e3bef38659ad292a6",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "a755245ea9d1438ddb16607b98ba414bfa676aea",
+      "title": "Senate Unanimously Passes Grassley-Durbin Bankruptcy Legislation to Support Small Businesses and American Families",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/senate-unanimously-passes-grassley-durbin-bankruptcy-legislation-to-support-small-businesses-and-american-families",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-05T11:12:18.359751+00:00",
+        "cluster_id": "2a72f47ff78d37e3d224c6c3e9839d33cd9494f6",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "964b96f5a32e8683f59c3f6f5b77ea16121c2fca",
+      "title": "Senate Judiciary Committee Advances Todd Blanche\u2019s Nomination to be Attorney General",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/senate-judiciary-committee-advances-todd-blanches-nomination-to-be-attorney-general",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-05T11:12:18.359910+00:00",
+        "cluster_id": "1f27773a50c5c556080b98af1105d9fdff1a203d",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "9750158ea38b13ae188491c52bae00aff3c37ef7",
+      "title": "Chairman Paul Releases Contempt Resolution Against Dr. Anthony Fauci; Committee to Vote Thursday",
+      "url": "https://www.hsgac.senate.gov/media/reps/chairman-paul-releases-contempt-resolution-against-dr-anthony-fauci-committee-to-vote-thursday",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_hsgac_majority",
+        "source_name": "Senate HSGAC - Majority News",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-05T11:12:20.488324+00:00",
+        "cluster_id": "c8f481b8bc43f804ab47a325ce3b2d87867a9bc4",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "56b2f172733e2bf7da02f6fa07c01e280ef0a2df",
+      "title": "Ranking Member Robert Garcia Statement After Senate Advances Todd Blanche\u2019s Confirmation for Attorney General",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-statement-after-senate-advances-todd-blanches-confirmation-for-attorney-general",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-05T11:12:36.489187+00:00",
+        "cluster_id": "1e4fa3d51ff74f49064cc159d799eefb00335f97",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "52216d65626b37536f10533e8a5be237692b9fd3",
+      "title": "Ranking Member Robert Garcia and Congressman Suhas Subramanyam Demand Pentagon Explain Why It Lied About American Casualties",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-and-congressman-suhas-subramanyam-demand-pentagon-explain-why-it-lied-about-american-casualties",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-05T11:12:36.489373+00:00",
+        "cluster_id": "e655ea70ca10d85e13c3957f4c4f0411bb057904",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "f160c77b25966666b67c744d4a18e9d11bfcadc3",
       "title": "Chairman Jordan and Steil, Rep. Van Drew, and Rep. Lee letter to New Jersey Lieutenant Governor and Secretary of State Dale Caldwell on Noncitizens registered to vote",
       "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2026-08-03-jdj-bs-ll-jvd-to-caldwell-nj-dept-of-state-re-noncitizen-voting.pdf",
@@ -19,7 +151,7 @@
         "source_id": "house_judiciary_letters",
         "source_name": "House Judiciary - Letters",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": true,
         "first_seen_at": "2026-08-04T11:15:39.851261+00:00",
         "cluster_id": "afa0b4baf7901f5e705477b5c59cae6d132d630d",
@@ -41,7 +173,7 @@
         "source_id": "senate_judiciary_majority",
         "source_name": "Senate Judiciary - Majority Press",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-04T11:15:58.376359+00:00",
         "cluster_id": "d955c0d2c3fb6ff0ca30f80e98ac836a3b727473",
@@ -63,7 +195,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-04T11:15:59.369732+00:00",
         "cluster_id": "8d2096215e402048ef3659e6d47a1cf66227a4e3",
@@ -85,7 +217,7 @@
         "source_id": "house_judiciary_dems_press",
         "source_name": "House Judiciary Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-04T11:16:19.484494+00:00",
         "cluster_id": "0f7db2bd73625b63b8d49376acb445246e752599",
@@ -107,11 +239,33 @@
         "source_id": "house_judiciary_dems_press",
         "source_name": "House Judiciary Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-04T11:16:19.484867+00:00",
         "cluster_id": "2d9af88d29cd5b8b73ba68e2c28bf0f60aebd15b",
         "summary_generated": true
+      }
+    },
+    {
+      "id": "ea499296f49fffd590bf44d549e9ea5680ebf98a",
+      "title": "Ogles and Ramirez Request Briefing from OpenAI Following Serious AI Security Incident",
+      "url": "https://democrats-homeland.house.gov/news/correspondence/ogles-and-ramirez-request-briefing-from-openai-following-serious-ai-security-incident",
+      "date_published": "2026-08-03T00:00:00+00:00",
+      "summary": "(WASHINGTON) - Today, Committee on Homeland Security Subcommittee on Cybersecurity and Infrastructure Protection Chairman Andy Ogles (R-TN) and Ranking Member Delia Ramirez (D-IL) announced they sent a letter to OpenAI Chief Executive Officer Sam Altman requesting a briefing following reports that O",
+      "tags": [
+        "House Homeland Security",
+        "House",
+        "letter"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_homeland_dems_correspondence",
+        "source_name": "House Homeland Security Democrats - Correspondence",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-05T11:12:38.365540+00:00",
+        "cluster_id": "c6d69dd68c6d22bd30254753ed7e6910fca31e5f",
+        "summary_generated": false
       }
     },
     {
@@ -173,7 +327,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-04T11:15:59.369975+00:00",
         "cluster_id": "e69bd6ed93df544e7cf28f9328cba6c4982cb4c6",
@@ -415,7 +569,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-04T11:15:59.370171+00:00",
         "cluster_id": "a82bd30925764ee9aeb1802a794ad5efd656c5e2",
@@ -2095,28 +2249,6 @@
       }
     },
     {
-      "id": "be29df5d1e02ea3d2eb20af4c0e2161c583b27e0",
-      "title": "Grassley Opens Judiciary Hearing on Patent Eligibility, Highlights Need for All Americans to Benefit from Innovation and Advancement",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-opens-judiciary-hearing-on-patent-eligibility-highlights-need-for-all-americans-to-benefit-from-innovation-and-advancement",
-      "date_published": "2026-07-14T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.949014+00:00",
-        "cluster_id": "a04b0c6b55d25bd59a11b603a2dbcd25b3180af9",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "54873dea5713e6162692d512b088e81535c126ea",
       "title": "Durbin Presses Justices Kagan, Barrett On Judicial Security In Rare Congressional Appearance",
       "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-presses-justices-kagan-barrett-on-judicial-security-in-rare-congressional-appearance",
@@ -2312,50 +2444,6 @@
         "first_seen_at": "2026-07-28T17:24:44.179811+00:00",
         "cluster_id": "2c0fb2eff118a372121192bb2233e6a676359256",
         "summary_generated": false
-      }
-    },
-    {
-      "id": "7795b11848941000b5fa233a0fe7ddf416e4f32b",
-      "title": "Biden DOJ Personnel Exposed Classified Materials While Special Counsel Jack Smith Prosecuted Trump, Records Show",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/biden-doj-personnel-exposed-classified-materials-while-special-counsel-jack-smith-prosecuted-trump-records-show",
-      "date_published": "2026-07-08T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.949080+00:00",
-        "cluster_id": "9e9f3981dd98d41994900b09e681354142d2bf05",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "fd31ab812ba9830dc2925ff3b5e19776225a4d92",
-      "title": "Law Enforcement and Retail Industry Leaders Call on Congress to Pass the Combating Organized Retail Crime Act Through the NDAA",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/law-enforcement-and-retail-industry-leaders-call-on-congress-to-pass-the-combating-organized-retail-crime-act-through-the-ndaa",
-      "date_published": "2026-07-07T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.949146+00:00",
-        "cluster_id": "c978bfb4f8c84c3c556d50543bac158b92b26e61",
-        "summary_generated": true
       }
     },
     {
@@ -4339,50 +4427,6 @@
       }
     },
     {
-      "id": "e6344ae740318f45ad29d11006fb9ee64510d1d0",
-      "title": "Oversight Democrats\u2019 Statement on Former Attorney General Pam Bondi Not Being Filmed",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/oversight-democrats-statement-on-former-attorney-general-pam-bondi-not-being-filmed",
-      "date_published": "2026-05-28T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.712503+00:00",
-        "cluster_id": "ed31c5263065793bbe72d470ef3775e6aefa0bf3",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "e785adbcc894b06630c718c4832523e9dc9ce137",
-      "title": "Ranking Members Robert Garcia and Jared Huffman and Senator Sheldon Whitehouse File Amicus Brief to Block Trump\u2019s Illegal Ballroom",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-jared-huffman-and-senator-sheldon-whitehouse-file-amicus-brief-to-block-trumps-illegal-ballroom",
-      "date_published": "2026-05-28T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.712587+00:00",
-        "cluster_id": "91d7a74756db513482cc2c857a49f0855d8593a7",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "8dc4fc14d3c291734eb3a73214336e6b5174d115",
       "title": "Ranking Members Thompson, Kennedy Request Investigation into the Politicization of FEMA Disaster Declarations",
       "url": "https://democrats-homeland.house.gov/news/correspondence/ranking-members-thompson-kennedy-request-investigation-into-the-politicization-of-fema-disaster-declarations",
@@ -4955,28 +4999,6 @@
       }
     },
     {
-      "id": "216013720c265b6b673ea6b53ddd5bede7225b1d",
-      "title": "Thompson, Thanedar, McIver Call for Investigation into Latest TSA Shutdown Propaganda Video",
-      "url": "https://democrats-homeland.house.gov/news/correspondence/thompson-thanedar-mciver-call-for-investigation-into-latest-tsa-shutdown-propaganda-video",
-      "date_published": "2026-03-13T00:00:00+00:00",
-      "summary": "(WASHINGTON) - Today, Rep. Bennie G. Thompson (D-MS), Ranking Member of the Committee on Homeland Security; Rep. Shri Thanedar (D-MI), Ranking Member of the Subcommittee on Oversight, Investigations & Accountability; and Rep. LaMonica McIver (D-NJ), Ranking Member of the Subcommittee on Transportati",
-      "tags": [
-        "House Homeland Security",
-        "House",
-        "letter"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_homeland_dems_correspondence",
-        "source_name": "House Homeland Security Democrats - Correspondence",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:44.182049+00:00",
-        "cluster_id": "196832c15e106506142c8b5bf8d427331c27beb4",
-        "summary_generated": false
-      }
-    },
-    {
       "id": "65b0dbb4963e5d47080fd26c01db043629925e92",
       "title": "Chairman Guthrie and Ranking Member Pallone Ask President Trump to Brief and Help Coordinate Unified U.S. Strategy for WRC-27",
       "url": "https://energycommerce.house.gov/posts/chairman-guthrie-and-ranking-member-pallone-ask-president-trump-to-brief-and-help-coordinate-unified-u-s-strategy-for-wrc-27",
@@ -5040,28 +5062,6 @@
         "first_seen_at": "2026-07-28T17:24:14.809151+00:00",
         "cluster_id": "1eb183056a06e176786b670f69a626d6dd8bdabb",
         "summary_generated": false
-      }
-    },
-    {
-      "id": "a053f7ddc6b8ae0560eb04cf19063783cbe43279",
-      "title": "Dr. Paul Delivers Opening Remarks on Federal-State Immigration Enforcement in Oversight Hearing",
-      "url": "https://www.hsgac.senate.gov/media/reps/dr-paul-delivers-opening-remarks-on-federal-state-immigration-enforcement-in-oversight-hearing",
-      "date_published": "2026-02-12T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_hsgac_majority",
-        "source_name": "Senate HSGAC - Majority News",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:26.536687+00:00",
-        "cluster_id": "dac15571c24df2869c8842d815ace85eac6f1df2",
-        "summary_generated": true
       }
     },
     {
