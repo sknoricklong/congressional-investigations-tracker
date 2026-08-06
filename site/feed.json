@@ -5,6 +5,50 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "10a78914e98e75306cc62fa70c9291ad0f51cee4",
+      "title": "Chairmen Guthrie and Joyce on the Decertification of Kentucky OPO Following Months of Congressional Oversight",
+      "url": "https://energycommerce.house.gov/posts/chairmen-guthrie-and-joyce-on-the-decertification-of-kentucky-opo-following-months-of-congressional-oversight",
+      "date_published": "2026-08-05T00:00:00+00:00",
+      "summary": "WASHINGTON, D.C. - Today, Congressman Brett Guthrie (KY-02), Chairman of the House Committee on Energy and Commerce, and Congressman John Joyce, M.D. (PA-13), Chairman of the Energy and Commerce Subcommittee on Oversight and Investigations, issued the following statements following the Department of",
+      "tags": [
+        "House Energy and Commerce",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_energy_commerce_press",
+        "source_name": "House Energy & Commerce - Press Releases",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-06T11:12:50.895954+00:00",
+        "cluster_id": "767d71c70d355c15e0d8e2d45036a932b1f80861",
+        "summary_generated": false
+      }
+    },
+    {
+      "id": "08386e4e2038df3ebd0830aaec8df9d8613a55f3",
+      "title": "Grassley Opens Senate Judiciary Committee Hearing on Antitrust AAG, Judges and Commissioner Nominees",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-opens-senate-judiciary-committee-hearing-on-antitrust-aag-judges-and-commissioner-nominees",
+      "date_published": "2026-08-05T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-06T11:13:09.211045+00:00",
+        "cluster_id": "0be2addfebc9a435b09137397120c1cd8b7c3c2a",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "65531d338b8f5a11be2ac3c3ab02949d863eac3e",
       "title": "Grassley Opens Judiciary Committee Executive Business Meeting on Todd Blanche\u2019s Nomination to be Attorney General",
       "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-opens-judiciary-committee-executive-business-meeting-on-todd-blanches-nomination-to-be-attorney-general",
@@ -19,7 +63,7 @@
         "source_id": "senate_judiciary_majority",
         "source_name": "Senate Judiciary - Majority Press",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-05T11:12:18.359555+00:00",
         "cluster_id": "969dbec8dcc14b800c63a62e3bef38659ad292a6",
@@ -41,7 +85,7 @@
         "source_id": "senate_judiciary_majority",
         "source_name": "Senate Judiciary - Majority Press",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-05T11:12:18.359751+00:00",
         "cluster_id": "2a72f47ff78d37e3d224c6c3e9839d33cd9494f6",
@@ -63,7 +107,7 @@
         "source_id": "senate_judiciary_majority",
         "source_name": "Senate Judiciary - Majority Press",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-05T11:12:18.359910+00:00",
         "cluster_id": "1f27773a50c5c556080b98af1105d9fdff1a203d",
@@ -85,10 +129,32 @@
         "source_id": "senate_hsgac_majority",
         "source_name": "Senate HSGAC - Majority News",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-05T11:12:20.488324+00:00",
         "cluster_id": "c8f481b8bc43f804ab47a325ce3b2d87867a9bc4",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "d59808a339217e25a06e98ba2bd4e55899df65ce",
+      "title": "Ranking Member Robert Garcia Escalates Investigation into Trump Administration Venezuelan Oil Management, as Revenue Exceeds $13B",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-escalates-investigation-into-trump-administration-venezuelan-oil-management-as-revenue-exceeds-13b",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-06T11:13:35.358601+00:00",
+        "cluster_id": "953220a7f25fac8d5b13852089fa8bc86252f337",
         "summary_generated": true
       }
     },
@@ -107,7 +173,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-05T11:12:36.489187+00:00",
         "cluster_id": "1e4fa3d51ff74f49064cc159d799eefb00335f97",
@@ -129,7 +195,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-05T11:12:36.489373+00:00",
         "cluster_id": "e655ea70ca10d85e13c3957f4c4f0411bb057904",
@@ -261,7 +327,7 @@
         "source_id": "house_homeland_dems_correspondence",
         "source_name": "House Homeland Security Democrats - Correspondence",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-05T11:12:38.365540+00:00",
         "cluster_id": "c6d69dd68c6d22bd30254753ed7e6910fca31e5f",
@@ -1167,28 +1233,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:04.931082+00:00",
         "cluster_id": "5403bbe30023ee08d7ddbe74d1abd507d8975926",
-        "summary_generated": false
-      }
-    },
-    {
-      "id": "089421c2efb08e23fab03f02a029e698f01ad83c",
-      "title": "Chairman Hudson Delivers Opening Statement at Subcommittee on Communications and Technology Hearing on Protecting Communications Networks and Improving Connectivity",
-      "url": "https://energycommerce.house.gov/posts/chairman-hudson-delivers-opening-statement-at-subcommittee-on-communications-and-technology-hearing-on-protecting-communications-networks-and-improving-connectivity",
-      "date_published": "2026-07-22T00:00:00+00:00",
-      "summary": "WASHINGTON, D.C. - Congressman Richard Hudson (NC-09), Chairman of the Subcommittee on Communications and Technology, delivered the following opening statement at today's hearing titled Legislative Hearing on Protecting Communications Networks and Improving Connectivit_y._",
-      "tags": [
-        "House Energy and Commerce",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_energy_commerce_press",
-        "source_name": "House Energy & Commerce - Press Releases",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:04.931481+00:00",
-        "cluster_id": "b758370db40e79dcb0823a490784135534174b9b",
         "summary_generated": false
       }
     },
@@ -2223,28 +2267,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:23.948880+00:00",
         "cluster_id": "a5f2c2ec17b5116b9847ae5da9a9154f7c50dc00",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "95fdf22c721bbf8b996305780a620f5787696e8f",
-      "title": "Todd Blanche Receives Outpouring of Support From Law Enforcement, Angel Families, Bipartisan DOJ Officials and Legal Organizations Ahead of Judiciary Committee Hearings",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/todd-blanche-receives-outpouring-of-support-from-law-enforcement-angel-families-bipartisan-doj-officials-and-legal-organizations-ahead-of-judiciary-committee-hearings",
-      "date_published": "2026-07-14T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.948950+00:00",
-        "cluster_id": "2df8b7607c2b6f8b01b4acb9bc2f769c2d8d7019",
         "summary_generated": true
       }
     },
@@ -4291,28 +4313,6 @@
         "is_pdf": true,
         "first_seen_at": "2026-07-28T17:24:04.552758+00:00",
         "cluster_id": "03beac184d1d72f832c43d39ac6321cab460b708",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "33a2567673eb514472235b65a89d37358539272f",
-      "title": "Ranking Member Robert Garcia Demands Todd Blanche and Kash Patel Testify in Epstein Investigation",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-todd-blanche-and-kash-patel-testify-in-epstein-investigation",
-      "date_published": "2026-06-02T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.712408+00:00",
-        "cluster_id": "c4bae40de1f02b1339aabd0b4470cd7e10b6ad12",
         "summary_generated": true
       }
     },
