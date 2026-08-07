@@ -5,6 +5,72 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "0578de1edb152049ec20ef229141e96e36466476",
+      "title": "Judiciary Republicans Raise Concerns About South Korea Law Targeting American Companies and Online Speech",
+      "url": "https://judiciary.house.gov/media/press-releases/judiciary-republicans-raise-concerns-about-south-korea-law-targeting-american",
+      "date_published": "2026-08-06T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_press",
+        "source_name": "House Judiciary - Press Releases",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-07T09:51:22.606248+00:00",
+        "cluster_id": "c32cbaaa24138775d53bd94a8d85c0d4be0ca197",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "e82d638f95ed8b68a0b1a0a9858675a7c079f2ac",
+      "title": "Chairman Paul\u2019s Contempt Resolution Against Anthony Fauci Advances Out of Committee",
+      "url": "https://www.hsgac.senate.gov/media/reps/chairman-pauls-contempt-resolution-against-anthony-fauci-advances-out-of-committee",
+      "date_published": "2026-08-06T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_hsgac_majority",
+        "source_name": "Senate HSGAC - Majority News",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-07T09:51:44.407482+00:00",
+        "cluster_id": "8cb416d128425687825b25aee852b5197ec5a3b7",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "ea55503a1bca68db174e7eb2b6b8a52ea021fdab",
+      "title": "Peters & Blumenthal Release GAO Report Finding DOGE Misled Americans About Claimed Savings",
+      "url": "https://www.hsgac.senate.gov/media/dems/peters-blumenthal-release-gao-report-finding-doge-misled-americans-about-claimed-savings",
+      "date_published": "2026-08-06T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_hsgac_minority",
+        "source_name": "Senate HSGAC - Minority News",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-07T09:51:52.387364+00:00",
+        "cluster_id": "ac434137bed466a84713be4f4c709b92a81c0ebe",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "10a78914e98e75306cc62fa70c9291ad0f51cee4",
       "title": "Chairmen Guthrie and Joyce on the Decertification of Kentucky OPO Following Months of Congressional Oversight",
       "url": "https://energycommerce.house.gov/posts/chairmen-guthrie-and-joyce-on-the-decertification-of-kentucky-opo-following-months-of-congressional-oversight",
@@ -19,7 +85,7 @@
         "source_id": "house_energy_commerce_press",
         "source_name": "House Energy & Commerce - Press Releases",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-06T11:12:50.895954+00:00",
         "cluster_id": "767d71c70d355c15e0d8e2d45036a932b1f80861",
@@ -41,10 +107,98 @@
         "source_id": "senate_judiciary_majority",
         "source_name": "Senate Judiciary - Majority Press",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-06T11:13:09.211045+00:00",
         "cluster_id": "0be2addfebc9a435b09137397120c1cd8b7c3c2a",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "6ac85f8acdb7a84f34759b25140bc3249074060c",
+      "title": "Durbin Questions Judicial Nominees During Judiciary Committee Hearing",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-questions-judicial-nominees-during-judiciary-committee-hearing",
+      "date_published": "2026-08-05T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-07T09:51:42.886254+00:00",
+        "cluster_id": "350ea3db12bcfb814fa2c718321f11555657451d",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "7d5e5be40becf0350e479b0d3eb5ca675b272560",
+      "title": "Durbin To Republican Colleagues: Oppose Todd Blanche\u2019s Nomination To Be Attorney General",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-to-republican-colleagues-oppose-todd-blanches-nomination-to-be-attorney-general",
+      "date_published": "2026-08-05T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-07T09:51:42.886444+00:00",
+        "cluster_id": "fe631f519be62ee8b1c60a8f69fc41b0098847f9",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "dbe0c9fb10bf6f92d65755e36d145e8ceffc0264",
+      "title": "Durbin Condemns Blatant Trump Administration Corruption In Senate Judiciary Committee Nominations Hearing Opening Statement",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-condemns-blatant-trump-administration-corruption-in-senate-judiciary-committee-nominations-hearing-opening-statement",
+      "date_published": "2026-08-05T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-07T09:51:42.886615+00:00",
+        "cluster_id": "4fb5e73c82f311d8ace15e4adb3e07aad9cc3dbe",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "38a64f6017ebfc9ce53d972955a6b138151081b7",
+      "title": "Ahead of Pending Contempt Vote, Peters Warns Colleagues Resolution Lacks Legal Basis and Would Weaken Congressional Oversight and Constitutional Rights",
+      "url": "https://www.hsgac.senate.gov/media/dems/ahead-of-pending-contempt-vote-peters-warns-colleagues-resolution-lacks-legal-basis-and-would-weaken-congressional-oversight-and-constitutional-rights",
+      "date_published": "2026-08-05T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_hsgac_minority",
+        "source_name": "Senate HSGAC - Minority News",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-07T09:51:52.387898+00:00",
+        "cluster_id": "21742a0d7fa0d23d4710859e1d5b6c1d35e0fca4",
         "summary_generated": true
       }
     },
@@ -115,6 +269,94 @@
       }
     },
     {
+      "id": "cc4d0ce189196e77933d1be00632b1705f2ec080",
+      "title": "Durbin Questions Witnesses On Protecting Consumers\u2019 Privacy During Senate Judiciary Subcommittee Hearing",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-questions-witnesses-on-protecting-consumers-privacy-during-senate-judiciary-subcommittee-hearing",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-07T09:51:42.886775+00:00",
+        "cluster_id": "05ed884b9d0f67124c91e827c3344b88377028ce",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "2efc6c235b3abb56d4f40522097adedaa322e4ca",
+      "title": "Durbin Advocates For Protecting Consumers\u2019 Privacy During Opening Statement In Senate Judiciary Subcommittee Hearing",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-advocates-for-protecting-consumers-privacy-during-opening-statement-in-senate-judiciary-subcommittee-hearing",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-07T09:51:42.886920+00:00",
+        "cluster_id": "34489faf677ccf25e37c9f076585fea0693c1e86",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "1a85f890c329b230021b87c6b38b2e5e83e40f9a",
+      "title": "Durbin, Senate Democrats Sound Alarm On Proposed ATF Rule On Transporting Firearms",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-senate-democrats-sound-alarm-on-proposed-atf-rule-on-transporting-firearms",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-07T09:51:42.887062+00:00",
+        "cluster_id": "24da378bb1cbc3ad7979394afd817d045a308aff",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "4b3a7c8cef8549b7f9a0631bc4d325011fbd409f",
+      "title": "Durbin Slams DOJ \u201cDeal\u201d On \u201cAnti-Weaponization\u201d Slush Fund During Senate Judiciary Committee Markup On Todd Blanche\u2019s Nomination To Be Attorney General",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-slams-doj-deal-on-anti-weaponization-slush-fund-during-senate-judiciary-committee-markup-on-todd-blanches-nomination-to-be-attorney-general",
+      "date_published": "2026-08-04T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-07T09:51:42.887208+00:00",
+        "cluster_id": "fc2be0690785221a21d954c3c35e4a1f5a2647e8",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "9750158ea38b13ae188491c52bae00aff3c37ef7",
       "title": "Chairman Paul Releases Contempt Resolution Against Dr. Anthony Fauci; Committee to Vote Thursday",
       "url": "https://www.hsgac.senate.gov/media/reps/chairman-paul-releases-contempt-resolution-against-dr-anthony-fauci-committee-to-vote-thursday",
@@ -151,7 +393,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-06T11:13:35.358601+00:00",
         "cluster_id": "953220a7f25fac8d5b13852089fa8bc86252f337",
@@ -2073,28 +2315,6 @@
       }
     },
     {
-      "id": "3baf5d16e97e0575472ed2d9a66370c2825c1f91",
-      "title": "Durbin Delivers Opening Statement In Senate Judiciary Committee Hearing On President Trump\u2019s Nominee To Be Attorney General, Todd Blanche",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-delivers-opening-statement-in-senate-judiciary-committee-hearing-on-president-trumps-nominee-to-be-attorney-general-todd-blanche",
-      "date_published": "2026-07-15T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.859663+00:00",
-        "cluster_id": "9f4305849f53b75ed35f56299c89439c7bae7496",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "04022ddc31749c5ae6b18b4bfd35213b37493130",
       "title": "2026.07.14 - Ranking Member Blumenthal and Senator Hawley Letter to United Healthcare",
       "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-07-14-ranking-member-blumenthal-and-senator-hawley-letter-to-united-healthcare",
@@ -2267,72 +2487,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:23.948880+00:00",
         "cluster_id": "a5f2c2ec17b5116b9847ae5da9a9154f7c50dc00",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "54873dea5713e6162692d512b088e81535c126ea",
-      "title": "Durbin Presses Justices Kagan, Barrett On Judicial Security In Rare Congressional Appearance",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-presses-justices-kagan-barrett-on-judicial-security-in-rare-congressional-appearance",
-      "date_published": "2026-07-14T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.859749+00:00",
-        "cluster_id": "5b8f0c603fa306aebf227c59b1adf00bc7653308",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "bad813f21a60e9153d2b54ab811c3aed127fa3b4",
-      "title": "Durbin Statement On Courtesy Meeting With Trump\u2019s Attorney General Pick Todd Blanche",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-statement-on-courtesy-meeting-with-trumps-attorney-general-pick-todd-blanche",
-      "date_published": "2026-07-14T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.859832+00:00",
-        "cluster_id": "d7641252da04789a116e6631514dec4f648d03bf",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "89465b2940bc8769d52614768acd171b388ca00b",
-      "title": "Durbin Statement On Fatal ICE Officer Shootings In Houston And Maine",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-statement-on-fatal-ice-officer-shootings-in-houston-and-maine",
-      "date_published": "2026-07-14T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.859916+00:00",
-        "cluster_id": "1722f5bfd48f01166d175b1848156497084015f7",
         "summary_generated": true
       }
     },
@@ -2535,50 +2689,6 @@
       }
     },
     {
-      "id": "79b1df63ed13bd1c839e5f6edf8bd4beae6e2d2e",
-      "title": "Durbin Welcomes 60 New Citizens At Naturalization Ceremony",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-welcomes-60-new-citizens-at-naturalization-ceremony",
-      "date_published": "2026-07-02T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.860083+00:00",
-        "cluster_id": "bd5973ba4595aa88874eb57a68762bfbcad6ca77",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "7184fa094d6544e8fd4ad91f53a6418fd39db698",
-      "title": "Senate Democrats Urge Justice Department To Reject Payouts For January 6 Rioters",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/senate-democrats-urge-justice-department-to-reject-payouts-for-january-6-rioters",
-      "date_published": "2026-07-02T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.860206+00:00",
-        "cluster_id": "325854b1c414e2ecab6fbb08f8c453ebb775be77",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "166afb9dfca437c8dd0f3452eed27fbd5c0d4b47",
       "title": "Peters, Schumer, Murray & Merkley Lead Senate Democrats in Demanding OMB Rescind Rule Giving President Sweeping Power to Politicize Federal Grants",
       "url": "https://www.hsgac.senate.gov/media/dems/peters-schumer-murray-merkley-lead-senate-democrats-in-demanding-omb-rescind-rule-giving-president-sweeping-power-to-politicize-federal-grants",
@@ -2685,28 +2795,6 @@
         "is_pdf": true,
         "first_seen_at": "2026-07-28T17:24:04.553342+00:00",
         "cluster_id": "043e7cf209b26f6230712dd4f62886cf7c947066",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "28e97132dd85bad9e093456d04f79cbf52c8303b",
-      "title": "Senate Judiciary Democrats Demand Todd Blanche Answer To Dozens Of Oversight Requests Ignored By Justice Department",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/senate-judiciary-democrats-demand-todd-blanche-answer-to-dozens-of-oversight-requests-ignored-by-justice-department",
-      "date_published": "2026-07-01T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.860348+00:00",
-        "cluster_id": "d81986ebc2010f9a6c6cc9ccace8d059241c1115",
         "summary_generated": true
       }
     },
@@ -3877,28 +3965,6 @@
       }
     },
     {
-      "id": "dde9662e7a8e0e1a5b8b1a6b742bbb64d891ddd9",
-      "title": "Michigan Delegation Urges Swift Approval of Major Disaster Declaration",
-      "url": "https://www.hsgac.senate.gov/media/dems/michigan-delegation-urges-swift-approval-of-major-disaster-declaration",
-      "date_published": "2026-06-09T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_hsgac_minority",
-        "source_name": "Senate HSGAC - Minority News",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:33.711210+00:00",
-        "cluster_id": "5b508ab28495dbabee95663bf7c813359007398b",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "fd14db92e9c5fab5b5d58b7a8fa279f01a44b83b",
       "title": "Walkinshaw, Ranking Member Thompson Demand Mullin Sell Noem-Era Luxury Jets",
       "url": "https://democrats-homeland.house.gov/news/correspondence/walkinshaw-ranking-member-thompson-demand-mullin-sell-noem-era-luxury-jets",
@@ -4163,28 +4229,6 @@
       }
     },
     {
-      "id": "fb8c173fd90e8682a548a11d08fafcfc5ed5c131",
-      "title": "Peters Statement on President Trump\u2019s Artificial Intelligence Executive Order",
-      "url": "https://www.hsgac.senate.gov/media/dems/peters-statement-on-president-trumps-artificial-intelligence-executive-order",
-      "date_published": "2026-06-03T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_hsgac_minority",
-        "source_name": "Senate HSGAC - Minority News",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:33.711525+00:00",
-        "cluster_id": "ff1d6a3623bc8e5447173024f09be089ed8c76c9",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "4683961e038d14d5136755b4d2573c7d019a00a6",
       "title": "Chairmen Jordan, McClintock, and Issa Demand Information on Sanctuary Policies from California Officials",
       "url": "https://judiciary.house.gov/media/press-releases/chairmen-jordan-mcclintock-and-issa-demand-information-sanctuary-policies",
@@ -4402,28 +4446,6 @@
         "first_seen_at": "2026-07-28T17:24:44.180284+00:00",
         "cluster_id": "944006e6ba4f0ef6f0008662c2a8076d88270134",
         "summary_generated": false
-      }
-    },
-    {
-      "id": "4ca32e4783f454334c758d6c8a42d520dd0314a8",
-      "title": "New Memo Reveals Biden-Harris Administration Misused Taxpayer Dollars to Fund Radical Anti-Israel Protests and Terrorist-linked NGOs",
-      "url": "https://judiciary.house.gov/media/press-releases/new-memo-reveals-biden-harris-administration-misused-taxpayer-dollars-fund",
-      "date_published": "2026-05-29T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_press",
-        "source_name": "House Judiciary - Press Releases",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:03.597070+00:00",
-        "cluster_id": "0262391488d7757659551b16e7b5041e3c67837e",
-        "summary_generated": true
       }
     },
     {
@@ -4732,28 +4754,6 @@
         "first_seen_at": "2026-07-28T17:24:44.181654+00:00",
         "cluster_id": "3f8b97b3dfc1a21cf9eb442cbe613aff1f9fe2d3",
         "summary_generated": false
-      }
-    },
-    {
-      "id": "726bdb934ea9d96290ea784d3eba785cf595ade9",
-      "title": "Chairman Paul to Introduce a Bill to Move President Trump\u2019s New Ballroom Project Forward",
-      "url": "https://www.hsgac.senate.gov/media/reps/chairman-paul-to-introduce-a-bill-to-move-president-trumps-new-ballroom-project-forward",
-      "date_published": "2026-04-27T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_hsgac_majority",
-        "source_name": "Senate HSGAC - Majority News",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:26.536480+00:00",
-        "cluster_id": "da360842a07bde9b6001b14ccd2749f7d7678d9f",
-        "summary_generated": true
       }
     },
     {
