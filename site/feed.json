@@ -5,6 +5,116 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "33fba98f48e478f0d3d21e8086fa503ed2ffa0f1",
+      "title": "Grassley Speaks Ahead of Blanche\u2019s Confirmation to be Attorney General",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-speaks-ahead-of-blanches-confirmation-to-be-attorney-general",
+      "date_published": "2026-08-07T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-08T09:27:49.606793+00:00",
+        "cluster_id": "b0d7c788ce43dfc7daa8b9448df03eacb8018eec",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "0dfd7a198dc6e6c178144cea7e28789f193827dc",
+      "title": "Senate Republicans Confirm Four U.S. Attorneys, Four U.S. Marshals and DOJ Inspector General",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/senate-republicans-confirm-four-us-attorneys-four-us-marshals-and-doj-inspector-general",
+      "date_published": "2026-08-07T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-08T09:27:49.607020+00:00",
+        "cluster_id": "7426bd57800d3b304759ba73400e5549f2d91d6e",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "259a10948e05e571ebcaff015cb481515aef0ebf",
+      "title": "Durbin Statement On Unlawful Birthright Citizenship Executive Orders",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-statement-on-unlawful-birthright-citizenship-executive-orders",
+      "date_published": "2026-08-07T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-08T09:27:50.546164+00:00",
+        "cluster_id": "51a052ea075b448bc4f8ec38258d7285f4b69296",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "533c71330a054c24ced64a480af807af719fb0d9",
+      "title": "Homeland Security and Governmental Affairs Committee Advances Legislation and Postal Naming Bills",
+      "url": "https://www.hsgac.senate.gov/media/reps/homeland-security-and-governmental-affairs-committee-advances-legislation-and-postal-naming-bills",
+      "date_published": "2026-08-07T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_hsgac_majority",
+        "source_name": "Senate HSGAC - Majority News",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-08T09:27:52.751615+00:00",
+        "cluster_id": "41a6b2a95b31089363fbd247b09b4487da197677",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "baec4529f012fa24f6e71143273b9d5aba8450d5",
+      "title": "Ranking Member Robert Garcia Demands Goldman Sachs Cut Ties with Senior Counsel Kathy Ruemmler After Shocking Confessions in Transcribed Interview",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-goldman-sachs-cut-ties-with-senior-counsel-kathy-ruemmler-after-shocking-confessions-in-transcribed-interview",
+      "date_published": "2026-08-07T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-08T09:28:18.049159+00:00",
+        "cluster_id": "6e5222f08370b4aa80a5bbdb46c7221cd7b9535c",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "0578de1edb152049ec20ef229141e96e36466476",
       "title": "Judiciary Republicans Raise Concerns About South Korea Law Targeting American Companies and Online Speech",
       "url": "https://judiciary.house.gov/media/press-releases/judiciary-republicans-raise-concerns-about-south-korea-law-targeting-american",
@@ -19,10 +129,54 @@
         "source_id": "house_judiciary_press",
         "source_name": "House Judiciary - Press Releases",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-07T09:51:22.606248+00:00",
         "cluster_id": "c32cbaaa24138775d53bd94a8d85c0d4be0ca197",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "c1206fd7706b3b4ce89ba1a8cff4a4ae21275b4a",
+      "title": "Chairmen Jordan, Fitzgerald, Issa, and Rep. Baumgartner to the Korea Media and Communications Commission Chairman on Law Targeting American Companies and Online Speech",
+      "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2026-08-06-jdj-sf-dei-mb-to-kim-re-sk-information-communication-network-act.pdf",
+      "date_published": "2026-08-06T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "letter"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_letters",
+        "source_name": "House Judiciary - Letters",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": true,
+        "first_seen_at": "2026-08-08T09:27:30.146844+00:00",
+        "cluster_id": "0b9d5763c0eacc022ca5087b7f164041a0392ff8",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "8400358041b5587d5be17c2730807429c8dbe648",
+      "title": "Senate Democrats Sound Alarm On Proposed ATF Rule Loosening Firearm Prohibitions For High-Risk Individuals",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/senate-democrats-sound-alarm-on-proposed-atf-rule-loosening-firearm-prohibitions-for-high-risk-individuals",
+      "date_published": "2026-08-06T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-08T09:27:50.546407+00:00",
+        "cluster_id": "0a5ae087619b67870ad45314996857e82ac15394",
         "summary_generated": true
       }
     },
@@ -41,7 +195,7 @@
         "source_id": "senate_hsgac_majority",
         "source_name": "Senate HSGAC - Majority News",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-07T09:51:44.407482+00:00",
         "cluster_id": "8cb416d128425687825b25aee852b5197ec5a3b7",
@@ -63,7 +217,7 @@
         "source_id": "senate_hsgac_minority",
         "source_name": "Senate HSGAC - Minority News",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-07T09:51:52.387364+00:00",
         "cluster_id": "ac434137bed466a84713be4f4c709b92a81c0ebe",
@@ -129,7 +283,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-07T09:51:42.886254+00:00",
         "cluster_id": "350ea3db12bcfb814fa2c718321f11555657451d",
@@ -151,7 +305,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-07T09:51:42.886444+00:00",
         "cluster_id": "fe631f519be62ee8b1c60a8f69fc41b0098847f9",
@@ -173,7 +327,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-07T09:51:42.886615+00:00",
         "cluster_id": "4fb5e73c82f311d8ace15e4adb3e07aad9cc3dbe",
@@ -195,10 +349,32 @@
         "source_id": "senate_hsgac_minority",
         "source_name": "Senate HSGAC - Minority News",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-07T09:51:52.387898+00:00",
         "cluster_id": "21742a0d7fa0d23d4710859e1d5b6c1d35e0fca4",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "84b0e1e5f342c71f33169a88c957aaf1ccf8a503",
+      "title": "Ranking Member Robert Garcia, Senator Elizabeth Warren, Senator Richard Blumenthal, and Senator Tammy Duckworth Urge DoD Watchdog to Investigate $3.2 Billion in Government Awards to Companies Tied to Trump Sons",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-senator-elizabeth-warren-senator-richard-blumenthal-and-senator-tammy-duckworth-urge-dod-watchdog-to-investigate-32-billion-in-government-awards-to-companies-tied-to-trump-sons",
+      "date_published": "2026-08-05T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-08T09:28:18.049406+00:00",
+        "cluster_id": "11fe9715e33813dc243a02991e888b7c0ec50b49",
         "summary_generated": true
       }
     },
@@ -283,7 +459,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-07T09:51:42.886775+00:00",
         "cluster_id": "05ed884b9d0f67124c91e827c3344b88377028ce",
@@ -305,7 +481,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-07T09:51:42.886920+00:00",
         "cluster_id": "34489faf677ccf25e37c9f076585fea0693c1e86",
@@ -327,7 +503,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-07T09:51:42.887062+00:00",
         "cluster_id": "24da378bb1cbc3ad7979394afd817d045a308aff",
@@ -349,7 +525,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-07T09:51:42.887208+00:00",
         "cluster_id": "fc2be0690785221a21d954c3c35e4a1f5a2647e8",
@@ -2161,28 +2337,6 @@
       }
     },
     {
-      "id": "db3b9505c0281879c1cef3deb29060c13354b0c0",
-      "title": "Durbin Delivers Opening Statement Ahead Of Outside Witness Panel For President Trump\u2019s Nominee To Be Attorney General, Todd Blanche",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-delivers-opening-statement-ahead-of-outside-witness-panel-for-president-trumps-nominee-to-be-attorney-general-todd-blanche",
-      "date_published": "2026-07-16T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.859488+00:00",
-        "cluster_id": "b24f5c3289b383684bf192909b1b65aa4408545e",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "1041edc9a76cab7835c475c725c95789ab9a116d",
       "title": "2026.07.16-Blumenthal-and-Garcia-to-Mullin",
       "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-07-16-blumenthal-and-garcia-to-mullin",
@@ -2267,50 +2421,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:23.948747+00:00",
         "cluster_id": "89788e63a54bc00008f6714634c80736b0f41931",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "ce0eecfde15288b11ee9b9214e464a0510030e31",
-      "title": "Grassley Questions Blanche at Attorney General Nomination Hearing",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-questions-blanche-at-attorney-general-nomination-hearing",
-      "date_published": "2026-07-15T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.948812+00:00",
-        "cluster_id": "1e9c4b5d062020c5d6e31614f5fcd71a341c54c9",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "3824cbd634409291157f9166ab30e75b0aaaad15",
-      "title": "In Front Of Epstein Survivors, Durbin Presses Attorney General Nominee, Todd Blanche, To Meet With Survivors Within The Next 30 Days",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/in-front-of-epstein-survivors-durbin-presses-attorney-general-nominee-todd-blanche-to-meet-with-survivors-within-the-next-30-days",
-      "date_published": "2026-07-15T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.859578+00:00",
-        "cluster_id": "378438f56881165a5d2a7e9f49747945d5d92bb1",
         "summary_generated": true
       }
     },
@@ -2465,28 +2575,6 @@
         "is_pdf": true,
         "first_seen_at": "2026-07-28T17:24:04.553406+00:00",
         "cluster_id": "f0d64155ba88f90cf8556a7d84db80cf48b47b72",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "7f2e7ded9c0a42c6d90191982787b8a644e610a1",
-      "title": "NEWS: Jack Smith\u2019s Investigative Team Secretly Obtained Text Messages from 44 Members of Congress Amid Trump Probe",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/news-jack-smiths-investigative-team-secretly-obtained-text-messages-from-44-members-of-congress-amid-trump-probe",
-      "date_published": "2026-07-14T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.948880+00:00",
-        "cluster_id": "a5f2c2ec17b5116b9847ae5da9a9154f7c50dc00",
         "summary_generated": true
       }
     },
@@ -3811,28 +3899,6 @@
       }
     },
     {
-      "id": "400900a15b8b8c6a1399340bd9511bdcb83e6ae8",
-      "title": "Ranking Member Robert Garcia Demands Testimony from Vice President Vance, Senior Trump Officials Following Bombshell Epstein Cover-Up Reporting",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-testimony-from-vice-president-vance-senior-trump-officials-following-bombshell-epstein-cover-up-reporting",
-      "date_published": "2026-06-11T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.712242+00:00",
-        "cluster_id": "c3f99a4972805e9590c0340e5e65ba56e2505a9d",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "ca6b298880f0b8b797ece2fc1b2a84eea548c54a",
       "title": "Letter to The Honorable James Comer (White House Coverup)",
       "url": "https://oversightdemocrats.house.gov/download/2026-06-12garcia-to-comer-re-wh-coverup",
@@ -4207,28 +4273,6 @@
       }
     },
     {
-      "id": "4df4dad91e2816f10cb33aa253ddea815c715488",
-      "title": "Ranking Member Robert Garcia, Subcommittee Ranking Members Melanie Stansbury and Suhas Subramanyam, Release Report Exposing Disastrous Impact of Trump Dismantling USAID",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-subcommittee-ranking-members-melanie-stansbury-and-suhas-subramanyam-release-report-exposing-disastrous-impact-of-trump-dismantling-usaid",
-      "date_published": "2026-06-04T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.712324+00:00",
-        "cluster_id": "c67a4f83488522cb8b4dee43f4be6ecc197822f6",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "4683961e038d14d5136755b4d2573c7d019a00a6",
       "title": "Chairmen Jordan, McClintock, and Issa Demand Information on Sanctuary Policies from California Officials",
       "url": "https://judiciary.house.gov/media/press-releases/chairmen-jordan-mcclintock-and-issa-demand-information-sanctuary-policies",
@@ -4335,28 +4379,6 @@
         "is_pdf": true,
         "first_seen_at": "2026-07-28T17:24:04.552730+00:00",
         "cluster_id": "eee69f6a289ead118cc8be91636863fa96ad5ffd",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "35bcdefed769deeafd02ce030680415c88e14dcd",
-      "title": "Chairmen Jordan, Steil, and Comer to ActBlue Director Benjamin Rahn on Transcribed Interview Request",
-      "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2026-06-02-jdj-bs-jc-to-actblue-rahn-re-doc-request.pdf",
-      "date_published": "2026-06-02T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "letter"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_letters",
-        "source_name": "House Judiciary - Letters",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": true,
-        "first_seen_at": "2026-07-28T17:24:04.552758+00:00",
-        "cluster_id": "03beac184d1d72f832c43d39ac6321cab460b708",
         "summary_generated": true
       }
     },
@@ -4709,28 +4731,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:26.536078+00:00",
         "cluster_id": "4e595ff7921183d55a440bcbfb3d4825e8cd2edf",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "699acf58342389b28a74acd60a2942f5900423df",
-      "title": "Chairman Paul Releases HSGAC Portion of Reconciliation Text",
-      "url": "https://www.hsgac.senate.gov/media/reps/chairman-paul-releases-hsgac-portion-of-reconciliation-text",
-      "date_published": "2026-05-04T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_hsgac_majority",
-        "source_name": "Senate HSGAC - Majority News",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:26.536278+00:00",
-        "cluster_id": "709d01c74ccf9402c78e299ec45e6665696a44ce",
         "summary_generated": true
       }
     },
