@@ -5,6 +5,50 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "d66fab4012cde5e92b0754fd2f3ad0713ba07a53",
+      "title": "Grassley Applauds Todd Blanche\u2019s Confirmation as Attorney General",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-applauds-todd-blanches-confirmation-as-attorney-general",
+      "date_published": "2026-08-08T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-09T09:29:39.786498+00:00",
+        "cluster_id": "2be84a3fa6ac8b412de555b6d117f54cf0d6fa14",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "688f9ad5f971d59ec3ab1a1d642a7a297fa4fc4b",
+      "title": "Ranking Member Robert Garcia Statement After Senate Confirms Todd Blanche",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-statement-after-senate-confirms-todd-blanche",
+      "date_published": "2026-08-08T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-09T09:30:05.337860+00:00",
+        "cluster_id": "e9cfa2fcd3326393d0787359430f8971b082072e",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "33fba98f48e478f0d3d21e8086fa503ed2ffa0f1",
       "title": "Grassley Speaks Ahead of Blanche\u2019s Confirmation to be Attorney General",
       "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-speaks-ahead-of-blanches-confirmation-to-be-attorney-general",
@@ -19,7 +63,7 @@
         "source_id": "senate_judiciary_majority",
         "source_name": "Senate Judiciary - Majority Press",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-08T09:27:49.606793+00:00",
         "cluster_id": "b0d7c788ce43dfc7daa8b9448df03eacb8018eec",
@@ -41,7 +85,7 @@
         "source_id": "senate_judiciary_majority",
         "source_name": "Senate Judiciary - Majority Press",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-08T09:27:49.607020+00:00",
         "cluster_id": "7426bd57800d3b304759ba73400e5549f2d91d6e",
@@ -63,7 +107,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-08T09:27:50.546164+00:00",
         "cluster_id": "51a052ea075b448bc4f8ec38258d7285f4b69296",
@@ -85,7 +129,7 @@
         "source_id": "senate_hsgac_majority",
         "source_name": "Senate HSGAC - Majority News",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-08T09:27:52.751615+00:00",
         "cluster_id": "41a6b2a95b31089363fbd247b09b4487da197677",
@@ -107,7 +151,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-08T09:28:18.049159+00:00",
         "cluster_id": "6e5222f08370b4aa80a5bbdb46c7221cd7b9535c",
@@ -151,7 +195,7 @@
         "source_id": "house_judiciary_letters",
         "source_name": "House Judiciary - Letters",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": true,
         "first_seen_at": "2026-08-08T09:27:30.146844+00:00",
         "cluster_id": "0b9d5763c0eacc022ca5087b7f164041a0392ff8",
@@ -173,7 +217,7 @@
         "source_id": "senate_judiciary_minority",
         "source_name": "Senate Judiciary - Minority Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-08T09:27:50.546407+00:00",
         "cluster_id": "0a5ae087619b67870ad45314996857e82ac15394",
@@ -371,7 +415,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-08T09:28:18.049406+00:00",
         "cluster_id": "11fe9715e33813dc243a02991e888b7c0ec50b49",
@@ -2403,28 +2447,6 @@
       }
     },
     {
-      "id": "baa28bd31003883f7afcc67049d42428f029151a",
-      "title": "Grassley Opens Senate Judiciary Committee Hearing on the Nomination of Todd Blanche to be Attorney General",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-opens-senate-judiciary-committee-hearing-on-the-nomination-of-todd-blanche-to-be-attorney-general",
-      "date_published": "2026-07-15T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.948747+00:00",
-        "cluster_id": "89788e63a54bc00008f6714634c80736b0f41931",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "04022ddc31749c5ae6b18b4bfd35213b37493130",
       "title": "2026.07.14 - Ranking Member Blumenthal and Senator Hawley Letter to United Healthcare",
       "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-07-14-ranking-member-blumenthal-and-senator-hawley-letter-to-united-healthcare",
@@ -3785,28 +3807,6 @@
         "is_pdf": true,
         "first_seen_at": "2026-07-28T17:24:03.488796+00:00",
         "cluster_id": "68e7440b533263287d1bf715fee6be6bda637082",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "b47f05ad8b54c5ed95e6d6da884399e25bb87f27",
-      "title": "After Staff Visit to Ghislaine Maxwell\u2019s Prison Camp, Ranking Members Garcia & Raskin Slam Blanche for Continued Cover-Up of Maxwell\u2019s Preferential Treatment",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/after-staff-visit-to-ghislaine-maxwells-prison-camp",
-      "date_published": "2026-06-16T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.712160+00:00",
-        "cluster_id": "19ae897eb941e1a5b73721c63c6a80c62c118be5",
         "summary_generated": true
       }
     },
