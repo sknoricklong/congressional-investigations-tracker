@@ -5,6 +5,72 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "867704ad9ac5d27ef6c80a241e557ee8dba70718",
+      "title": "Senate Unanimously Passes Grassley-Hassan Bill to Combat Counterfeit Imports",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/senate-unanimously-passes-grassley-hassan-bill-to-combat-counterfeit-imports",
+      "date_published": "2026-08-10T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-11T09:51:38.447013+00:00",
+        "cluster_id": "71690d2d58d79e3e7b6847bac9ea184953ebfd40",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "b0fbb7f7aca9e3bc0d9232704e4455c14b703d56",
+      "title": "Senate Passes Peters\u2019 Bipartisan Bill to Improve Emergency Communications in Federal Buildings",
+      "url": "https://www.hsgac.senate.gov/media/dems/senate-passes-peters-bipartisan-bill-to-improve-emergency-communications-in-federal-buildings",
+      "date_published": "2026-08-10T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_hsgac_minority",
+        "source_name": "Senate HSGAC - Minority News",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-11T09:51:49.972770+00:00",
+        "cluster_id": "bd1852e31a20ceeafd437ddd15815dd3d5ddbdf9",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "d0fb899e6d565a3e6fe098825c759305856dc077",
+      "title": "2026.08.10 - Letter from Ranking Member Blumenthal to Marcella Burke",
+      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-08-10-letter-from-ranking-member-blumenthal-to-marcella-burke",
+      "date_published": "2026-08-10T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC / PSI",
+        "Senate",
+        "document"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_psi_library",
+        "source_name": "Senate PSI - Library",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-11T09:51:59.493833+00:00",
+        "cluster_id": "752af6a9518b02a2edfa40354bce0f78b4be2e67",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "d66fab4012cde5e92b0754fd2f3ad0713ba07a53",
       "title": "Grassley Applauds Todd Blanche\u2019s Confirmation as Attorney General",
       "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-applauds-todd-blanches-confirmation-as-attorney-general",
@@ -19,7 +85,7 @@
         "source_id": "senate_judiciary_majority",
         "source_name": "Senate Judiciary - Majority Press",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-09T09:29:39.786498+00:00",
         "cluster_id": "2be84a3fa6ac8b412de555b6d117f54cf0d6fa14",
@@ -41,7 +107,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-09T09:30:05.337860+00:00",
         "cluster_id": "e9cfa2fcd3326393d0787359430f8971b082072e",
@@ -2315,28 +2381,6 @@
       }
     },
     {
-      "id": "b7d6637b885ecfe9ecb5367b126e4d5ce039471a",
-      "title": "Grassley Opens Second Day of Hearings on Todd Blanche\u2019s Nomination for Attorney General",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-opens-second-day-of-hearings-on-todd-blanches-nomination-for-attorney-general",
-      "date_published": "2026-07-16T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.948672+00:00",
-        "cluster_id": "8af7a22668a85c575b9640743921ff9343a6c890",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "2dd66a49ff5065d953c7fc108a43ecf3620a1ab8",
       "title": "Durbin Statement On Trump Election Denialism Speech",
       "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-statement-on-trump-election-denialism-speech",
@@ -4009,28 +4053,6 @@
       }
     },
     {
-      "id": "5c82f648d1aa3395ccb23bb78ed597fdc15a9bf0",
-      "title": "Congressional Democrats Release GAO Report Detailing Inhumane Conditions and Preventable Deaths at Texas Immigration Detention Center",
-      "url": "https://www.hsgac.senate.gov/media/dems/congressional-democrats-release-gao-report-detailing-inhumane-conditions-and-preventable-deaths-at-texas-immigration-detention-center",
-      "date_published": "2026-06-09T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_hsgac_minority",
-        "source_name": "Senate HSGAC - Minority News",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:33.710911+00:00",
-        "cluster_id": "f0996518a8809984811f461d73de5c188d9d58b1",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "fd14db92e9c5fab5b5d58b7a8fa279f01a44b83b",
       "title": "Walkinshaw, Ranking Member Thompson Demand Mullin Sell Noem-Era Luxury Jets",
       "url": "https://democrats-homeland.house.gov/news/correspondence/walkinshaw-ranking-member-thompson-demand-mullin-sell-noem-era-luxury-jets",
@@ -4181,28 +4203,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:42.513572+00:00",
         "cluster_id": "63fb4e0c9065b9886fdad73a500f45df7a802cf6",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "82df07ce6ba18746a6a1e23f2f128809ea86d3a4",
-      "title": "2026.06.04 - Ranking Member Blumenthal & Senator Warren Letter to Payton Rehling",
-      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-06-04-ranking-member-blumenthal-senator-warren-letter-to-payton-rehling",
-      "date_published": "2026-06-05T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC / PSI",
-        "Senate",
-        "document"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_psi_library",
-        "source_name": "Senate PSI - Library",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.513761+00:00",
-        "cluster_id": "4bc1f1dcc40abc505f16601c6d612165cc5399da",
         "summary_generated": true
       }
     },
