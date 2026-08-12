@@ -5,6 +5,94 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "cd9366ef8b725d53465a5d13bbd577cb59c8e07d",
+      "title": "House Republicans Seek Information From New Jersey Vendor on Alleged Software Error that Registered Thousands of Noncitizens to Vote",
+      "url": "https://judiciary.house.gov/media/press-releases/house-republicans-seek-information-new-jersey-vendor-alleged-software-error",
+      "date_published": "2026-08-11T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_press",
+        "source_name": "House Judiciary - Press Releases",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-12T09:53:24.233050+00:00",
+        "cluster_id": "c2b42e37457ee61ad67f00eb054e67abb147c764",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "2b0fc4510a7c8987320d9eaa3a4ec51d5864579e",
+      "title": "Chairmen Jordan and Steil, Rep. Van Drew, and Rep. Lee to IDEMIA CEO on New Jersey Registering Noncitizens to Vote",
+      "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2026-08-11-jdj-bs-ll-jvd-to-cole-idemia-re-nj-noncitizen-voting.pdf",
+      "date_published": "2026-08-11T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "letter"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_letters",
+        "source_name": "House Judiciary - Letters",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": true,
+        "first_seen_at": "2026-08-12T09:53:25.203296+00:00",
+        "cluster_id": "bcabbc8428271a3679a454de6a16f3d2492df688",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "c6e57169c899dfadfe58354f313049c3fc4e3a2a",
+      "title": "Ranking Members Robert Garcia and Jared Huffman Demand Documents from Vulcan Elements After White House Pushed Through $620 Million Loan to Company Tied to Donald Trump Jr.",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-jared-huffman-demand-documents-from-vulcan-elements-after-white-house-pushed-through-620-million-loan-to-company-tied-to-donald-trump-jr",
+      "date_published": "2026-08-11T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-12T09:53:59.316715+00:00",
+        "cluster_id": "f6899322a71af721cea038972319b6cd34e69dd9",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "6da40ce2e475ccd4f161be42bca5d1d56be1c53b",
+      "title": "Ranking Member Raskin Investigates Trump Administration\u2019s Bogus Prosecution of Innocent Olympian to Cover-Up Botched Reflecting Pool Renovation",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-investigates-trump-administration-s-bogus-prosecution-of-innocent-olympian-to-cover-up-botched-reflecting-pool-renovation",
+      "date_published": "2026-08-11T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_dems_press",
+        "source_name": "House Judiciary Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-12T09:54:00.355040+00:00",
+        "cluster_id": "f078c6b613e419935989b6c257f552cdc964a366",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "867704ad9ac5d27ef6c80a241e557ee8dba70718",
       "title": "Senate Unanimously Passes Grassley-Hassan Bill to Combat Counterfeit Imports",
       "url": "https://www.judiciary.senate.gov/press/rep/releases/senate-unanimously-passes-grassley-hassan-bill-to-combat-counterfeit-imports",
@@ -19,7 +107,7 @@
         "source_id": "senate_judiciary_majority",
         "source_name": "Senate Judiciary - Majority Press",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-11T09:51:38.447013+00:00",
         "cluster_id": "71690d2d58d79e3e7b6847bac9ea184953ebfd40",
@@ -41,7 +129,7 @@
         "source_id": "senate_hsgac_minority",
         "source_name": "Senate HSGAC - Minority News",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-11T09:51:49.972770+00:00",
         "cluster_id": "bd1852e31a20ceeafd437ddd15815dd3d5ddbdf9",
@@ -63,7 +151,7 @@
         "source_id": "senate_psi_library",
         "source_name": "Senate PSI - Library",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-11T09:51:59.493833+00:00",
         "cluster_id": "752af6a9518b02a2edfa40354bce0f78b4be2e67",
@@ -2139,28 +2227,6 @@
       }
     },
     {
-      "id": "f05c94c95b454ab341d0dac752fe0e3d22c2c46f",
-      "title": "Ranking Member Raskin Expands Probe Into Board of Peace Trademark Scheme After U.S. Patent and Trademark Office Abandons Unusual Applications",
-      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-expands-probe-into-board-of-peace-trademark-scheme-after-us-patent-and-trademark-office-abandons-unusual-applications",
-      "date_published": "2026-07-21T00:00:00+00:00",
-      "summary": "Washington, D.C. (July 21, 2026)\u2014Rep. Jamie Raskin, Ranking Member of the House Judiciary Committee, expanded his investigation into the U.S.",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_dems_press",
-        "source_name": "House Judiciary Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:43.669480+00:00",
-        "cluster_id": "8c55318ca6a5177c46a92c98105a9189d9cd1ea6",
-        "summary_generated": false
-      }
-    },
-    {
       "id": "e34d060dbd6afaac03de3cfc83fbdf4477510061",
       "title": "The Road to Victory: How Congress Helped Secure the World Cup",
       "url": "https://homeland.house.gov/2026/07/20/the-road-to-victory-how-congress-helped-secure-the-world-cup",
@@ -3811,28 +3877,6 @@
       }
     },
     {
-      "id": "7fd27cd609747a0e55b46c45f8f0eeb02059b0e0",
-      "title": "Ranking Member Robert Garcia Demands Answers from White House Chief of Staff Amidst Plan to Suspend Constitutional Rights and Turn U.S. Military Against American People",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-answers-from-white-house-chief-of-staff-amidst-plan-to-suspend-constitutional-rights-and-turn-us-military-against-american-people",
-      "date_published": "2026-06-17T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.712076+00:00",
-        "cluster_id": "5a7ec817ea4fede8aaf5ead2af2fdb129464cb70",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "f8d9ae60b408b1bebb8bc9978cbc21e22af26848",
       "title": "Comer Letter to DC Council",
       "url": "https://oversight.house.gov/wp-content/uploads/2026/06/Letter-to-Phil-Mendelson-Tyler-v.-Hennepin-County.pdf",
@@ -4273,28 +4317,6 @@
       }
     },
     {
-      "id": "4683961e038d14d5136755b4d2573c7d019a00a6",
-      "title": "Chairmen Jordan, McClintock, and Issa Demand Information on Sanctuary Policies from California Officials",
-      "url": "https://judiciary.house.gov/media/press-releases/chairmen-jordan-mcclintock-and-issa-demand-information-sanctuary-policies",
-      "date_published": "2026-06-02T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_press",
-        "source_name": "House Judiciary - Press Releases",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:03.596838+00:00",
-        "cluster_id": "f0d9c9f98c5cb6b068159b5e21d587237846adfa",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "78b6ebc2a5e28c745847a875ec5c9913f3f1e0cd",
       "title": "Chairmen Jordan and McClintock to San Francisco Chief of Police Derrick Lew on Sanctuary Policies",
       "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2026-06-02-jdj-tm-to-san-francisco-police-dept-lew.pdf",
@@ -4357,28 +4379,6 @@
         "is_pdf": true,
         "first_seen_at": "2026-07-28T17:24:04.552697+00:00",
         "cluster_id": "29399a34e85c5f66ef5d709de499ae13e937705b",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "bca3141996d090133a22160099fb0b71be6c4278",
-      "title": "Chairmen Jordan, Issa, and McClintock to San Diego Police Chief Scott Wahl on Sanctuary Policies",
-      "url": "https://judiciary.house.gov/sites/evo-subsites/republicans-judiciary.house.gov/files/evo-media-document/2026-06-02-jdj-tm-dei-to-san-diego-police-dept-wahl.pdf",
-      "date_published": "2026-06-02T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "letter"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_letters",
-        "source_name": "House Judiciary - Letters",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": true,
-        "first_seen_at": "2026-07-28T17:24:04.552730+00:00",
-        "cluster_id": "eee69f6a289ead118cc8be91636863fa96ad5ffd",
         "summary_generated": true
       }
     },
