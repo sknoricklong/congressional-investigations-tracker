@@ -5,6 +5,94 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "7f69934e536c4a647d0869cf9d6d6df786a8ba36",
+      "title": "Ranking Member Robert Garcia Statement After Todd Blanche Invents Unprecedented Protections to Shield Donald Trump from Accountability",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-statement-after-todd-blanche-invents-unprecedented-protections-to-shield-donald-trump-from-accountability",
+      "date_published": "2026-08-12T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-13T09:54:13.654717+00:00",
+        "cluster_id": "a03031afa8b544c1210e16fb9efd08ed57611775",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "68e54b7179ff80fde251f3ed761c2cf9a31580d7",
+      "title": "Ranking Member Robert Garcia Demands Answers on PEPFAR as Trump Administration Guts Lifesaving HIV/AIDS Programs",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-answers-on-pepfar-as-trump-administration-guts-lifesaving-hiv/aids-programs",
+      "date_published": "2026-08-12T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-13T09:54:13.654957+00:00",
+        "cluster_id": "14a25ebe6b3298930817a922966c26cf8e7051da",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "4df52d4a9461880065352730d4d8cf5b88e506e9",
+      "title": "In New Amicus Brief, Ranking Member Raskin Urges Supreme Court to Enforce First Step Act",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/in-new-amicus-brief-ranking-member-raskin-urges-supreme-court-to-enforce-first-step-act",
+      "date_published": "2026-08-12T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_dems_press",
+        "source_name": "House Judiciary Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-13T09:54:14.611342+00:00",
+        "cluster_id": "1e602a7c0a472a7170fab31054d20529a3787b48",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "3e37909ff72474d5fc941d79f6a5b9893d98923f",
+      "title": "Ranking Member Raskin Seeks Transcribed Interview with Paramount Skydance CEO David Ellison Following CEO\u2019s Pledge to Break Silence",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-seeks-transcribed-interview-with-paramount-skydance-ceo-david-ellison-following-ceo-s-pledge-to-break-silence",
+      "date_published": "2026-08-12T00:00:00+00:00",
+      "summary": "Today, Rep. Jamie Raskin, Ranking Member of the House Judiciary Committee, demanded that Paramount Skydance CEO David Ellison appear for a transcribed interview and answer for his Trump-enabled media consolidation spree, mounting evidence of political interference at CBS News, and plans to seize con",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_dems_press",
+        "source_name": "House Judiciary Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-13T09:54:14.611756+00:00",
+        "cluster_id": "fb28b187e107034ddd8e9e06a6b9018d4203c27d",
+        "summary_generated": false
+      }
+    },
+    {
       "id": "cd9366ef8b725d53465a5d13bbd577cb59c8e07d",
       "title": "House Republicans Seek Information From New Jersey Vendor on Alleged Software Error that Registered Thousands of Noncitizens to Vote",
       "url": "https://judiciary.house.gov/media/press-releases/house-republicans-seek-information-new-jersey-vendor-alleged-software-error",
@@ -19,7 +107,7 @@
         "source_id": "house_judiciary_press",
         "source_name": "House Judiciary - Press Releases",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-12T09:53:24.233050+00:00",
         "cluster_id": "c2b42e37457ee61ad67f00eb054e67abb147c764",
@@ -41,7 +129,7 @@
         "source_id": "house_judiciary_letters",
         "source_name": "House Judiciary - Letters",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": true,
         "first_seen_at": "2026-08-12T09:53:25.203296+00:00",
         "cluster_id": "bcabbc8428271a3679a454de6a16f3d2492df688",
@@ -63,7 +151,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-12T09:53:59.316715+00:00",
         "cluster_id": "f6899322a71af721cea038972319b6cd34e69dd9",
@@ -85,7 +173,7 @@
         "source_id": "house_judiciary_dems_press",
         "source_name": "House Judiciary Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-12T09:54:00.355040+00:00",
         "cluster_id": "f078c6b613e419935989b6c257f552cdc964a366",
@@ -1985,50 +2073,6 @@
       }
     },
     {
-      "id": "ec66fea22c5b4a190bb283b29a7b92286120c789",
-      "title": "Ranking Member Raskin Slams Republicans\u2019 Baseless and Vindictive Criminal Referral of Jack Smith, Former Special Counsel Who Prosecuted Trump\u2019s Crimes",
-      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-slams-republicans-baseless-and-vindictive-criminal-referral-of-jack-smith-former-special-counsel-who-prosecuted-trump-s-crimes",
-      "date_published": "2026-07-22T00:00:00+00:00",
-      "summary": "Washington, D.C. (July 22, 2026)\u2014Today, Rep. Jamie Raskin, Ranking Member of the House Committee on the Judiciary, issued the following statement after Chairman Jim Jordan sent a baseless and vindictive criminal referral of former Special Counsel Jack Smith to the Department of Justice (DOJ):",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_dems_press",
-        "source_name": "House Judiciary Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:43.669206+00:00",
-        "cluster_id": "fb9569ef911b80080498037e5a329f0c5a7b55a1",
-        "summary_generated": false
-      }
-    },
-    {
-      "id": "d0abd923bbb6d3d9d33fed7db2db528e499e7021",
-      "title": "Raskin, Blumenthal & Schiff Demand Answers From Big Law Firm Coerced Into Doing Trump's Bidding, Raise Ethics Concerns After Firm Advised Client In Transaction With Commerce Department",
-      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/raskin-blumenthal-schiff-demand-answers-from-big-law-firm-coerced-into-doing-trump-s-bidding-raise-ethics-concerns-after-firm-advised-client-in-transaction-with-commerce-department",
-      "date_published": "2026-07-22T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_dems_press",
-        "source_name": "House Judiciary Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:43.669329+00:00",
-        "cluster_id": "3e6da22a47a2634d61f2fdbac9e8d462e492bd8c",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "7a8a5c78da47367ed0b6cf963b5c1c52dfa310d6",
       "title": "Letter to GAO on USACE Fees",
       "url": "https://oversight.house.gov/wp-content/uploads/2026/07/GAO-Request-USACE-Fees.pdf",
@@ -3635,28 +3679,6 @@
       }
     },
     {
-      "id": "074453b9b8d7c23743157496448b2a3b3f16a4f7",
-      "title": "Ranking Member Robert Garcia Releases Report on Betrayal of MAHA: \u201cAbandoning Americans to Disease: The Trump Administration\u2019s Reckless Crusade is Harming America\u2019s Health\u201d",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-releases-report-on-betrayal-of-maha-abandoning-americans-to-disease-the-trump-administrations-reckless-crusade-is-harming-americas-health",
-      "date_published": "2026-06-23T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.711907+00:00",
-        "cluster_id": "1f60eb9affbd8df3cf1488126a4a19df519275e6",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "0a2d1a9f4366b9a031ed0749a8c7d58da68d97ee",
       "title": "Letter to Mr. John Cafaro, Green Water Solutions LLC",
       "url": "https://oversightdemocrats.house.gov/download/letter-to-mr-john-cafaro-green-water-solutions-llc",
@@ -3851,28 +3873,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:42.513010+00:00",
         "cluster_id": "4f1a43f54be1202e8288ad37ea0c49a8f11caad9",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "89151668085f396a1bf635dcaa25f70368fc6a61",
-      "title": "Ranking Members Robert Garcia and Richard Blumenthal to Hold Forum on the Trump Administration Abandoning Americans to Disease",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-richard-blumenthal-to-hold-forum-on-the-trump-administration-abandoning-americans-to-disease",
-      "date_published": "2026-06-17T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.711992+00:00",
-        "cluster_id": "995e183ed86ce63d7647b4bfe9ba020b1d6640e5",
         "summary_generated": true
       }
     },

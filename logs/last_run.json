@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-08-12T09:53:23.005897Z",
-  "finished_at": "2026-08-12T09:54:00.822840Z",
+  "started_at": "2026-08-13T09:53:35.984819Z",
+  "finished_at": "2026-08-13T09:54:15.049325Z",
   "sources_attempted": 16,
   "sources_succeeded": 16,
   "sources_failed": 0,
@@ -15,7 +15,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 63.37147900001128,
+      "fetch_duration_ms": 133.02367400000037,
       "success": true
     },
     {
@@ -26,29 +26,29 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 967.146864,
+      "fetch_duration_ms": 898.4377409999951,
       "success": true
     },
     {
       "source_id": "house_judiciary_press",
       "source_name": "House Judiciary - Press Releases",
       "items_found": 10,
-      "new_count": 1,
+      "new_count": 0,
       "updated_count": 0,
-      "unchanged_count": 9,
+      "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 117.81168899997851,
+      "fetch_duration_ms": 164.61695199999582,
       "success": true
     },
     {
       "source_id": "house_judiciary_letters",
       "source_name": "House Judiciary - Letters",
       "items_found": 20,
-      "new_count": 1,
+      "new_count": 0,
       "updated_count": 0,
-      "unchanged_count": 19,
+      "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 1015.6279840000195,
+      "fetch_duration_ms": 981.045035000001,
       "success": true
     },
     {
@@ -59,7 +59,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 72.61680900001011,
+      "fetch_duration_ms": 53.81333400000443,
       "success": true
     },
     {
@@ -70,7 +70,7 @@
       "updated_count": 0,
       "unchanged_count": 9,
       "errors": [],
-      "fetch_duration_ms": 8039.704728000004,
+      "fetch_duration_ms": 8145.844665999995,
       "success": true
     },
     {
@@ -81,7 +81,7 @@
       "updated_count": 0,
       "unchanged_count": 9,
       "errors": [],
-      "fetch_duration_ms": 10017.405303000003,
+      "fetch_duration_ms": 9918.919019,
       "success": true
     },
     {
@@ -92,7 +92,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 64.40290599999798,
+      "fetch_duration_ms": 67.1958379999964,
       "success": true
     },
     {
@@ -103,7 +103,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 977.9046030000131,
+      "fetch_duration_ms": 978.1067519999951,
       "success": true
     },
     {
@@ -114,7 +114,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 6202.402196000008,
+      "fetch_duration_ms": 7219.583661999998,
       "success": true
     },
     {
@@ -125,7 +125,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 7502.6605560000235,
+      "fetch_duration_ms": 7768.781938999993,
       "success": true
     },
     {
@@ -136,18 +136,18 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 1046.9709479999665,
+      "fetch_duration_ms": 1113.54342300001,
       "success": true
     },
     {
       "source_id": "house_oversight_dems_press",
       "source_name": "House Oversight Democrats - Press",
       "items_found": 20,
-      "new_count": 1,
+      "new_count": 2,
       "updated_count": 0,
-      "unchanged_count": 19,
+      "unchanged_count": 18,
       "errors": [],
-      "fetch_duration_ms": 137.65140499998552,
+      "fetch_duration_ms": 138.79106000000263,
       "success": true
     },
     {
@@ -158,18 +158,18 @@
       "updated_count": 0,
       "unchanged_count": 15,
       "errors": [],
-      "fetch_duration_ms": 926.5687590000198,
+      "fetch_duration_ms": 906.0412489999976,
       "success": true
     },
     {
       "source_id": "house_judiciary_dems_press",
       "source_name": "House Judiciary Democrats - Press",
       "items_found": 10,
-      "new_count": 1,
+      "new_count": 2,
       "updated_count": 0,
-      "unchanged_count": 9,
+      "unchanged_count": 8,
       "errors": [],
-      "fetch_duration_ms": 110.99896100000706,
+      "fetch_duration_ms": 49.663342999991755,
       "success": true
     },
     {
@@ -180,19 +180,19 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 463.1393120000098,
+      "fetch_duration_ms": 433.0901470000015,
       "success": true
     }
   ],
   "health_warnings": [
-    "STALE house_oversight_press: newest item is 14d old (2026-07-29)",
-    "STALE house_oversight_letters: newest item is 21d old (2026-07-21)",
-    "STALE house_homeland_press: newest item is 12d old (2026-07-31)",
-    "STALE house_energy_commerce_press: newest item is 7d old (2026-08-05)",
-    "STALE house_energy_commerce_letters: newest item is 48d old (2026-06-25)",
-    "STALE senate_judiciary_minority: newest item is 5d old (2026-08-07)",
-    "STALE senate_hsgac_majority: newest item is 5d old (2026-08-07)",
-    "STALE house_oversight_dems_letters: newest item is 20d old (2026-07-23)",
-    "STALE house_homeland_dems_correspondence: newest item is 9d old (2026-08-03)"
+    "STALE house_oversight_press: newest item is 15d old (2026-07-29)",
+    "STALE house_oversight_letters: newest item is 22d old (2026-07-21)",
+    "STALE house_homeland_press: newest item is 13d old (2026-07-31)",
+    "STALE house_energy_commerce_press: newest item is 8d old (2026-08-05)",
+    "STALE house_energy_commerce_letters: newest item is 49d old (2026-06-25)",
+    "STALE senate_judiciary_minority: newest item is 6d old (2026-08-07)",
+    "STALE senate_hsgac_majority: newest item is 6d old (2026-08-07)",
+    "STALE house_oversight_dems_letters: newest item is 21d old (2026-07-23)",
+    "STALE house_homeland_dems_correspondence: newest item is 10d old (2026-08-03)"
   ]
 }
