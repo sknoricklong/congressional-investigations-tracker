@@ -5,6 +5,72 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "eb51dba81a42ecd16d2217c63e11a60c75c8a50f",
+      "title": "New HHS Report Depicts How the Working Families Tax Cuts Lowers Health Insurance Premiums and Hospital Prices for Americans",
+      "url": "https://energycommerce.house.gov/posts/new-hhs-report-depicts-how-the-working-family-tax-cuts-lowers-health-insurance-premiums-and-hospital-prices-for-americans",
+      "date_published": "2026-08-13T00:00:00+00:00",
+      "summary": "WASHINGTON, D.C. - This week, the U.S. Department of Health and Human Services Office of the Assistant Secretary for Planning and Evaluation (ASPE) released a report, finding provider tax and state-directed payment policies in the Working Families and Tax Cuts (WFTC) are expected to reduce health ca",
+      "tags": [
+        "House Energy and Commerce",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_energy_commerce_press",
+        "source_name": "House Energy & Commerce - Press Releases",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-14T09:51:11.992454+00:00",
+        "cluster_id": "26f71d312c070a39cf9fe7bca038a73aaf447f63",
+        "summary_generated": false
+      }
+    },
+    {
+      "id": "0293ccfeb05d99a2aed46b1d9e9a60525ce9d3f9",
+      "title": "2026.08.13 - Ranking Member Blumenthal Letter to Wiles - White House Construction",
+      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-08-13-ranking-member-blumenthal-letter-to-wiles-white-house-construction",
+      "date_published": "2026-08-13T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC / PSI",
+        "Senate",
+        "document"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_psi_library",
+        "source_name": "Senate PSI - Library",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-14T09:51:50.882082+00:00",
+        "cluster_id": "0e5869afee8c58b06b7fb812520c58ef8d2028db",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "713ccd31ebeda976f94b43acdde91d68d1a205bd",
+      "title": "Durbin, Booker Submit Amicus Brief To Supreme Court In Maxwell V. Dinis",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-booker-submit-amicus-brief-to-supreme-court-in-maxwell-v-dinis",
+      "date_published": "2026-08-12T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-14T09:51:31.226725+00:00",
+        "cluster_id": "fd80105a79605956e7b1ce43d7e09503bb24c8f8",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "7f69934e536c4a647d0869cf9d6d6df786a8ba36",
       "title": "Ranking Member Robert Garcia Statement After Todd Blanche Invents Unprecedented Protections to Shield Donald Trump from Accountability",
       "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-statement-after-todd-blanche-invents-unprecedented-protections-to-shield-donald-trump-from-accountability",
@@ -19,7 +85,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-13T09:54:13.654717+00:00",
         "cluster_id": "a03031afa8b544c1210e16fb9efd08ed57611775",
@@ -41,7 +107,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-13T09:54:13.654957+00:00",
         "cluster_id": "14a25ebe6b3298930817a922966c26cf8e7051da",
@@ -63,7 +129,7 @@
         "source_id": "house_judiciary_dems_press",
         "source_name": "House Judiciary Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-13T09:54:14.611342+00:00",
         "cluster_id": "1e602a7c0a472a7170fab31054d20529a3787b48",
@@ -85,7 +151,7 @@
         "source_id": "house_judiciary_dems_press",
         "source_name": "House Judiciary Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-13T09:54:14.611756+00:00",
         "cluster_id": "fb28b187e107034ddd8e9e06a6b9018d4203c27d",
@@ -265,6 +331,28 @@
         "is_pdf": false,
         "first_seen_at": "2026-08-09T09:29:39.786498+00:00",
         "cluster_id": "2be84a3fa6ac8b412de555b6d117f54cf0d6fa14",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "54959daf023fb1f7373b51c54ee740dddb9016ae",
+      "title": "Durbin Statement On Confirmation Of Todd Blanche To Be Attorney General",
+      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-statement-on-confirmation-of-todd-blanche-to-be-attorney-general",
+      "date_published": "2026-08-08T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_minority",
+        "source_name": "Senate Judiciary - Minority Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-14T09:51:31.226934+00:00",
+        "cluster_id": "ae7fb5a6ef087e767a7f8fe45993518351761dd0",
         "summary_generated": true
       }
     },
@@ -1831,28 +1919,6 @@
       }
     },
     {
-      "id": "5aa6dddb1552b3411b8cfef54da8e7013524b916",
-      "title": "C&T Subcommittee Holds Hearing on Protecting Communications Networks and Improving Connectivity",
-      "url": "https://energycommerce.house.gov/posts/c-and-t-subcommittee-holds-hearing-on-protecting-communications-networks-and-improving-connectivity",
-      "date_published": "2026-07-22T00:00:00+00:00",
-      "summary": "WASHINGTON, D.C. \u2013 Today, Congressman Richard Hudson (NC-09), Chairman of the Subcommittee on Communications and Technology, led a hearing titled Legislative Hearing on Protecting Communications Networks and Improving Connectivity.",
-      "tags": [
-        "House Energy and Commerce",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_energy_commerce_press",
-        "source_name": "House Energy & Commerce - Press Releases",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:04.929341+00:00",
-        "cluster_id": "52d65b5090c666e1846e939e2e8423165ddf2783",
-        "summary_generated": false
-      }
-    },
-    {
       "id": "d62d48aadaa7a96d203f4f6bdefd0bb17f6f2d38",
       "title": "Commerce, Manufacturing, and Trade Subcommittee Holds Hearing on Legislation to Strengthen Consumer Product and Service Protections",
       "url": "https://energycommerce.house.gov/posts/commerce-manufacturing-and-trade-subcommittee-holds-hearing-on-legislation-to-strengthen-consumer-product-and-service-protections",
@@ -2487,50 +2553,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:23.948611+00:00",
         "cluster_id": "862c45251fb70330bb81ff91025b5cd19189cd16",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "2dd66a49ff5065d953c7fc108a43ecf3620a1ab8",
-      "title": "Durbin Statement On Trump Election Denialism Speech",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-statement-on-trump-election-denialism-speech",
-      "date_published": "2026-07-16T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.859310+00:00",
-        "cluster_id": "a1aa14785523996cacb5f98b2511871b958badff",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "62a99cab9eeaabfb4ccdc2b2a0181d31d5be1080",
-      "title": "Durbin Questions Outside Witness Panel For President Trump\u2019s Nominee To Be Attorney General, Todd Blanche",
-      "url": "https://www.judiciary.senate.gov/press/dem/releases/durbin-questions-outside-witness-panel-for-president-trumps-nominee-to-be-attorney-general-todd-blanche",
-      "date_published": "2026-07-16T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_minority",
-        "source_name": "Senate Judiciary - Minority Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:24.859399+00:00",
-        "cluster_id": "1db6f259c488bc50a0d59c4744e6fe108fd596fa",
         "summary_generated": true
       }
     },
@@ -4225,28 +4247,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:42.513383+00:00",
         "cluster_id": "ec2d30856fa5566f306dac752871733d12712b27",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "b46575c7bf8fc2d3ec13c0d5498639b45e2b1f4f",
-      "title": "2026.06.04 - Ranking Member Blumenthal & Senator Warren Letter to Jon Koval",
-      "url": "https://www.hsgac.senate.gov/subcommittees/investigations/library/files/2026-06-04-ranking-member-blumenthal-senator-warren-letter-to-jon-koval",
-      "date_published": "2026-06-05T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC / PSI",
-        "Senate",
-        "document"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_psi_library",
-        "source_name": "Senate PSI - Library",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.513572+00:00",
-        "cluster_id": "63fb4e0c9065b9886fdad73a500f45df7a802cf6",
         "summary_generated": true
       }
     },
