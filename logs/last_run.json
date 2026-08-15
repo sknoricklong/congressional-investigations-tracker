@@ -1,10 +1,10 @@
 {
-  "started_at": "2026-08-14T09:51:09.382038Z",
-  "finished_at": "2026-08-14T09:51:52.961645Z",
+  "started_at": "2026-08-15T09:16:42.880872Z",
+  "finished_at": "2026-08-15T09:17:23.015738Z",
   "sources_attempted": 16,
   "sources_succeeded": 16,
   "sources_failed": 0,
-  "total_new": 4,
+  "total_new": 0,
   "total_updated": 0,
   "results": [
     {
@@ -15,7 +15,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 126.48747500000468,
+      "fetch_duration_ms": 194.44856300000168,
       "success": true
     },
     {
@@ -26,7 +26,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 984.9063959999995,
+      "fetch_duration_ms": 866.6746040000035,
       "success": true
     },
     {
@@ -37,7 +37,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 120.99698899999822,
+      "fetch_duration_ms": 193.6749810000009,
       "success": true
     },
     {
@@ -48,7 +48,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 1038.1890940000035,
+      "fetch_duration_ms": 950.2466340000026,
       "success": true
     },
     {
@@ -59,18 +59,18 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 99.3662019999988,
+      "fetch_duration_ms": 96.4071209999986,
       "success": true
     },
     {
       "source_id": "house_energy_commerce_press",
       "source_name": "House Energy & Commerce - Press Releases",
       "items_found": 9,
-      "new_count": 1,
+      "new_count": 0,
       "updated_count": 0,
-      "unchanged_count": 8,
+      "unchanged_count": 9,
       "errors": [],
-      "fetch_duration_ms": 8312.464791000004,
+      "fetch_duration_ms": 8042.810335000006,
       "success": true
     },
     {
@@ -81,7 +81,7 @@
       "updated_count": 0,
       "unchanged_count": 9,
       "errors": [],
-      "fetch_duration_ms": 10009.442284000002,
+      "fetch_duration_ms": 10027.670569999998,
       "success": true
     },
     {
@@ -92,18 +92,18 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 202.79583800000012,
+      "fetch_duration_ms": 79.2096379999947,
       "success": true
     },
     {
       "source_id": "senate_judiciary_minority",
       "source_name": "Senate Judiciary - Minority Press",
       "items_found": 20,
-      "new_count": 2,
+      "new_count": 0,
       "updated_count": 0,
-      "unchanged_count": 18,
+      "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 863.3210620000043,
+      "fetch_duration_ms": 965.4533569999942,
       "success": true
     },
     {
@@ -114,7 +114,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 7868.154590000003,
+      "fetch_duration_ms": 8748.700863999993,
       "success": true
     },
     {
@@ -125,18 +125,18 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 10242.072210000004,
+      "fetch_duration_ms": 8254.284593000008,
       "success": true
     },
     {
       "source_id": "senate_psi_library",
       "source_name": "Senate PSI - Library",
       "items_found": 20,
-      "new_count": 1,
+      "new_count": 0,
       "updated_count": 0,
-      "unchanged_count": 19,
+      "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 1546.9409530000034,
+      "fetch_duration_ms": 92.82239600000253,
       "success": true
     },
     {
@@ -147,7 +147,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 144.43125599999007,
+      "fetch_duration_ms": 110.50131800000429,
       "success": true
     },
     {
@@ -158,7 +158,7 @@
       "updated_count": 0,
       "unchanged_count": 15,
       "errors": [],
-      "fetch_duration_ms": 1264.5326960000034,
+      "fetch_duration_ms": 924.9209279999917,
       "success": true
     },
     {
@@ -169,7 +169,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 120.90877800000044,
+      "fetch_duration_ms": 80.46526200000415,
       "success": true
     },
     {
@@ -180,17 +180,19 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 541.0808449999962,
+      "fetch_duration_ms": 411.48418799998865,
       "success": true
     }
   ],
   "health_warnings": [
-    "STALE house_oversight_press: newest item is 16d old (2026-07-29)",
-    "STALE house_oversight_letters: newest item is 23d old (2026-07-21)",
-    "STALE house_homeland_press: newest item is 14d old (2026-07-31)",
-    "STALE house_energy_commerce_letters: newest item is 50d old (2026-06-25)",
-    "STALE senate_hsgac_majority: newest item is 7d old (2026-08-07)",
-    "STALE house_oversight_dems_letters: newest item is 22d old (2026-07-23)",
-    "STALE house_homeland_dems_correspondence: newest item is 11d old (2026-08-03)"
+    "STALE house_oversight_press: newest item is 17d old (2026-07-29)",
+    "STALE house_oversight_letters: newest item is 24d old (2026-07-21)",
+    "STALE house_homeland_press: newest item is 15d old (2026-07-31)",
+    "STALE house_energy_commerce_letters: newest item is 51d old (2026-06-25)",
+    "STALE senate_judiciary_majority: newest item is 5d old (2026-08-10)",
+    "STALE senate_hsgac_majority: newest item is 8d old (2026-08-07)",
+    "STALE senate_hsgac_minority: newest item is 5d old (2026-08-10)",
+    "STALE house_oversight_dems_letters: newest item is 23d old (2026-07-23)",
+    "STALE house_homeland_dems_correspondence: newest item is 12d old (2026-08-03)"
   ]
 }
