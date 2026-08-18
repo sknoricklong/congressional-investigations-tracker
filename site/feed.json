@@ -5,6 +5,72 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "2f9b3ab6285d23b5f1f6256695f8878254f0dc82",
+      "title": "Letter to McKinsey",
+      "url": "https://oversight.house.gov/wp-content/uploads/2026/08/Letter-Request-to-McKinsey-and-Company-re-DEI-Reports-8.17.26.pdf",
+      "date_published": "2026-08-17T15:18:56+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "letter"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_letters",
+        "source_name": "House Oversight - Letters",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": true,
+        "first_seen_at": "2026-08-18T09:22:01.326062+00:00",
+        "cluster_id": "f668d1c4d83dea81eb80c4608789d02ce9f299c5",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "000ef2ddf7e57332fbe4569b29b8558ba0dbe593",
+      "title": "Gill Investigates McKinsey for Promotion of Discriminatory Hiring Practices in the Workplace that Cost U.S. Billions",
+      "url": "https://oversight.house.gov/release/gill-investigates-mckinsey-for-promotion-of-discriminatory-hiring-practices-in-the-workplace-that-cost-u-s-billions",
+      "date_published": "2026-08-17T05:00:00+00:00",
+      "summary": "WASHINGTON\u2014Task Force on Defending Constitutional Rights and Exposing Institutional Abuses Chairman Brandon Gill (R-Texas) is investigating prominent consulting group McKinsey & Company for its heavy-handed promotion of discriminatory diversity, equity, and inclusion (DEI) practices in American companies. McKinsey published several pro-DEI reports that proactively influence American companies and fiduciaries to make hiring and investment decisions based on \u201cdiversity,\u201d asserting ...",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_press",
+        "source_name": "House Oversight - Press Releases",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-18T09:22:00.415964+00:00",
+        "cluster_id": "4cbc84e518a1d5445e3a598fc0920db11a28e209",
+        "summary_generated": false
+      }
+    },
+    {
+      "id": "0e75ebccf9003b896bff187bbc97e12d26d59603",
+      "title": "Ranking Member Robert Garcia and Congressman Suhas Subramanyam Demand Answers About Conditions on USS Lincoln Amidst Disastrous Trump War in Iran",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-and-congressman-suhas-subramanyam-demand-answers-about-conditions-on-uss-lincoln-amidst-disastrous-trump-war-in-iran",
+      "date_published": "2026-08-14T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-18T09:22:39.100997+00:00",
+        "cluster_id": "d62d4eac1fed5623fc16f12de293a96c3b44d234",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "eb51dba81a42ecd16d2217c63e11a60c75c8a50f",
       "title": "New HHS Report Depicts How the Working Families Tax Cuts Lowers Health Insurance Premiums and Hospital Prices for Americans",
       "url": "https://energycommerce.house.gov/posts/new-hhs-report-depicts-how-the-working-family-tax-cuts-lowers-health-insurance-premiums-and-hospital-prices-for-americans",
@@ -45,6 +111,28 @@
         "is_pdf": false,
         "first_seen_at": "2026-08-14T09:51:50.882082+00:00",
         "cluster_id": "0e5869afee8c58b06b7fb812520c58ef8d2028db",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "c6e3684a7c5f2d04d2c3d63a3f311297450ec309",
+      "title": "Ranking Member Robert Garcia and Senator Elizabeth Warren Press Trump on Thousands of Stock Trades, Question Him on Self-Enrichment from Government Actions",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-and-senator-elizabeth-warren-press-trump-on-thousands-of-stock-trades-question-him-on-self-enrichment-from-government-actions",
+      "date_published": "2026-08-13T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-18T09:22:39.101186+00:00",
+        "cluster_id": "4bc8013826248419baf462641c4671c0c8dc19e5",
         "summary_generated": true
       }
     },
@@ -2227,28 +2315,6 @@
       }
     },
     {
-      "id": "dfc89a95589bc16a58e656df3285c861f0aa6939",
-      "title": "Grothman Leads Roundtable on Tackling Medicare Fraud in Skin Substitutes Funding",
-      "url": "https://oversight.house.gov/release/grothman-leads-roundtable-on-tackling-medicare-fraud-in-skin-substitutes-funding",
-      "date_published": "2026-07-21T05:00:00+00:00",
-      "summary": "WASHINGTON\u2014Subcommittee on Health Care and Financial Services Chairman Glenn Grothman (R-Wis.) delivered opening remarks at today\u2019s roundtable titled \u201cMedicare Fraud: Examining the Explosive Growth in Skin Substitute Spending.\u201d In his statement, Subcommittee Chairman Grothman highlighted the 7,100 percent spike in Medicare claims for skin substitute ...",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_press",
-        "source_name": "House Oversight - Press Releases",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:02.633155+00:00",
-        "cluster_id": "e3d557d3d2d79b6d84a8bc4d3de5ec2a85ad6875",
-        "summary_generated": false
-      }
-    },
-    {
       "id": "828ec55f1b418f162ec423a063d33e80e65d3841",
       "title": "ICYMI: Angel Mother Jennifer Bos Calls on Senate to Confirm Todd Blanche, Joins Coalition of 300 Angel Families",
       "url": "https://www.judiciary.senate.gov/press/rep/releases/icymi-angel-mother-jennifer-bos-calls-on-senate-to-confirm-todd-blanche-joins-coalition-of-300-angel-families",
@@ -3261,28 +3327,6 @@
       }
     },
     {
-      "id": "e476932616347c395c7d9d9e5bbe72712e638e82",
-      "title": "Ranking Member Robert Garcia Statement Following Epstein Benefactor, Leon Black, Storming Out of Transcribed Interview",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-statement-following-epstein-benefactor-leon-black-storming-out-of-transcribed-interview",
-      "date_published": "2026-06-26T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.711727+00:00",
-        "cluster_id": "1c4110371638d036b488432c086830535981d6d8",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "b01562800b9b5e7f19e196bf0d0e712018e795f6",
       "title": "Letter to IRS on Federal Civilian Tax Delinquency",
       "url": "https://oversight.house.gov/wp-content/uploads/2026/06/Letter-to-IRS-re-federal-employee-noncompliance.pdf",
@@ -3521,28 +3565,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:42.512622+00:00",
         "cluster_id": "3797beffeb63a91deb655852ee60bba40f963cfd",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "2c79a6dffe4ee81aa0d5d68dce857aadce2a61fe",
-      "title": "Ranking Member Robert Garcia Demands Answers on Donald Trump\u2019s Reflecting Pool Failure",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-answers-on-donald-trumps-reflecting-pool-failure",
-      "date_published": "2026-06-24T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.711821+00:00",
-        "cluster_id": "d6ee0d7a4427e3daca09db8c9fdfab8ac66cca84",
         "summary_generated": true
       }
     },
@@ -3961,28 +3983,6 @@
         "is_pdf": true,
         "first_seen_at": "2026-07-28T17:24:03.488879+00:00",
         "cluster_id": "9bce16cc42185826cf042b469a53ec91f0eafcbd",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "e77c9281ed413a35c3c04289320d5437a03a7b4c",
-      "title": "Letter to State Democracy Defenders Fund",
-      "url": "https://oversight.house.gov/wp-content/uploads/2026/06/DDF-inquiry-061126-1.pdf",
-      "date_published": "2026-06-11T16:52:58+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "letter"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_letters",
-        "source_name": "House Oversight - Letters",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": true,
-        "first_seen_at": "2026-07-28T17:24:03.488957+00:00",
-        "cluster_id": "430b31a269b594de2a934dd665e0faf73739baa9",
         "summary_generated": true
       }
     },
