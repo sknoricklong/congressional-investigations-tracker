@@ -5,6 +5,50 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "adcd39a74a64fee78e9bf47d10b54e2216672f95",
+      "title": "Ranking Members Robert Garcia and Jared Huffman and Senator Sheldon Whitehouse File Supreme Court Amicus Brief on Trump\u2019s Illegal Ballroom",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-jared-huffman-and-senator-sheldon-whitehouse-file-supreme-court-amicus-brief-on-trumps-illegal-ballroom",
+      "date_published": "2026-08-18T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-19T09:23:39.950073+00:00",
+        "cluster_id": "58f6cec211c04355f571c3fe807206a80a2507e1",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "c1c0112ec83c844cb660aad6677b8c94ddc60810",
+      "title": "Ranking Member Raskin Demands Answers Following DOJ Whistleblower Reports that Trump Officials Abused Title VI Investigations to Attack Universities, Using Antisemitic Discrimination as a Pretext and a \u201cRuse\u201d",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-demands-answers-following-doj-whistleblower-reports-that-trump-officials-abused-title-vi-investigations-to-attack-universities-using-antisemitic-discrimination-as-a-pretext-and-a-ruse",
+      "date_published": "2026-08-18T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_dems_press",
+        "source_name": "House Judiciary Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-19T09:23:40.734096+00:00",
+        "cluster_id": "745efbe72fcdf04e558f291b22bbdf832056f574",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "2f9b3ab6285d23b5f1f6256695f8878254f0dc82",
       "title": "Letter to McKinsey",
       "url": "https://oversight.house.gov/wp-content/uploads/2026/08/Letter-Request-to-McKinsey-and-Company-re-DEI-Reports-8.17.26.pdf",
@@ -19,7 +63,7 @@
         "source_id": "house_oversight_letters",
         "source_name": "House Oversight - Letters",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": true,
         "first_seen_at": "2026-08-18T09:22:01.326062+00:00",
         "cluster_id": "f668d1c4d83dea81eb80c4608789d02ce9f299c5",
@@ -41,7 +85,7 @@
         "source_id": "house_oversight_press",
         "source_name": "House Oversight - Press Releases",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-18T09:22:00.415964+00:00",
         "cluster_id": "4cbc84e518a1d5445e3a598fc0920db11a28e209",
@@ -63,7 +107,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-18T09:22:39.100997+00:00",
         "cluster_id": "d62d4eac1fed5623fc16f12de293a96c3b44d234",
@@ -129,7 +173,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-18T09:22:39.101186+00:00",
         "cluster_id": "4bc8013826248419baf462641c4671c0c8dc19e5",
@@ -1149,6 +1193,28 @@
       }
     },
     {
+      "id": "56ea23d5a45c31089c65bc075b6c89f014ea043b",
+      "title": "Peters Leads Committee Democrats in Urging Chairman Paul to Convene an Oversight Hearing on Immigration Enforcement Tactics",
+      "url": "https://www.hsgac.senate.gov/media/dems/peters-leads-committee-democrats-in-urging-chairman-paul-to-convene-an-oversight-hearing-on-immigration-enforcement-tactics",
+      "date_published": "2026-08-03T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_hsgac_minority",
+        "source_name": "Senate HSGAC - Minority News",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-19T09:23:28.980721+00:00",
+        "cluster_id": "53848fe2a4e55f8f316b8a71852c71a84ddffcb3",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "8201b8fb3c163d4a12ec4847e59a24d8688c254a",
       "title": "Ranking Member Raskin\u2019s Statement: Blanche\u2019s Empty Promises Do Nothing to Kill Slush Fund, Stop the Flow of Money to Convicted J6 Felons and MAGA Allies, or End Trump Family Super Pardon",
       "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-s-statement-blanche-s-empty-promises-do-nothing-to-kill-slush-fund-stop-the-flow-of-money-to-convicted-j6-felons-and-maga-allies-or-end-trump-family-super-pardon",
@@ -1674,28 +1740,6 @@
         "first_seen_at": "2026-07-28T17:24:42.711174+00:00",
         "cluster_id": "95fb18059af3c8f043439d2451ec223f61d04262",
         "summary_generated": true
-      }
-    },
-    {
-      "id": "aabbc57d14c497ed95b98410e6e28c1d6924849d",
-      "title": "Ranking Members Raskin, Scott, and Pallone Urge DOJ to Rescind Its Opinion Threatening Societal Integration for People with Disabilities",
-      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-members-raskin-scott-and-pallone-urge-doj-to-rescind-its-opinion-threatening-societal-integration-for-people-with-disabilities",
-      "date_published": "2026-07-24T00:00:00+00:00",
-      "summary": "House Committee on the Judiciary Ranking Member Jamie Raskin (MD-08), Committee on Education and Workforce Ranking Member Robert C. \u201cBobby\u201d Scott (VA-03), and Committee on Energy and Commerce Ranking Member Frank Pallone, Jr.",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_dems_press",
-        "source_name": "House Judiciary Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:43.669063+00:00",
-        "cluster_id": "ae34cfd04d46d0aed091d18bfe640fd72b64f25c",
-        "summary_generated": false
       }
     },
     {
@@ -3063,28 +3107,6 @@
       }
     },
     {
-      "id": "7efb9c5c0b9c1962374170382c799d42303d16b4",
-      "title": "Ranking Members Robert Garcia & Joe Morelle Fight Trump Administration Attack on Mail-in Voting",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-joe-morelle-fight-trump-administration-attack-on-mail-in-voting",
-      "date_published": "2026-07-02T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.711626+00:00",
-        "cluster_id": "e3069c8e0c031807538d5d5518bde39cddfff70d",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "68f48cfcefb5bd4f567f9dd019a2053a8d338e03",
       "title": "Letter to Council of Inspectors General on Integrity and Efficiency",
       "url": "https://oversight.house.gov/wp-content/uploads/2026/07/CIGIE-letter-070126.pdf",
@@ -4027,28 +4049,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:43.567386+00:00",
         "cluster_id": "78c9abe2310b6c1485f2024ee7b4cac9fb4f41aa",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "18877a4e858e90432ffcade1ca4ab1f89dce3085",
-      "title": "Peters, Schumer & Senate Democratic Ranking Members Urge President Trump to Stop Undermining Independent Agencies",
-      "url": "https://www.hsgac.senate.gov/media/dems/peters-schumer-senate-democratic-ranking-members-urge-president-trump-to-stop-undermining-independent-agencies",
-      "date_published": "2026-06-10T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_hsgac_minority",
-        "source_name": "Senate HSGAC - Minority News",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:33.710609+00:00",
-        "cluster_id": "b2a94945337c312fac630ab9d937e001b9c7f447",
         "summary_generated": true
       }
     },
