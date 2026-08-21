@@ -5,6 +5,94 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "90b3d533c0ea9cba79be7fa172ae05ae041e74b9",
+      "title": "Peters Calls on Defense Department to Swiftly Address Concerning Watchdog Findings on PFAS Contamination at Military Installations",
+      "url": "https://www.hsgac.senate.gov/media/dems/peters-calls-on-defense-department-to-swiftly-address-concerning-watchdog-findings-on-pfas-contamination-at-military-installations",
+      "date_published": "2026-08-20T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate HSGAC",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_hsgac_minority",
+        "source_name": "Senate HSGAC - Minority News",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-21T09:26:18.780074+00:00",
+        "cluster_id": "ff0c195244ed8eb3fc6449654008ccdab1488022",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "c0cee17eef42642aaf4f47cce230ab76ef2a79fd",
+      "title": "Ranking Members Robert Garcia and Ron Wyden Launch Inquiry into Shady Groups Awarded $394 Million in Contracts by Trump Administration to Represent Unaccompanied Children",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-members-robert-garcia-and-ron-wyden-launch-inquiry-into-shady-groups-awarded-394-million-in-contracts-by-trump-administration-to-represent-unaccompanied-children",
+      "date_published": "2026-08-20T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-21T09:26:31.551024+00:00",
+        "cluster_id": "d5ce049179490dc34c08ca3beee60cc2e4d43b25",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "99c03dec8ec63c4a73b436692c46e06a0fdb4523",
+      "title": "Ranking Member Robert Garcia Demands Chairman James Comer Bring Attorney General Todd Blanche Before Oversight Committee",
+      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-demands-chairman-james-comer-bring-attorney-general-todd-blanche-before-oversight-committee",
+      "date_published": "2026-08-20T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Oversight and Government Reform",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_oversight_dems_press",
+        "source_name": "House Oversight Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-21T09:26:31.551232+00:00",
+        "cluster_id": "10cdfe8213560e8c09191d04143b51420ff20045",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "5b5e8c7bbbe5d1cad327c6f48f965e082630bb48",
+      "title": "Democratic Leaders, Northern Virginia Representatives Open Investigation Into ICE Agents Threatening U.S. Citizen With Gun In Northern Virginia",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/democratic-leaders-northern-virginia-representatives-open-investigation-into-ice-agents-threatening-us-citizen-with-gun-in-northern-virginia",
+      "date_published": "2026-08-20T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_dems_press",
+        "source_name": "House Judiciary Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-21T09:26:32.638918+00:00",
+        "cluster_id": "1770bfe2342fffa2309d6fc2c566299dd70df077",
+        "summary_generated": true
+      }
+    },
+    {
       "id": "f265b44e3d89f674d45cf249ccbce69e514a779b",
       "title": "Letter to Former HHS Secretary Xavier Becerra",
       "url": "https://oversight.house.gov/wp-content/uploads/2026/08/08.19.2026_OGR-Becerra-Letter.pdf",
@@ -19,7 +107,7 @@
         "source_id": "house_oversight_letters",
         "source_name": "House Oversight - Letters",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": true,
         "first_seen_at": "2026-08-20T09:23:38.096165+00:00",
         "cluster_id": "66a09371b4d94f467b0f9b877bff28bcc7b8f1fc",
@@ -41,7 +129,7 @@
         "source_id": "house_oversight_press",
         "source_name": "House Oversight - Press Releases",
         "party_lane": "majority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-20T09:23:37.195105+00:00",
         "cluster_id": "bd1dc9c784e9dcaf2ca67c884d582a7f74b394a1",
@@ -63,7 +151,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-20T09:24:12.226031+00:00",
         "cluster_id": "13fb7174b22540bbc0401df8dab194768599dde7",
@@ -85,7 +173,7 @@
         "source_id": "house_homeland_dems_correspondence",
         "source_name": "House Homeland Security Democrats - Correspondence",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-20T09:24:13.708785+00:00",
         "cluster_id": "550403f1661aaee8f0f9dd5cf77c0841ecdb3502",
@@ -1743,28 +1831,6 @@
       }
     },
     {
-      "id": "87a75ebae5f08d770ca56f4c6ef7e55bbd76ada8",
-      "title": "Ranking Member Raskin Calls Foul on FIFA President Infantino for Trump Bribery and Corruption Scheme",
-      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-member-raskin-calls-foul-on-fifa-president-infantino-for-trump-bribery-and-corruption-scheme",
-      "date_published": "2026-07-27T00:00:00+00:00",
-      "summary": "Washington, D.C. (July 27, 2026)\u2014Rep. Jamie Raskin, Ranking Member of the House Judiciary Committee, wrote to Gianni Infantino, President of FIFA, launching an investigation into mounting evidence of corruption and a potential quid pro quo between FIFA and the Trump Administration.",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_dems_press",
-        "source_name": "House Judiciary Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:43.668910+00:00",
-        "cluster_id": "29cefb09b23d751a7d99513687b316ad55f5e642",
-        "summary_generated": false
-      }
-    },
-    {
       "id": "da2dbe6ec464d1a20b274933386936a4eb0269e5",
       "title": "House Homeland, China Select Members Participate in War Game Exercise on AI-Enabled Cyber Threats to U.S. Critical Infrastructure",
       "url": "https://homeland.house.gov/2026/07/24/house-homeland-china-select-members-participate-in-war-game-exercise-on-ai-enabled-cyber-threats-to-u-s-critical-infrastructure",
@@ -2865,28 +2931,6 @@
       }
     },
     {
-      "id": "7e6d286a13f12928dd87bd3a45ab7233bac1e9cf",
-      "title": "Ranking Member Robert Garcia Urges Senate to Reject Blanche Nomination",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-urges-senate-to-reject-blanche-nomination",
-      "date_published": "2026-07-15T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.711366+00:00",
-        "cluster_id": "09fafab2bcc56f76cbc9065fb4dc3b0070551826",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "e397324a5bdde609fc657d99fdeddc6de641337c",
       "title": "Jayapal, Garcia, Pingree, Raskin, Thompson Demand Independent Investigations into Killings of Lorenzo Salgado Araujo, Johan Sebastian Guerrero",
       "url": "https://democrats-homeland.house.gov/news/correspondence/jayapal-garcia-pingree-raskin-thompson-demand-independent-investigations-into-killings-of-lorenzo-salgado-araujo-johan-sebastian-guerrero",
@@ -2971,28 +3015,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:04.729440+00:00",
         "cluster_id": "2295e76e6433c0851709ba63d0dff2331d226ec5",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "8cf6ba92e57d3e7c10e7f0611786b32a0a90c95e",
-      "title": "Ranking Member Robert Garcia Fights Back Against Trump Administration Attack on Federal Grants, Threatening Vital Programs for Americans",
-      "url": "https://oversightdemocrats.house.gov/news/press-releases/ranking-member-robert-garcia-fights-back-against-trump-administration-attack-on-federal-grants-threatening-vital-programs-for-americans",
-      "date_published": "2026-07-13T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Oversight and Government Reform",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_oversight_dems_press",
-        "source_name": "House Oversight Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:42.711453+00:00",
-        "cluster_id": "c6c6bbcf6e03579bd82df71c1754ff5b8fab312b",
         "summary_generated": true
       }
     },
@@ -3939,28 +3961,6 @@
         "is_pdf": true,
         "first_seen_at": "2026-07-28T17:24:03.488714+00:00",
         "cluster_id": "2f758cfd1885785ab7ca025f43f359f5aa4aa1f4",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "8b7c0c991cbb37c9a0c761a2c4b6c709b67bf052",
-      "title": "Peters & Kim Press Trump Administration on Partisan Disparities in FEMA Disaster Relief",
-      "url": "https://www.hsgac.senate.gov/media/dems/peters-kim-press-trump-administration-on-partisan-disparities-in-fema-disaster-relief",
-      "date_published": "2026-06-17T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate HSGAC",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_hsgac_minority",
-        "source_name": "Senate HSGAC - Minority News",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:33.710315+00:00",
-        "cluster_id": "5b387dcbe478d2532fd6005d2023658f058fded0",
         "summary_generated": true
       }
     },

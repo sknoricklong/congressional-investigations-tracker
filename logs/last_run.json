@@ -1,6 +1,6 @@
 {
-  "started_at": "2026-08-20T09:23:36.983411Z",
-  "finished_at": "2026-08-20T09:24:13.713866Z",
+  "started_at": "2026-08-21T09:25:50.021173Z",
+  "finished_at": "2026-08-21T09:26:33.040685Z",
   "sources_attempted": 16,
   "sources_succeeded": 16,
   "sources_failed": 0,
@@ -11,22 +11,22 @@
       "source_id": "house_oversight_press",
       "source_name": "House Oversight - Press Releases",
       "items_found": 10,
-      "new_count": 1,
+      "new_count": 0,
       "updated_count": 0,
-      "unchanged_count": 9,
+      "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 131.41316600000152,
+      "fetch_duration_ms": 135.58277799999985,
       "success": true
     },
     {
       "source_id": "house_oversight_letters",
       "source_name": "House Oversight - Letters",
       "items_found": 10,
-      "new_count": 1,
+      "new_count": 0,
       "updated_count": 0,
-      "unchanged_count": 9,
+      "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 900.2208510000003,
+      "fetch_duration_ms": 897.0434499999982,
       "success": true
     },
     {
@@ -37,7 +37,7 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 124.22731099999851,
+      "fetch_duration_ms": 67.41933699998981,
       "success": true
     },
     {
@@ -48,7 +48,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 985.1498259999971,
+      "fetch_duration_ms": 1102.392119000001,
       "success": true
     },
     {
@@ -59,7 +59,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 105.18170100000646,
+      "fetch_duration_ms": 48.34946199999024,
       "success": true
     },
     {
@@ -70,7 +70,7 @@
       "updated_count": 0,
       "unchanged_count": 9,
       "errors": [],
-      "fetch_duration_ms": 8042.152627000007,
+      "fetch_duration_ms": 8044.4228140000005,
       "success": true
     },
     {
@@ -81,7 +81,7 @@
       "updated_count": 0,
       "unchanged_count": 9,
       "errors": [],
-      "fetch_duration_ms": 10056.805983999993,
+      "fetch_duration_ms": 10013.660801,
       "success": true
     },
     {
@@ -92,7 +92,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 66.63448099999414,
+      "fetch_duration_ms": 73.64703700000064,
       "success": true
     },
     {
@@ -103,7 +103,7 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 974.7372590000225,
+      "fetch_duration_ms": 966.9722269999994,
       "success": true
     },
     {
@@ -114,18 +114,18 @@
       "updated_count": 0,
       "unchanged_count": 10,
       "errors": [],
-      "fetch_duration_ms": 6128.709010999984,
+      "fetch_duration_ms": 7242.541787000007,
       "success": true
     },
     {
       "source_id": "senate_hsgac_minority",
       "source_name": "Senate HSGAC - Minority News",
       "items_found": 10,
-      "new_count": 0,
+      "new_count": 1,
       "updated_count": 0,
-      "unchanged_count": 10,
+      "unchanged_count": 9,
       "errors": [],
-      "fetch_duration_ms": 7529.126922000018,
+      "fetch_duration_ms": 12646.595060999985,
       "success": true
     },
     {
@@ -136,18 +136,18 @@
       "updated_count": 0,
       "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 53.938861999995424,
+      "fetch_duration_ms": 120.37096899999256,
       "success": true
     },
     {
       "source_id": "house_oversight_dems_press",
       "source_name": "House Oversight Democrats - Press",
       "items_found": 20,
-      "new_count": 1,
+      "new_count": 2,
       "updated_count": 0,
-      "unchanged_count": 19,
+      "unchanged_count": 18,
       "errors": [],
-      "fetch_duration_ms": 60.964252000019314,
+      "fetch_duration_ms": 83.68793600001823,
       "success": true
     },
     {
@@ -158,43 +158,42 @@
       "updated_count": 0,
       "unchanged_count": 15,
       "errors": [],
-      "fetch_duration_ms": 973.5489250000171,
+      "fetch_duration_ms": 958.0416089999915,
       "success": true
     },
     {
       "source_id": "house_judiciary_dems_press",
       "source_name": "House Judiciary Democrats - Press",
       "items_found": 10,
-      "new_count": 0,
+      "new_count": 1,
       "updated_count": 0,
-      "unchanged_count": 10,
+      "unchanged_count": 9,
       "errors": [],
-      "fetch_duration_ms": 111.94534999998496,
+      "fetch_duration_ms": 128.7198939999996,
       "success": true
     },
     {
       "source_id": "house_homeland_dems_correspondence",
       "source_name": "House Homeland Security Democrats - Correspondence",
       "items_found": 20,
-      "new_count": 1,
+      "new_count": 0,
       "updated_count": 0,
-      "unchanged_count": 19,
+      "unchanged_count": 20,
       "errors": [],
-      "fetch_duration_ms": 397.4194319999924,
+      "fetch_duration_ms": 397.0887510000125,
       "success": true
     }
   ],
   "health_warnings": [
-    "STALE house_judiciary_press: newest item is 9d old (2026-08-11)",
-    "STALE house_judiciary_letters: newest item is 9d old (2026-08-11)",
-    "STALE house_homeland_press: newest item is 20d old (2026-07-31)",
-    "STALE house_energy_commerce_press: newest item is 7d old (2026-08-13)",
-    "STALE house_energy_commerce_letters: newest item is 56d old (2026-06-25)",
-    "STALE senate_judiciary_majority: newest item is 10d old (2026-08-10)",
-    "STALE senate_judiciary_minority: newest item is 8d old (2026-08-12)",
-    "STALE senate_hsgac_majority: newest item is 13d old (2026-08-07)",
-    "STALE senate_hsgac_minority: newest item is 10d old (2026-08-10)",
-    "STALE senate_psi_library: newest item is 7d old (2026-08-13)",
-    "STALE house_oversight_dems_letters: newest item is 28d old (2026-07-23)"
+    "STALE house_judiciary_press: newest item is 10d old (2026-08-11)",
+    "STALE house_judiciary_letters: newest item is 10d old (2026-08-11)",
+    "STALE house_homeland_press: newest item is 21d old (2026-07-31)",
+    "STALE house_energy_commerce_press: newest item is 8d old (2026-08-13)",
+    "STALE house_energy_commerce_letters: newest item is 57d old (2026-06-25)",
+    "STALE senate_judiciary_majority: newest item is 11d old (2026-08-10)",
+    "STALE senate_judiciary_minority: newest item is 9d old (2026-08-12)",
+    "STALE senate_hsgac_majority: newest item is 14d old (2026-08-07)",
+    "STALE senate_psi_library: newest item is 8d old (2026-08-13)",
+    "STALE house_oversight_dems_letters: newest item is 29d old (2026-07-23)"
   ]
 }
