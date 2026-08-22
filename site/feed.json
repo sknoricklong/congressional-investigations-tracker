@@ -5,6 +5,94 @@
   "feed_url": "https://your-deployment.vercel.app/feed.json",
   "items": [
     {
+      "id": "a692cec58eb8dc9d8499461802e79e3eb23f0863",
+      "title": "Grassley, Shaheen Mark Fentanyl Prevention and Awareness Day",
+      "url": "https://www.judiciary.senate.gov/press/rep/releases/grassley-shaheen-mark-fentanyl-prevention-and-awareness-day",
+      "date_published": "2026-08-21T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "Senate Judiciary",
+        "Senate",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "senate_judiciary_majority",
+        "source_name": "Senate Judiciary - Majority Press",
+        "party_lane": "majority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-22T09:17:50.331680+00:00",
+        "cluster_id": "d766fbeacfc38ab5dd457dfa53e1db94e4675d70",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "23fe3aa927a1c23335d531278fce9dca5b5fa45d",
+      "title": "New Judiciary Democrats Report Exposes MAGA\u2019s Cash-for-Clemency Racket Which Gives Unrepentant Criminals a New Lease on Life and Leaves Victims in the Dust",
+      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/new-judiciary-democrats-report-exposes-maga-s-cash-for-clemency-racket-which-gives-unrepentant-criminals-a-new-lease-on-life-and-leaves-victims-in-the-dust",
+      "date_published": "2026-08-21T00:00:00+00:00",
+      "summary": "",
+      "tags": [
+        "House Judiciary",
+        "House",
+        "press_release"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_judiciary_dems_press",
+        "source_name": "House Judiciary Democrats - Press",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-22T09:18:43.317740+00:00",
+        "cluster_id": "495a78350223c051d97dd3ee59999346d6b7cce3",
+        "summary_generated": true
+      }
+    },
+    {
+      "id": "d33c50e018316dfa52b9258c1e81823bd98a0705",
+      "title": "Thompson, Correa, Thanedar Demand ICE End Dangerous $20 Million Plan to Arm Agents with Electric Shock Gloves",
+      "url": "https://democrats-homeland.house.gov/news/correspondence/thompson-correa-thanedar-demand-ice-end-dangerous-20-million-plan-to-arm-agents-with-electric-shock-gloves",
+      "date_published": "2026-08-21T00:00:00+00:00",
+      "summary": "(WASHINGTON) - Today, Rep. Bennie G. Thompson (D-MS), Ranking Member of the Committee on Homeland Security, Rep. Lou Correa (D-CA), Ranking Member of the Subcommittee on Border Security & Enforcement, and Rep. Shri Thanedar (D-MI), Ranking Member of the Subcommittee on Oversight, Investigations & Ac",
+      "tags": [
+        "House Homeland Security",
+        "House",
+        "letter"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_homeland_dems_correspondence",
+        "source_name": "House Homeland Security Democrats - Correspondence",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-22T09:18:44.185806+00:00",
+        "cluster_id": "ca8c5c604820ca6617873d1a9489b576bd325c1a",
+        "summary_generated": false
+      }
+    },
+    {
+      "id": "4dd1bdc1a05a6d194fc17473b9c528e356ec9bff",
+      "title": "As America\u2019s Infrastructure Faces Cyber Threats, Walkinshaw, Thompson, Ramirez Push for Independent Review of CISA Workforce Cuts",
+      "url": "https://democrats-homeland.house.gov/news/correspondence/as-americas-infrastructure-faces-cyber-threats-walkinshaw-thompson-ramirez-push-for-independent-review-of-cisa-workforce-cuts",
+      "date_published": "2026-08-21T00:00:00+00:00",
+      "summary": "(WASHINGTON) - Congressman James R. Walkinshaw (D-VA) a member of the Homeland Security Subcommittee on Cybersecurity and Infrastructure Protection, Congressman Bennie G. Thompson (D-MS), Ranking Member of the House Committee on Homeland Security, and Congresswoman Delia C. Ramirez (D-IL), Ranking M",
+      "tags": [
+        "House Homeland Security",
+        "House",
+        "letter"
+      ],
+      "_congress_monitor": {
+        "source_id": "house_homeland_dems_correspondence",
+        "source_name": "House Homeland Security Democrats - Correspondence",
+        "party_lane": "minority",
+        "status": "new",
+        "is_pdf": false,
+        "first_seen_at": "2026-08-22T09:18:44.186109+00:00",
+        "cluster_id": "09f56166b1c38bd529e5f62a072d378a53ee8fdb",
+        "summary_generated": false
+      }
+    },
+    {
       "id": "90b3d533c0ea9cba79be7fa172ae05ae041e74b9",
       "title": "Peters Calls on Defense Department to Swiftly Address Concerning Watchdog Findings on PFAS Contamination at Military Installations",
       "url": "https://www.hsgac.senate.gov/media/dems/peters-calls-on-defense-department-to-swiftly-address-concerning-watchdog-findings-on-pfas-contamination-at-military-installations",
@@ -19,7 +107,7 @@
         "source_id": "senate_hsgac_minority",
         "source_name": "Senate HSGAC - Minority News",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-21T09:26:18.780074+00:00",
         "cluster_id": "ff0c195244ed8eb3fc6449654008ccdab1488022",
@@ -41,7 +129,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-21T09:26:31.551024+00:00",
         "cluster_id": "d5ce049179490dc34c08ca3beee60cc2e4d43b25",
@@ -63,7 +151,7 @@
         "source_id": "house_oversight_dems_press",
         "source_name": "House Oversight Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-21T09:26:31.551232+00:00",
         "cluster_id": "10cdfe8213560e8c09191d04143b51420ff20045",
@@ -85,7 +173,7 @@
         "source_id": "house_judiciary_dems_press",
         "source_name": "House Judiciary Democrats - Press",
         "party_lane": "minority",
-        "status": "new",
+        "status": "unchanged",
         "is_pdf": false,
         "first_seen_at": "2026-08-21T09:26:32.638918+00:00",
         "cluster_id": "1770bfe2342fffa2309d6fc2c566299dd70df077",
@@ -1677,28 +1765,6 @@
       }
     },
     {
-      "id": "67b471c39ae8e0cfefd6d75899df88a5e5c56094",
-      "title": "Ranking Members Raskin, McBath Lead Judiciary Democrats in Strongly Objecting to ATF\u2019s Efforts to Get Rid of Gun Safety Regulations",
-      "url": "https://democrats-judiciary.house.gov/media-center/press-releases/ranking-members-raskin-mcbath-lead-judiciary-democrats-in-strongly-objecting-to-atf-s-efforts-to-get-rid-of-gun-safety-regulations",
-      "date_published": "2026-07-30T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "House Judiciary",
-        "House",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_judiciary_dems_press",
-        "source_name": "House Judiciary Democrats - Press",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-31T11:20:56.524326+00:00",
-        "cluster_id": "9100ed13891365c58eec941311f74232831d8186",
-        "summary_generated": true
-      }
-    },
-    {
       "id": "9a90324a9d2d7821d0c3d242e82d118a369e5f71",
       "title": "Oversight Committee Releases Kathryn Ruemmler Transcript",
       "url": "https://oversight.house.gov/release/oversight-committee-releases-kathryn-ruemmler-transcript",
@@ -2773,28 +2839,6 @@
         "is_pdf": false,
         "first_seen_at": "2026-07-28T17:24:23.948546+00:00",
         "cluster_id": "f2591ae0fc4350f482ebc1591a1c19605b0dacb7",
-        "summary_generated": true
-      }
-    },
-    {
-      "id": "64367db1732322721a8d7c537fcbd0f2b69e7c1b",
-      "title": "Meet Dems\u2019 Star Hearing Witness: She Pushed Clemency For \u2018Rapists, Child Molesters, And Murderers\u2019",
-      "url": "https://www.judiciary.senate.gov/press/rep/releases/meet-dems-star-hearing-witness-she-pushed-clemency-for-rapists-child-molesters-and-murderers",
-      "date_published": "2026-07-16T00:00:00+00:00",
-      "summary": "",
-      "tags": [
-        "Senate Judiciary",
-        "Senate",
-        "press_release"
-      ],
-      "_congress_monitor": {
-        "source_id": "senate_judiciary_majority",
-        "source_name": "Senate Judiciary - Majority Press",
-        "party_lane": "majority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:23.948611+00:00",
-        "cluster_id": "862c45251fb70330bb81ff91025b5cd19189cd16",
         "summary_generated": true
       }
     },
@@ -4779,28 +4823,6 @@
       }
     },
     {
-      "id": "05159d9b317b4147393d1cd5aa8dbddbd0a878f0",
-      "title": "Ranking Members Bennie Thompson, Robert Garcia, Rick Larsen Write DHS on Highly Paid FEMA Contractor with Ties to Corey Lewandowski",
-      "url": "https://democrats-homeland.house.gov/news/correspondence/ranking-members-bennie-thompson-robert-garcia-rick-larsen-write-dhs-on-highly-paid-fema-contractor-with-ties-to-corey-lewandowski",
-      "date_published": "2026-04-23T00:00:00+00:00",
-      "summary": "(WASHINGTON) - Today, Rep. Bennie G. Thompson, Ranking Member of the House Committee on Homeland Security, Rep. Robert Garcia, Ranking Member of the House Committee on Oversight & Reform, and Rep. Rick Larsen, Ranking Member of the House Committee on Transportation & Infrastructure, sent a letter to",
-      "tags": [
-        "House Homeland Security",
-        "House",
-        "letter"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_homeland_dems_correspondence",
-        "source_name": "House Homeland Security Democrats - Correspondence",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:44.181751+00:00",
-        "cluster_id": "20846243e42429535854229597772492bcadf75f",
-        "summary_generated": false
-      }
-    },
-    {
       "id": "cfaf0e3afe729e410babc46e9963fea1aaa4e4c2",
       "title": "Joint Letter to Mr. Joseph V. Cuffari, Inspector General, DHS",
       "url": "https://oversightdemocrats.house.gov/download/2026-04-20garcia-lee-to-dhs-oig-re-immigration-enforcement-dashboard_-appendix-a",
@@ -4864,28 +4886,6 @@
         "first_seen_at": "2026-07-28T17:24:43.567662+00:00",
         "cluster_id": "5c33fb770aa86d9a9af5e921b268e4f8a7998884",
         "summary_generated": true
-      }
-    },
-    {
-      "id": "254cb65956becc32fb337dd51f4b0326a74b13f1",
-      "title": "Homeland Democrats Write DHS Urging Deprioritizing Deportation and Detention of Vulnerable Children, Elderly, Pregnant Mothers, Disabled",
-      "url": "https://democrats-homeland.house.gov/news/correspondence/homeland-democrats-write-dhs-urging-deprioritizing-deportation-and-detention-of-vulnerable-children-elderly-pregnant-mothers-disabled",
-      "date_published": "2026-04-10T00:00:00+00:00",
-      "summary": "(WASHINGTON) - Today, Rep. Bennie G. Thompson (D-MS), Ranking Member of the Committee on Homeland Security, and Rep. Seth Magaziner (D-RI), led Committee Democrats in sending a letter to Homeland Security Secretary Markwayne Mullin regarding the department\u2019s alarming detention and deportation of ind",
-      "tags": [
-        "House Homeland Security",
-        "House",
-        "letter"
-      ],
-      "_congress_monitor": {
-        "source_id": "house_homeland_dems_correspondence",
-        "source_name": "House Homeland Security Democrats - Correspondence",
-        "party_lane": "minority",
-        "status": "unchanged",
-        "is_pdf": false,
-        "first_seen_at": "2026-07-28T17:24:44.181846+00:00",
-        "cluster_id": "e6166084e4047ed71beeb4ad5bc8a6659abb176d",
-        "summary_generated": false
       }
     },
     {
